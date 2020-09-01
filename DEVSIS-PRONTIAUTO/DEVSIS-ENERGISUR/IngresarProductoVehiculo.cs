@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace DEVSIS_ENERGISUR
 {
-    public partial class IngresarProducto : Form
+    public partial class IngresarProductoVehiculo : Form
     {
         Validaciones v = new Validaciones();
 
-        public IngresarProducto()
+        public IngresarProductoVehiculo()
         {
             InitializeComponent();
         }

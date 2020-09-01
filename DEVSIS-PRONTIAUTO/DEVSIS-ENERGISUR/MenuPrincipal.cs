@@ -36,12 +36,12 @@ namespace DEVSIS_ENERGISUR
 
         private void actualizarProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ActualizarProducto().Show();
+            //new ActualizarProducto().Show();
         }
 
         private void eliminarProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new EliminarProducto().Show();
+            //new EliminarProducto().Show();
         }
 
         private void ingresarClienteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -74,12 +74,12 @@ namespace DEVSIS_ENERGISUR
 
         private void nombreDelProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ConsultarNombreProducto().Show();
+            //new ConsultarNombreProducto().Show();
         }
 
         private void códigoDelProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ConsultarCodigoProducto().Show();
+            //new ConsultarCodigoProducto().Show();
         }
 
         private void rUCDeProveedorToolStripMenuItem_Click(object sender, EventArgs e)
@@ -156,7 +156,7 @@ namespace DEVSIS_ENERGISUR
 
         private void vehículoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new IngresarProducto().Show();
+            new IngresarProductoVehículo().Show();
         }
 
         private void manteniientoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -207,6 +207,66 @@ namespace DEVSIS_ENERGISUR
         private void generarNotaDeCréditoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new GenerarNotaCredito().Show();
+        }
+
+        private void productoDeMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new EliminarMantenimiento().Show();
+        }
+
+        private void códigoProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarCodigoProducto().Show();
+        }
+
+        private void nombreProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarNombreProducto().Show();
+        }
+
+        private void marcaProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarProductoMarca().Show();
+        }
+
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vehículoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            new EliminarVehiculo().Show();
+        }
+
+        private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarMarcaVehículo().Show();
+        }
+
+        private void modeloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarModeloVehículo().Show();
+        }
+
+        private void placaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarPlacaVehículo().Show();
+        }
+
+        private void consultarProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void actualizarVehículoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ActualizarProducto().Show();
+        }
+
+        private void actualizarProductoMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ActualizarProductoMantenimiento().Show();
         }
     }
 }

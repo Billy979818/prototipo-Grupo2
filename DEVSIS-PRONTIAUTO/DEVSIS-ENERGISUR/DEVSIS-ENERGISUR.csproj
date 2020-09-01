@@ -58,6 +58,12 @@
     <Compile Include="ActualizarProducto.Designer.cs">
       <DependentUpon>ActualizarProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="ActualizarProductoMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarProductoMantenimiento.Designer.cs">
+      <DependentUpon>ActualizarProductoMantenimiento.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConsultarCedulaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,18 @@
     <Compile Include="ConsultarFechaInicioOrdenCompra.Designer.cs">
       <DependentUpon>ConsultarFechaInicioOrdenCompra.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConsultarMarcaVehículo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarMarcaVehículo.Designer.cs">
+      <DependentUpon>ConsultarMarcaVehículo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarModeloVehículo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarModeloVehículo.Designer.cs">
+      <DependentUpon>ConsultarModeloVehículo.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConsultarNombreCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +123,18 @@
     </Compile>
     <Compile Include="ConsultarNumeroOrdenCompra.Designer.cs">
       <DependentUpon>ConsultarNumeroOrdenCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarPlacaVehículo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarPlacaVehículo.Designer.cs">
+      <DependentUpon>ConsultarPlacaVehículo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarProductoMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarProductoMarca.Designer.cs">
+      <DependentUpon>ConsultarProductoMarca.cs</DependentUpon>
     </Compile>
     <Compile Include="ConsultarRazonSocialProveedor.cs">
       <SubType>Form</SubType>
@@ -146,11 +176,11 @@
     <Compile Include="EliminarCliente.Designer.cs">
       <DependentUpon>EliminarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="EliminarProducto.cs">
+    <Compile Include="EliminarMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EliminarProducto.Designer.cs">
-      <DependentUpon>EliminarProducto.cs</DependentUpon>
+    <Compile Include="EliminarMantenimiento.Designer.cs">
+      <DependentUpon>EliminarMantenimiento.cs</DependentUpon>
     </Compile>
     <Compile Include="EliminarProveedor.cs">
       <SubType>Form</SubType>
@@ -163,6 +193,12 @@
     </Compile>
     <Compile Include="EliminarUsuario.Designer.cs">
       <DependentUpon>EliminarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarVehiculo.Designer.cs">
+      <DependentUpon>EliminarVehiculo.cs</DependentUpon>
     </Compile>
     <Compile Include="EmitirFacturaElectrónica.cs">
       <SubType>Form</SubType>
@@ -206,17 +242,17 @@
     <Compile Include="IngresarCliente.Designer.cs">
       <DependentUpon>IngresarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="IngresarProducto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IngresarProducto.Designer.cs">
-      <DependentUpon>IngresarProducto.cs</DependentUpon>
-    </Compile>
     <Compile Include="IngresarProductoMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="IngresarProductoMantenimiento.Designer.cs">
       <DependentUpon>IngresarProductoMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngresarProductoVehículo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresarProductoVehículo.Designer.cs">
+      <DependentUpon>IngresarProductoVehículo.cs</DependentUpon>
     </Compile>
     <Compile Include="IngresarProveedor.cs">
       <SubType>Form</SubType>
@@ -257,6 +293,9 @@
     <EmbeddedResource Include="ActualizarProducto.resx">
       <DependentUpon>ActualizarProducto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ActualizarProductoMantenimiento.resx">
+      <DependentUpon>ActualizarProductoMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConsultarCedulaCliente.resx">
       <DependentUpon>ConsultarCedulaCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -275,6 +314,12 @@
     <EmbeddedResource Include="ConsultarFechaInicioOrdenCompra.resx">
       <DependentUpon>ConsultarFechaInicioOrdenCompra.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarMarcaVehículo.resx">
+      <DependentUpon>ConsultarMarcaVehículo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarModeloVehículo.resx">
+      <DependentUpon>ConsultarModeloVehículo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConsultarNombreCliente.resx">
       <DependentUpon>ConsultarNombreCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -283,6 +328,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarNumeroOrdenCompra.resx">
       <DependentUpon>ConsultarNumeroOrdenCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarPlacaVehículo.resx">
+      <DependentUpon>ConsultarPlacaVehículo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarProductoMarca.resx">
+      <DependentUpon>ConsultarProductoMarca.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarRazonSocialProveedor.resx">
       <DependentUpon>ConsultarRazonSocialProveedor.cs</DependentUpon>
@@ -302,14 +353,17 @@
     <EmbeddedResource Include="EliminarCliente.resx">
       <DependentUpon>EliminarCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EliminarProducto.resx">
-      <DependentUpon>EliminarProducto.cs</DependentUpon>
+    <EmbeddedResource Include="EliminarMantenimiento.resx">
+      <DependentUpon>EliminarMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EliminarProveedor.resx">
       <DependentUpon>EliminarProveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EliminarUsuario.resx">
       <DependentUpon>EliminarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliminarVehiculo.resx">
+      <DependentUpon>EliminarVehiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmitirFacturaElectrónica.resx">
       <DependentUpon>EmitirFacturaElectrónica.cs</DependentUpon>
@@ -329,11 +383,11 @@
     <EmbeddedResource Include="IngresarCliente.resx">
       <DependentUpon>IngresarCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IngresarProducto.resx">
-      <DependentUpon>IngresarProducto.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="IngresarProductoMantenimiento.resx">
       <DependentUpon>IngresarProductoMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresarProductoVehículo.resx">
+      <DependentUpon>IngresarProductoVehículo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IngresarProveedor.resx">
       <DependentUpon>IngresarProveedor.cs</DependentUpon>

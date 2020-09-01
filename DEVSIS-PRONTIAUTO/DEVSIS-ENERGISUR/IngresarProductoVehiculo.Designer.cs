@@ -1,6 +1,6 @@
 ﻿namespace DEVSIS_ENERGISUR
 {
-    partial class IngresarProducto
+    partial class IngresarProductoVehiculo
     {
         /// <summary>
         /// Required designer variable.
@@ -66,7 +66,7 @@
             // textCodigo
             // 
             this.textCodigo.Location = new System.Drawing.Point(181, 32);
-            this.textCodigo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textCodigo.Margin = new System.Windows.Forms.Padding(2);
             this.textCodigo.Name = "textCodigo";
             this.textCodigo.Size = new System.Drawing.Size(248, 20);
             this.textCodigo.TabIndex = 2;
@@ -76,7 +76,7 @@
             // botonIngresar
             // 
             this.botonIngresar.Location = new System.Drawing.Point(11, 416);
-            this.botonIngresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.botonIngresar.Margin = new System.Windows.Forms.Padding(2);
             this.botonIngresar.Name = "botonIngresar";
             this.botonIngresar.Size = new System.Drawing.Size(222, 22);
             this.botonIngresar.TabIndex = 3;
@@ -126,7 +126,7 @@
             // textPrecio
             // 
             this.textPrecio.Location = new System.Drawing.Point(181, 169);
-            this.textPrecio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textPrecio.Margin = new System.Windows.Forms.Padding(2);
             this.textPrecio.Name = "textPrecio";
             this.textPrecio.Size = new System.Drawing.Size(248, 20);
             this.textPrecio.TabIndex = 11;
@@ -135,7 +135,7 @@
             // textVoltaje
             // 
             this.textVoltaje.Location = new System.Drawing.Point(181, 134);
-            this.textVoltaje.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textVoltaje.Margin = new System.Windows.Forms.Padding(2);
             this.textVoltaje.Name = "textVoltaje";
             this.textVoltaje.Size = new System.Drawing.Size(248, 20);
             this.textVoltaje.TabIndex = 14;
@@ -145,7 +145,7 @@
             // textMarca
             // 
             this.textMarca.Location = new System.Drawing.Point(181, 98);
-            this.textMarca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textMarca.Margin = new System.Windows.Forms.Padding(2);
             this.textMarca.Name = "textMarca";
             this.textMarca.Size = new System.Drawing.Size(248, 20);
             this.textMarca.TabIndex = 16;
@@ -154,7 +154,7 @@
             // textNombreProducto
             // 
             this.textNombreProducto.Location = new System.Drawing.Point(181, 65);
-            this.textNombreProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textNombreProducto.Margin = new System.Windows.Forms.Padding(2);
             this.textNombreProducto.Name = "textNombreProducto";
             this.textNombreProducto.Size = new System.Drawing.Size(248, 20);
             this.textNombreProducto.TabIndex = 17;
@@ -165,7 +165,7 @@
             // botonRegresar
             // 
             this.botonRegresar.Location = new System.Drawing.Point(235, 415);
-            this.botonRegresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.botonRegresar.Margin = new System.Windows.Forms.Padding(2);
             this.botonRegresar.Name = "botonRegresar";
             this.botonRegresar.Size = new System.Drawing.Size(190, 23);
             this.botonRegresar.TabIndex = 40;
@@ -173,7 +173,7 @@
             this.botonRegresar.UseVisualStyleBackColor = true;
             this.botonRegresar.Click += new System.EventHandler(this.botonRegresar_Click);
             // 
-            // IngresarProducto
+            // IngresarProductoVehiculo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -191,10 +191,10 @@
             this.Controls.Add(this.textCodigo);
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "IngresarProducto";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "IngresarProductoVehiculo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "IngresarProducto";
+            this.Text = "Ingresar Vehículo";
             this.ResumeLayout(false);
             this.PerformLayout();
 

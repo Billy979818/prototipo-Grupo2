@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DEVSIS_ENERGISUR
 {
-    public partial class ConsultarCodigoProducto : Form
+    public partial class IngresarProductoVehículo : Form
     {
-        public ConsultarCodigoProducto()
+        public IngresarProductoVehículo()
         {
             InitializeComponent();
         }

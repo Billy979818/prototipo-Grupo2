@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace DEVSIS_ENERGISUR
 {
-    public partial class EliminarProducto : Form
+    public partial class ConsultarMarcaVehículo : Form
     {
-        public EliminarProducto()
+        public ConsultarMarcaVehículo()
         {
             InitializeComponent();
-        }
-
-        private void botonRegresar_Click(object sender, EventArgs e)
-        {
-            new MenuPrincipal().Show();
-            this.Visible = false;
         }
     }
 }

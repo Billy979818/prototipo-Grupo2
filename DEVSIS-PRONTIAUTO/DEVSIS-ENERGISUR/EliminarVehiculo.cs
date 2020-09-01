@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace DEVSIS_ENERGISUR
 {
-    public partial class ConsultarCodigoProducto : Form
+    public partial class EliminarVehiculo : Form
     {
-        public ConsultarCodigoProducto()
+        public EliminarVehiculo()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -10,14 +10,24 @@ using System.Windows.Forms;
 
 namespace DEVSIS_ENERGISUR
 {
-    public partial class ConsultarFacturaFechaEmision : Form
+    public partial class ConsultarFactura : Form
     {
-        public ConsultarFacturaFechaEmision()
+        public ConsultarFactura()
         {
             InitializeComponent();
         }
 
-        private void botonRegresar_Click(object sender, EventArgs e)
+        private void labelGenerarFactura_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BotonCancelar(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
             new MenuPrincipal().Show();
             this.Visible = false;

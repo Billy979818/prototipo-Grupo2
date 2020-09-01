@@ -76,12 +76,6 @@
     <Compile Include="ConsultarCorreoProveedor.Designer.cs">
       <DependentUpon>ConsultarCorreoProveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConsultarFacturaFechaEmision.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarFacturaFechaEmision.Designer.cs">
-      <DependentUpon>ConsultarFacturaFechaEmision.cs</DependentUpon>
-    </Compile>
     <Compile Include="ConsultarFechaFinOrdenCompra.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +164,30 @@
     <Compile Include="EliminarUsuario.Designer.cs">
       <DependentUpon>EliminarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmitirFacturaElectrónica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmitirFacturaElectrónica.Designer.cs">
+      <DependentUpon>EmitirFacturaElectrónica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarFactura.Designer.cs">
+      <DependentUpon>ConsultarFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarNotaCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarNotaCredito.Designer.cs">
+      <DependentUpon>ConsultarNotaCredito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerarNotaCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerarNotaCredito.Designer.cs">
+      <DependentUpon>GenerarNotaCredito.cs</DependentUpon>
+    </Compile>
     <Compile Include="GenerarFactura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -248,8 +266,8 @@
     <EmbeddedResource Include="ConsultarCorreoProveedor.resx">
       <DependentUpon>ConsultarCorreoProveedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarFacturaFechaEmision.resx">
-      <DependentUpon>ConsultarFacturaFechaEmision.cs</DependentUpon>
+    <EmbeddedResource Include="ConsultarFactura.resx">
+      <DependentUpon>ConsultarFactura.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarFechaFinOrdenCompra.resx">
       <DependentUpon>ConsultarFechaFinOrdenCompra.cs</DependentUpon>
@@ -293,8 +311,17 @@
     <EmbeddedResource Include="EliminarUsuario.resx">
       <DependentUpon>EliminarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EmitirFacturaElectrónica.resx">
+      <DependentUpon>EmitirFacturaElectrónica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarNotaCredito.resx">
+      <DependentUpon>ConsultarNotaCredito.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GenerarFactura.resx">
       <DependentUpon>GenerarFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerarNotaCredito.resx">
+      <DependentUpon>GenerarNotaCredito.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GenerarOrdenCompra.resx">
       <DependentUpon>GenerarOrdenCompra.cs</DependentUpon>
@@ -331,6 +358,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -344,6 +372,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sw1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

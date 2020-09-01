@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Versioning;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -145,10 +146,7 @@ namespace DEVSIS_ENERGISUR
             this.Visible = false;
         }
 
-        private void botonSalir_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+       
 
         private void cambiarEstadoToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -164,6 +162,51 @@ namespace DEVSIS_ENERGISUR
         private void manteniientoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new IngresarProductoMantenimiento().Show();
+        }
+
+        private void emitirFacturaElectrónicaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new EmitirFacturaElectrónica().Show();
+        }
+
+        private void facturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fechaDeEmisiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MenuPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void consultarFacturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarFactura().Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void generarNotaCréditoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buscarNotaDeCréditoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarNotaCredito().Show();
+        }
+
+        private void generarNotaDeCréditoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new GenerarNotaCredito().Show();
         }
     }
 }

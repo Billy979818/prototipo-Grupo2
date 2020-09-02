@@ -152,8 +152,9 @@ namespace DEVSIS_ENERGISUR
 
         private void cambiarEstadoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ModificarOrdenCompra().Show();
-            this.Visible = false;
+            ConsultarMantenimiento cm = new ConsultarMantenimiento();
+            cm.Show();
+            this.Close();
         }
 
         private void vehículoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -165,5 +166,141 @@ namespace DEVSIS_ENERGISUR
         {
             new IngresarProductoMantenimiento().Show();
         }
+<<<<<<< Updated upstream
+=======
+
+        private void emitirFacturaElectrónicaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new EmitirFacturaElectrónica().Show();
+        }
+
+        private void facturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fechaDeEmisiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MenuPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void consultarFacturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarFactura().Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void generarNotaCréditoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buscarNotaDeCréditoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarNotaCredito().Show();
+        }
+
+        private void generarNotaDeCréditoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new GenerarNotaCredito().Show();
+        }
+
+        private void productoDeMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new EliminarMantenimiento().Show();
+        }
+
+        private void códigoProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarCodigoProducto().Show();
+        }
+
+        private void nombreProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarNombreProducto().Show();
+        }
+
+        private void marcaProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarProductoMarca().Show();
+        }
+
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vehículoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            new EliminarVehiculo().Show();
+        }
+
+        private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarMarcaVehículo().Show();
+        }
+
+        private void modeloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarModeloVehículo().Show();
+        }
+
+        private void placaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarPlacaVehículo().Show();
+        }
+
+        private void consultarProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void actualizarVehículoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ActualizarProducto().Show();
+        }
+
+        private void actualizarProductoMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ActualizarProductoMantenimiento().Show();
+        }
+
+        private void generarOrdenDeCompraToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            IngresarMantenimiento im = new IngresarMantenimiento();
+            im.Show();
+            this.Close();
+        }
+
+        private void consultarOrdenDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EmitirMantenimiento em = new EmitirMantenimiento();
+            em.Show();
+            this.Close();
+        }
+
+        private void generarNotaCréditoMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GenerarNotaCreditoMantenimiento gm = new GenerarNotaCreditoMantenimiento();
+            gm.Show();
+            this.Close();
+        }
+
+        private void generarReportesMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GenerarReportesMantenimiento gr = new GenerarReportesMantenimiento();
+            gr.Show();
+            this.Close();
+        }
+>>>>>>> Stashed changes
     }
 }

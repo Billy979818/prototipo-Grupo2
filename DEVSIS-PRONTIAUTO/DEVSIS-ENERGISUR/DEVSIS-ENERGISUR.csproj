@@ -58,6 +58,21 @@
     <Compile Include="ActualizarProducto.Designer.cs">
       <DependentUpon>ActualizarProducto.cs</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
+=======
+    <Compile Include="ActualizarProductoMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarProductoMantenimiento.Designer.cs">
+      <DependentUpon>ActualizarProductoMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AñadirProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AñadirProducto.designer.cs">
+      <DependentUpon>AñadirProducto.cs</DependentUpon>
+    </Compile>
+>>>>>>> Stashed changes
     <Compile Include="ConsultarCedulaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +185,63 @@
     <Compile Include="EliminarUsuario.Designer.cs">
       <DependentUpon>EliminarUsuario.cs</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
+=======
+    <Compile Include="EliminarVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliminarVehiculo.Designer.cs">
+      <DependentUpon>EliminarVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmitirFacturaElectrónica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmitirFacturaElectrónica.Designer.cs">
+      <DependentUpon>EmitirFacturaElectrónica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarFactura.Designer.cs">
+      <DependentUpon>ConsultarFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarNotaCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarNotaCredito.Designer.cs">
+      <DependentUpon>ConsultarNotaCredito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmitirMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmitirMantenimiento.Designer.cs">
+      <DependentUpon>EmitirMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarMantenimiento.Designer.cs">
+      <DependentUpon>ConsultarMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerarReportesMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerarReportesMantenimiento.Designer.cs">
+      <DependentUpon>GenerarReportesMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerarNotaCreditoMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerarNotaCreditoMantenimiento.Designer.cs">
+      <DependentUpon>GenerarNotaCreditoMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerarNotaCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerarNotaCredito.Designer.cs">
+      <DependentUpon>GenerarNotaCredito.cs</DependentUpon>
+    </Compile>
+>>>>>>> Stashed changes
     <Compile Include="GenerarFactura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,7 +260,17 @@
     <Compile Include="IngresarCliente.Designer.cs">
       <DependentUpon>IngresarCliente.cs</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="IngresarProducto.cs">
+=======
+    <Compile Include="IngresarMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresarMantenimiento.designer.cs">
+      <DependentUpon>IngresarMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngresarProductoMantenimiento.cs">
+>>>>>>> Stashed changes
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="IngresarProducto.Designer.cs">
@@ -239,6 +321,15 @@
     <EmbeddedResource Include="ActualizarProducto.resx">
       <DependentUpon>ActualizarProducto.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< Updated upstream
+=======
+    <EmbeddedResource Include="ActualizarProductoMantenimiento.resx">
+      <DependentUpon>ActualizarProductoMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AñadirProducto.resx">
+      <DependentUpon>AñadirProducto.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> Stashed changes
     <EmbeddedResource Include="ConsultarCedulaCliente.resx">
       <DependentUpon>ConsultarCedulaCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -293,17 +384,52 @@
     <EmbeddedResource Include="EliminarUsuario.resx">
       <DependentUpon>EliminarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< Updated upstream
     <EmbeddedResource Include="GenerarFactura.resx">
       <DependentUpon>GenerarFactura.cs</DependentUpon>
     </EmbeddedResource>
+=======
+    <EmbeddedResource Include="EliminarVehiculo.resx">
+      <DependentUpon>EliminarVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmitirFacturaElectrónica.resx">
+      <DependentUpon>EmitirFacturaElectrónica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarNotaCredito.resx">
+      <DependentUpon>ConsultarNotaCredito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmitirMantenimiento.resx">
+      <DependentUpon>EmitirMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarMantenimiento.resx">
+      <DependentUpon>ConsultarMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerarFactura.resx">
+      <DependentUpon>GenerarFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerarNotaCredito.resx">
+      <DependentUpon>GenerarNotaCredito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerarNotaCreditoMantenimiento.resx">
+      <DependentUpon>GenerarNotaCreditoMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> Stashed changes
     <EmbeddedResource Include="GenerarOrdenCompra.resx">
       <DependentUpon>GenerarOrdenCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerarReportesMantenimiento.resx">
+      <DependentUpon>GenerarReportesMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IngresarCliente.resx">
       <DependentUpon>IngresarCliente.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< Updated upstream
     <EmbeddedResource Include="IngresarProducto.resx">
       <DependentUpon>IngresarProducto.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="IngresarMantenimiento.resx">
+      <DependentUpon>IngresarMantenimiento.cs</DependentUpon>
+>>>>>>> Stashed changes
     </EmbeddedResource>
     <EmbeddedResource Include="IngresarProductoMantenimiento.resx">
       <DependentUpon>IngresarProductoMantenimiento.cs</DependentUpon>

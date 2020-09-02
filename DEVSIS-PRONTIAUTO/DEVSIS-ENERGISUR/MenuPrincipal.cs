@@ -104,7 +104,10 @@ namespace DEVSIS_ENERGISUR
 
         private void generarOrdenDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new GenerarOrdenCompra().Show();
+            
+            IngresarMantenimiento im = new IngresarMantenimiento();
+            im.Show();
+            this.Close();
         }
 
         private void númeroDeTeléfonoConvencionalToolStripMenuItem_Click(object sender, EventArgs e)
@@ -150,8 +153,9 @@ namespace DEVSIS_ENERGISUR
 
         private void cambiarEstadoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ModificarOrdenCompra().Show();
-            this.Visible = false;
+            ConsultarMantenimiento cm = new ConsultarMantenimiento();
+            cm.Show();
+            this.Close();
         }
 
         private void vehículoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -267,6 +271,27 @@ namespace DEVSIS_ENERGISUR
         private void actualizarProductoMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new ActualizarProductoMantenimiento().Show();
+        }
+
+        private void consultarOrdenDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EmitirMantenimiento em = new EmitirMantenimiento();
+            em.Show();
+            this.Close();
+        }
+
+        private void generarNotaCréditoMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GenerarNotaCreditoMantenimiento gm = new GenerarNotaCreditoMantenimiento();
+            gm.Show();
+            this.Close();
+        }
+
+        private void generarReportesMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GenerarReportesMantenimiento gm = new GenerarReportesMantenimiento();
+            gm.Show();
+            this.Close();
         }
     }
 }

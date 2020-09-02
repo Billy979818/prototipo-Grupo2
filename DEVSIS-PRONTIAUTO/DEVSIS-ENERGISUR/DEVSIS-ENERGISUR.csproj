@@ -64,6 +64,12 @@
     <Compile Include="ActualizarProductoMantenimiento.Designer.cs">
       <DependentUpon>ActualizarProductoMantenimiento.cs</DependentUpon>
     </Compile>
+    <Compile Include="AñadirProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AñadirProducto.designer.cs">
+      <DependentUpon>AñadirProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConsultarCedulaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,12 @@
     </Compile>
     <Compile Include="ConsultarFechaInicioOrdenCompra.Designer.cs">
       <DependentUpon>ConsultarFechaInicioOrdenCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarMantenimiento.designer.cs">
+      <DependentUpon>ConsultarMantenimiento.cs</DependentUpon>
     </Compile>
     <Compile Include="ConsultarMarcaVehículo.cs">
       <SubType>Form</SubType>
@@ -218,6 +230,12 @@
     <Compile Include="ConsultarNotaCredito.Designer.cs">
       <DependentUpon>ConsultarNotaCredito.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmitirMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmitirMantenimiento.designer.cs">
+      <DependentUpon>EmitirMantenimiento.cs</DependentUpon>
+    </Compile>
     <Compile Include="GenerarNotaCredito.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,17 +248,35 @@
     <Compile Include="GenerarFactura.Designer.cs">
       <DependentUpon>GenerarFactura.cs</DependentUpon>
     </Compile>
+    <Compile Include="GenerarNotaCreditoMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerarNotaCreditoMantenimiento.designer.cs">
+      <DependentUpon>GenerarNotaCreditoMantenimiento.cs</DependentUpon>
+    </Compile>
     <Compile Include="GenerarOrdenCompra.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GenerarOrdenCompra.Designer.cs">
       <DependentUpon>GenerarOrdenCompra.cs</DependentUpon>
     </Compile>
+    <Compile Include="GenerarReportesMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerarReportesMantenimiento.designer.cs">
+      <DependentUpon>GenerarReportesMantenimiento.cs</DependentUpon>
+    </Compile>
     <Compile Include="IngresarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="IngresarCliente.Designer.cs">
       <DependentUpon>IngresarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngresarMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresarMantenimiento.designer.cs">
+      <DependentUpon>IngresarMantenimiento.cs</DependentUpon>
     </Compile>
     <Compile Include="IngresarProductoMantenimiento.cs">
       <SubType>Form</SubType>
@@ -296,6 +332,9 @@
     <EmbeddedResource Include="ActualizarProductoMantenimiento.resx">
       <DependentUpon>ActualizarProductoMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AñadirProducto.resx">
+      <DependentUpon>AñadirProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConsultarCedulaCliente.resx">
       <DependentUpon>ConsultarCedulaCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -313,6 +352,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarFechaInicioOrdenCompra.resx">
       <DependentUpon>ConsultarFechaInicioOrdenCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarMantenimiento.resx">
+      <DependentUpon>ConsultarMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarMarcaVehículo.resx">
       <DependentUpon>ConsultarMarcaVehículo.cs</DependentUpon>
@@ -371,17 +413,29 @@
     <EmbeddedResource Include="ConsultarNotaCredito.resx">
       <DependentUpon>ConsultarNotaCredito.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EmitirMantenimiento.resx">
+      <DependentUpon>EmitirMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GenerarFactura.resx">
       <DependentUpon>GenerarFactura.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GenerarNotaCredito.resx">
       <DependentUpon>GenerarNotaCredito.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GenerarNotaCreditoMantenimiento.resx">
+      <DependentUpon>GenerarNotaCreditoMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GenerarOrdenCompra.resx">
       <DependentUpon>GenerarOrdenCompra.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GenerarReportesMantenimiento.resx">
+      <DependentUpon>GenerarReportesMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="IngresarCliente.resx">
       <DependentUpon>IngresarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresarMantenimiento.resx">
+      <DependentUpon>IngresarMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IngresarProductoMantenimiento.resx">
       <DependentUpon>IngresarProductoMantenimiento.cs</DependentUpon>

@@ -70,11 +70,11 @@
     <Compile Include="AñadirProducto.designer.cs">
       <DependentUpon>AñadirProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConsultarCedulaCliente.cs">
+    <Compile Include="ConsultarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConsultarCedulaCliente.Designer.cs">
-      <DependentUpon>ConsultarCedulaCliente.cs</DependentUpon>
+    <Compile Include="ConsultarCliente.Designer.cs">
+      <DependentUpon>ConsultarCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="ConsultarCodigoProducto.cs">
       <SubType>Form</SubType>
@@ -112,18 +112,6 @@
     <Compile Include="ConsultarMarcaVehículo.Designer.cs">
       <DependentUpon>ConsultarMarcaVehículo.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConsultarModeloVehículo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarModeloVehículo.Designer.cs">
-      <DependentUpon>ConsultarModeloVehículo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConsultarNombreCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarNombreCliente.Designer.cs">
-      <DependentUpon>ConsultarNombreCliente.cs</DependentUpon>
-    </Compile>
     <Compile Include="ConsultarNombreProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,12 +123,6 @@
     </Compile>
     <Compile Include="ConsultarNumeroOrdenCompra.Designer.cs">
       <DependentUpon>ConsultarNumeroOrdenCompra.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConsultarPlacaVehículo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarPlacaVehículo.Designer.cs">
-      <DependentUpon>ConsultarPlacaVehículo.cs</DependentUpon>
     </Compile>
     <Compile Include="ConsultarProductoMarca.cs">
       <SubType>Form</SubType>
@@ -335,8 +317,8 @@
     <EmbeddedResource Include="AñadirProducto.resx">
       <DependentUpon>AñadirProducto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarCedulaCliente.resx">
-      <DependentUpon>ConsultarCedulaCliente.cs</DependentUpon>
+    <EmbeddedResource Include="ConsultarCliente.resx">
+      <DependentUpon>ConsultarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarCodigoProducto.resx">
       <DependentUpon>ConsultarCodigoProducto.cs</DependentUpon>
@@ -359,20 +341,11 @@
     <EmbeddedResource Include="ConsultarMarcaVehículo.resx">
       <DependentUpon>ConsultarMarcaVehículo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarModeloVehículo.resx">
-      <DependentUpon>ConsultarModeloVehículo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarNombreCliente.resx">
-      <DependentUpon>ConsultarNombreCliente.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ConsultarNombreProducto.resx">
       <DependentUpon>ConsultarNombreProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarNumeroOrdenCompra.resx">
       <DependentUpon>ConsultarNumeroOrdenCompra.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarPlacaVehículo.resx">
-      <DependentUpon>ConsultarPlacaVehículo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarProductoMarca.resx">
       <DependentUpon>ConsultarProductoMarca.cs</DependentUpon>

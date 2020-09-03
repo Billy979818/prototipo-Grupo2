@@ -22,5 +22,10 @@ namespace DEVSIS_ENERGISUR
             new MenuPrincipal().Show();
             this.Visible = false;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

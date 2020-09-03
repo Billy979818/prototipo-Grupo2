@@ -87,15 +87,12 @@ namespace DEVSIS_ENERGISUR
             new ConsultarRucProveedor().Show();
         }
 
-        private void cédulaCiudadaníaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void consultarClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ConsultarCedulaCliente().Show();
+            new ConsultarCliente().Show();
         }
 
-        private void nombreDeCiudadaníaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new ConsultarNombreCliente().Show();
-        }
+        
 
         private void generarFacturaToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -165,7 +162,7 @@ namespace DEVSIS_ENERGISUR
 
         private void manteniientoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new IngresarProductoMantenimiento().Show();
+            new ConsultarMarcaVehículo().Show();
         }
 
         private void emitirFacturaElectrónicaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -250,12 +247,12 @@ namespace DEVSIS_ENERGISUR
 
         private void modeloToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ConsultarModeloVehículo().Show();
+           // new ConsultarModeloVehículo().Show();
         }
 
         private void placaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ConsultarPlacaVehículo().Show();
+           // new ConsultarPlacaVehículo().Show();
         }
 
         private void consultarProductoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -265,12 +262,14 @@ namespace DEVSIS_ENERGISUR
 
         private void actualizarVehículoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ActualizarProducto().Show();
+            new IngresarProductoMantenimiento().Show();
+            this.Close();
         }
 
         private void actualizarProductoMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new ActualizarProductoMantenimiento().Show();
+            this.Close();
         }
 
         private void consultarOrdenDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
@@ -291,6 +290,28 @@ namespace DEVSIS_ENERGISUR
         {
             GenerarReportesMantenimiento gm = new GenerarReportesMantenimiento();
             gm.Show();
+            this.Close();
+        }
+
+        private void actualizarVehículoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            new ActualizarProducto().Show();
+        }
+
+        private void eliminarVehículoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new EliminarVehiculo().Show();
+        }
+
+        private void actualizarProductoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            new ActualizarProductoMantenimiento().Show();
+            this.Close();
+        }
+
+        private void eliminarProductoToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            new EliminarMantenimiento().Show();
             this.Close();
         }
     }

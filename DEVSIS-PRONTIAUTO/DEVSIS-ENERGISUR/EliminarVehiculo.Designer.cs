@@ -43,13 +43,15 @@
             this.labelIngresarProducto = new System.Windows.Forms.Label();
             this.txtprecioVen = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelPrecio
             // 
             this.labelPrecio.AutoSize = true;
             this.labelPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPrecio.Location = new System.Drawing.Point(57, 230);
+            this.labelPrecio.Location = new System.Drawing.Point(53, 292);
             this.labelPrecio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPrecio.Name = "labelPrecio";
             this.labelPrecio.Size = new System.Drawing.Size(126, 18);
@@ -60,7 +62,7 @@
             // 
             this.labelVoltaje.AutoSize = true;
             this.labelVoltaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelVoltaje.Location = new System.Drawing.Point(54, 184);
+            this.labelVoltaje.Location = new System.Drawing.Point(53, 244);
             this.labelVoltaje.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelVoltaje.Name = "labelVoltaje";
             this.labelVoltaje.Size = new System.Drawing.Size(82, 18);
@@ -71,12 +73,12 @@
             // 
             this.botonRegresar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonRegresar.Location = new System.Drawing.Point(282, 337);
+            this.botonRegresar.Location = new System.Drawing.Point(271, 408);
             this.botonRegresar.Margin = new System.Windows.Forms.Padding(2);
             this.botonRegresar.Name = "botonRegresar";
             this.botonRegresar.Size = new System.Drawing.Size(222, 39);
             this.botonRegresar.TabIndex = 64;
-            this.botonRegresar.Text = "REGRESAR";
+            this.botonRegresar.Text = "CANCELAR";
             this.botonRegresar.UseVisualStyleBackColor = false;
             // 
             // textNombreProducto
@@ -89,7 +91,7 @@
             // 
             // textMarca
             // 
-            this.textMarca.Location = new System.Drawing.Point(215, 134);
+            this.textMarca.Location = new System.Drawing.Point(215, 196);
             this.textMarca.Margin = new System.Windows.Forms.Padding(2);
             this.textMarca.Name = "textMarca";
             this.textMarca.Size = new System.Drawing.Size(289, 21);
@@ -97,7 +99,7 @@
             // 
             // textVoltaje
             // 
-            this.textVoltaje.Location = new System.Drawing.Point(215, 178);
+            this.textVoltaje.Location = new System.Drawing.Point(215, 244);
             this.textVoltaje.Margin = new System.Windows.Forms.Padding(2);
             this.textVoltaje.Name = "textVoltaje";
             this.textVoltaje.Size = new System.Drawing.Size(289, 21);
@@ -105,7 +107,7 @@
             // 
             // textPrecio
             // 
-            this.textPrecio.Location = new System.Drawing.Point(215, 224);
+            this.textPrecio.Location = new System.Drawing.Point(215, 289);
             this.textPrecio.Margin = new System.Windows.Forms.Padding(2);
             this.textPrecio.Name = "textPrecio";
             this.textPrecio.Size = new System.Drawing.Size(289, 21);
@@ -115,7 +117,7 @@
             // 
             this.labelMarca.AutoSize = true;
             this.labelMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMarca.Location = new System.Drawing.Point(54, 140);
+            this.labelMarca.Location = new System.Drawing.Point(53, 196);
             this.labelMarca.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelMarca.Name = "labelMarca";
             this.labelMarca.Size = new System.Drawing.Size(118, 18);
@@ -138,7 +140,7 @@
             // 
             this.botonIngresar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonIngresar.Location = new System.Drawing.Point(11, 337);
+            this.botonIngresar.Location = new System.Drawing.Point(11, 408);
             this.botonIngresar.Margin = new System.Windows.Forms.Padding(2);
             this.botonIngresar.Name = "botonIngresar";
             this.botonIngresar.Size = new System.Drawing.Size(222, 39);
@@ -178,7 +180,7 @@
             // 
             // txtprecioVen
             // 
-            this.txtprecioVen.Location = new System.Drawing.Point(213, 270);
+            this.txtprecioVen.Location = new System.Drawing.Point(215, 346);
             this.txtprecioVen.Margin = new System.Windows.Forms.Padding(2);
             this.txtprecioVen.Name = "txtprecioVen";
             this.txtprecioVen.Size = new System.Drawing.Size(291, 21);
@@ -188,18 +190,44 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(57, 273);
+            this.label2.Location = new System.Drawing.Point(53, 349);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 18);
             this.label2.TabIndex = 71;
             this.label2.Text = "Precio de venta";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "automovil",
+            "camioneta"});
+            this.comboBox1.Location = new System.Drawing.Point(215, 137);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(289, 26);
+            this.comboBox1.TabIndex = 74;
+            this.comboBox1.Text = "seleccione";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(53, 137);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(90, 18);
+            this.label3.TabIndex = 73;
+            this.label3.Text = "tipo vehículo";
+            // 
             // EliminarVehiculo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(517, 387);
+            this.ClientSize = new System.Drawing.Size(517, 466);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.txtprecioVen);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelPrecio);
@@ -240,5 +268,7 @@
         private System.Windows.Forms.Label labelIngresarProducto;
         private System.Windows.Forms.TextBox txtprecioVen;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label3;
     }
 }

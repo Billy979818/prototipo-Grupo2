@@ -16,5 +16,10 @@ namespace DEVSIS_ENERGISUR
         {
             InitializeComponent();
         }
+
+        private void ConsultarMarcaVehículo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

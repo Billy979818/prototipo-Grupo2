@@ -54,7 +54,7 @@
             this.botonRegresar.Name = "botonRegresar";
             this.botonRegresar.Size = new System.Drawing.Size(232, 39);
             this.botonRegresar.TabIndex = 66;
-            this.botonRegresar.Text = "REGRESAR";
+            this.botonRegresar.Text = "CANCELAR";
             this.botonRegresar.UseVisualStyleBackColor = false;
             // 
             // textNombreProducto
@@ -229,10 +229,10 @@
             this.Controls.Add(this.textCodigo);
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ActualizarProducto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Actualizar Producto Vehículo";
+            this.Text = "Actualizar Vehículo";
             this.ResumeLayout(false);
             this.PerformLayout();
 

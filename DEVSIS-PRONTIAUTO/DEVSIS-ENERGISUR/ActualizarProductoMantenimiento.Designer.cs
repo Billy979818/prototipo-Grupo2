@@ -274,6 +274,7 @@
             this.button1.TabIndex = 82;
             this.button1.Text = "CANCELAR";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ActualizarProductoMantenimiento
             // 
@@ -303,6 +304,7 @@
             this.Controls.Add(this.labelIngresarProducto);
             this.Name = "ActualizarProductoMantenimiento";
             this.Text = "ActualizarProductoMantenimiento";
+            this.Load += new System.EventHandler(this.ActualizarProductoMantenimiento_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

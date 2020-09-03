@@ -16,5 +16,16 @@ namespace DEVSIS_ENERGISUR
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new MenuPrincipal().Show();
+            this.Close();
+        }
+
+        private void ActualizarProductoMantenimiento_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

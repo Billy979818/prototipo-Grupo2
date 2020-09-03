@@ -80,6 +80,7 @@
             this.botonRegresar.TabIndex = 64;
             this.botonRegresar.Text = "CANCELAR";
             this.botonRegresar.UseVisualStyleBackColor = false;
+            this.botonRegresar.Click += new System.EventHandler(this.botonRegresar_Click);
             // 
             // textNombreProducto
             // 

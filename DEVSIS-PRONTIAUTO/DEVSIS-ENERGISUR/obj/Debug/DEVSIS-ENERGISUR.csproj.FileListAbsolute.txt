@@ -1,0 +1,207 @@
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.exe.config
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.exe
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.pdb
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csprojAssemblyReference.cache
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarCliente.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarProducto.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarProductoMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.AñadirProducto.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCedulaCliente.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCodigoProducto.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCorreoProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFactura.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFechaFinOrdenCompra.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFechaInicioOrdenCompra.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarMarcaVehículo.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarModeloVehículo.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNombreCliente.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNombreProducto.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNumeroOrdenCompra.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarPlacaVehículo.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarProductoMarca.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarRazonSocialProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarRucProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarTelefonoCelularProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarTelefonoConvProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.CrearUsuario.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarCliente.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarUsuario.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarVehiculo.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EmitirFacturaElectrónica.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNotaCredito.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EmitirMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarFactura.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarNotaCredito.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarNotaCreditoMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarOrdenCompra.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarReportesMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarCliente.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoVehículo.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.Login.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.MenuPrincipal.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ModificarOrdenCompra.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.productos.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.Properties.Resources.resources
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csproj.GenerateResource.cache
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csproj.CoreCompileInputs.cache
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.exe
+C:\Users\ediso\Documents\C# Proyects\InterfacesProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.pdb
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.exe.config
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.exe
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.pdb
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csprojAssemblyReference.cache
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarCliente.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarProducto.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarProductoMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.AñadirProducto.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCliente.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCodigoProducto.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCorreoProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFactura.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFechaFinOrdenCompra.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFechaInicioOrdenCompra.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarMarcaVehículo.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarModeloVehículo.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNombreProducto.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNumeroOrdenCompra.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarPlacaVehículo.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarProductoMarca.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarRazonSocialProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarRucProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarTelefonoCelularProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarTelefonoConvProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.CrearUsuario.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarCliente.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarUsuario.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarVehiculo.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EmitirFacturaElectrónica.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNotaCredito.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EmitirMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarFactura.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarNotaCredito.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarNotaCreditoMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarOrdenCompra.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarReportesMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarCliente.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoMantenimiento.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoVehículo.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProveedor.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.Login.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.MenuPrincipal.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ModificarOrdenCompra.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.productos.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.Properties.Resources.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csproj.GenerateResource.cache
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csproj.CoreCompileInputs.cache
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.exe
+C:\Users\ediso\Documents\C# Proyects\Proyecto ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.pdb
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.exe.config
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.exe
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.pdb
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csprojAssemblyReference.cache
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarCliente.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarProducto.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarProductoMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.AñadirProducto.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCliente.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCodigoProducto.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCorreoProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFactura.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFechaFinOrdenCompra.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFechaInicioOrdenCompra.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarMarcaVehículo.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNombreProducto.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNumeroOrdenCompra.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarProductoMarca.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarRazonSocialProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarRucProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarTelefonoCelularProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarTelefonoConvProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.CrearUsuario.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarCliente.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarUsuario.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarVehiculo.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EmitirFacturaElectrónica.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNotaCredito.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EmitirMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarFactura.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarNotaCredito.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarNotaCreditoMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarOrdenCompra.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarReportesMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarCliente.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoVehículo.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.Login.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.MenuPrincipal.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ModificarOrdenCompra.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.productos.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.Properties.Resources.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csproj.GenerateResource.cache
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csproj.CoreCompileInputs.cache
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.exe
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\Proyecto-Grupo2-2020A-respaldo4\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.pdb
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.exe.config
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.exe
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.pdb
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csprojAssemblyReference.cache
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarCliente.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarProducto.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarProductoMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.AñadirProducto.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCliente.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCodigoProducto.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCorreoProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFactura.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFechaFinOrdenCompra.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFechaInicioOrdenCompra.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarMarcaVehículo.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNumeroOrdenCompra.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarRazonSocialProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarRucProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarTelefonoCelularProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarTelefonoConvProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.CrearUsuario.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarCliente.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarUsuario.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarVehiculo.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EmitirFacturaElectrónica.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNotaCredito.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EmitirMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarFactura.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarNotaCredito.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarNotaCreditoMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarOrdenCompra.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarReportesMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarCliente.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoMantenimiento.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoVehículo.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProveedor.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.Login.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.MenuPrincipal.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ModificarOrdenCompra.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.productos.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.Properties.Resources.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csproj.GenerateResource.cache
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csproj.CoreCompileInputs.cache
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.exe
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Fundamentos de Software 2019B\GITHUB\Proyecto-Grupo2-2020A\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.pdb

@@ -32,8 +32,8 @@
             this.botonRegresar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textNombreProducto = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.botonConsultar = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,8 +57,9 @@
             this.botonRegresar.Name = "botonRegresar";
             this.botonRegresar.Size = new System.Drawing.Size(232, 39);
             this.botonRegresar.TabIndex = 68;
-            this.botonRegresar.Text = "REGRESAR";
+            this.botonRegresar.Text = "CANCELAR";
             this.botonRegresar.UseVisualStyleBackColor = false;
+            this.botonRegresar.Click += new System.EventHandler(this.botonRegresar_Click);
             // 
             // dataGridView1
             // 
@@ -73,22 +74,11 @@
             // 
             // textNombreProducto
             // 
-            this.textNombreProducto.Location = new System.Drawing.Point(215, 31);
+            this.textNombreProducto.Location = new System.Drawing.Point(352, 31);
             this.textNombreProducto.Margin = new System.Windows.Forms.Padding(2);
             this.textNombreProducto.Name = "textNombreProducto";
             this.textNombreProducto.Size = new System.Drawing.Size(379, 20);
             this.textNombreProducto.TabIndex = 66;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(62, 33);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 18);
-            this.label1.TabIndex = 65;
-            this.label1.Text = "Código del artículo";
             // 
             // botonConsultar
             // 
@@ -102,19 +92,33 @@
             this.botonConsultar.Text = "CONSULTAR";
             this.botonConsultar.UseVisualStyleBackColor = false;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "código",
+            "nombre",
+            "marca"});
+            this.comboBox1.Location = new System.Drawing.Point(94, 31);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(202, 26);
+            this.comboBox1.TabIndex = 70;
+            this.comboBox1.Text = "consultar";
+            // 
             // ConsultarCodigoProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 468);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.botonRegresar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textNombreProducto);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.botonConsultar);
             this.Name = "ConsultarCodigoProducto";
-            this.Text = "Consultar Código Producto";
+            this.Text = "Consultar Producto";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -127,7 +131,7 @@
         private System.Windows.Forms.Button botonRegresar;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox textNombreProducto;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button botonConsultar;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

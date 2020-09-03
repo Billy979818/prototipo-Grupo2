@@ -48,6 +48,7 @@
             this.botonRegresar.TabIndex = 54;
             this.botonRegresar.Text = "CANCELAR";
             this.botonRegresar.UseVisualStyleBackColor = false;
+            this.botonRegresar.Click += new System.EventHandler(this.botonRegresar_Click);
             // 
             // dataGridView1
             // 
@@ -86,7 +87,7 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "placa ",
@@ -94,7 +95,7 @@
             "modelo"});
             this.comboBox1.Location = new System.Drawing.Point(100, 41);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(174, 28);
+            this.comboBox1.Size = new System.Drawing.Size(174, 26);
             this.comboBox1.TabIndex = 55;
             this.comboBox1.Text = "Consultar";
             // 

@@ -49,19 +49,21 @@
             this.txtNombreArticulo = new System.Windows.Forms.TextBox();
             this.txtprecioVen = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // botonRegresar
             // 
             this.botonRegresar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonRegresar.Location = new System.Drawing.Point(263, 455);
+            this.botonRegresar.Location = new System.Drawing.Point(263, 445);
             this.botonRegresar.Margin = new System.Windows.Forms.Padding(2);
             this.botonRegresar.Name = "botonRegresar";
             this.botonRegresar.Size = new System.Drawing.Size(232, 39);
             this.botonRegresar.TabIndex = 53;
-            this.botonRegresar.Text = "REGRESAR";
+            this.botonRegresar.Text = "CANCELAR";
             this.botonRegresar.UseVisualStyleBackColor = false;
+            this.botonRegresar.Click += new System.EventHandler(this.botonRegresar_Click);
             // 
             // textNombreProductoMant
             // 
@@ -146,7 +148,7 @@
             // 
             this.botonIngresar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonIngresar.Location = new System.Drawing.Point(11, 455);
+            this.botonIngresar.Location = new System.Drawing.Point(11, 445);
             this.botonIngresar.Margin = new System.Windows.Forms.Padding(2);
             this.botonIngresar.Name = "botonIngresar";
             this.botonIngresar.Size = new System.Drawing.Size(232, 39);
@@ -263,11 +265,24 @@
             this.label5.TabIndex = 82;
             this.label5.Text = "Precio de compra";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(144, 498);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(232, 39);
+            this.button1.TabIndex = 84;
+            this.button1.Text = "LIMPIAR";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // IngresarProductoMantenimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(506, 505);
+            this.ClientSize = new System.Drawing.Size(506, 564);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtprecioVen);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtNombreArticulo);
@@ -319,5 +334,6 @@
         private System.Windows.Forms.TextBox txtNombreArticulo;
         private System.Windows.Forms.TextBox txtprecioVen;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button1;
     }
 }

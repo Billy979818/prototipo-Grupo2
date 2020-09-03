@@ -16,5 +16,11 @@ namespace DEVSIS_ENERGISUR
         {
             InitializeComponent();
         }
+
+        private void botonRegresar_Click(object sender, EventArgs e)
+        {
+            new MenuPrincipal().Show();
+            this.Close();
+        }
     }
 }

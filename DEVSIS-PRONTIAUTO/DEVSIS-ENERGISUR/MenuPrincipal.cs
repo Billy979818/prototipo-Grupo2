@@ -158,11 +158,13 @@ namespace DEVSIS_ENERGISUR
         private void vehículoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new IngresarProductoVehículo().Show();
+            this.Close();
         }
 
         private void manteniientoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new ConsultarMarcaVehículo().Show();
+            this.Close();
         }
 
         private void emitirFacturaElectrónicaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -222,12 +224,12 @@ namespace DEVSIS_ENERGISUR
 
         private void nombreProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ConsultarNombreProducto().Show();
+            //new ConsultarNombreProducto().Show();
         }
 
         private void marcaProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ConsultarProductoMarca().Show();
+           // new ConsultarProductoMarca().Show();
         }
 
         private void productosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -268,7 +270,7 @@ namespace DEVSIS_ENERGISUR
 
         private void actualizarProductoMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ActualizarProductoMantenimiento().Show();
+            new ConsultarCodigoProducto().Show();
             this.Close();
         }
 
@@ -296,11 +298,13 @@ namespace DEVSIS_ENERGISUR
         private void actualizarVehículoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             new ActualizarProducto().Show();
+            this.Close();
         }
 
         private void eliminarVehículoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new EliminarVehiculo().Show();
+            this.Close();
         }
 
         private void actualizarProductoToolStripMenuItem1_Click(object sender, EventArgs e)

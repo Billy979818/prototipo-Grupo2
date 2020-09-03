@@ -117,8 +117,9 @@
             this.botonRegresar.Name = "botonRegresar";
             this.botonRegresar.Size = new System.Drawing.Size(232, 39);
             this.botonRegresar.TabIndex = 111;
-            this.botonRegresar.Text = "REGRESAR";
+            this.botonRegresar.Text = "CANCELAR";
             this.botonRegresar.UseVisualStyleBackColor = false;
+            this.botonRegresar.Click += new System.EventHandler(this.botonRegresar_Click);
             // 
             // textNombreProductoMant
             // 

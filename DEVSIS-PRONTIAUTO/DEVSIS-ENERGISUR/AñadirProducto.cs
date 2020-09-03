@@ -21,5 +21,11 @@ namespace DEVSIS_ENERGISUR
         {
             this.Close();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new IngresarMantenimiento().Show();
+            this.Close();
+        }
     }
 }

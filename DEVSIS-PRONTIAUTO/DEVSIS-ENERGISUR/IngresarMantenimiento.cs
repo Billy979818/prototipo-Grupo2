@@ -104,5 +104,17 @@ namespace DEVSIS_ENERGISUR
             mp.Show();
             this.Close();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new MenuPrincipal().Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new AñadirProducto().Show();
+            this.Close();
+        }
     }
 }

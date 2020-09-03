@@ -28,10 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.labelDierccion = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -41,43 +38,22 @@
             this.label2 = new System.Windows.Forms.Label();
             this.labelNombre = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBoxNombre = new System.Windows.Forms.TextBox();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
             this.labelFactura = new System.Windows.Forms.Label();
             this.labelGenerarFactura = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(507, 472);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(169, 42);
-            this.button2.TabIndex = 115;
-            this.button2.Text = "CANCELAR ";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(223, 472);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 42);
-            this.button1.TabIndex = 114;
-            this.button1.Text = "GENERAR";
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // dataGridView2
             // 
@@ -87,16 +63,8 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(875, 210);
+            this.dataGridView2.Size = new System.Drawing.Size(920, 210);
             this.dataGridView2.TabIndex = 113;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(638, 141);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(264, 22);
-            this.textBox5.TabIndex = 112;
             // 
             // label5
             // 
@@ -155,7 +123,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(638, 60);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(264, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(309, 22);
             this.dateTimePicker1.TabIndex = 106;
             // 
             // label2
@@ -187,38 +155,6 @@
             this.label1.Size = new System.Drawing.Size(95, 18);
             this.label1.TabIndex = 103;
             this.label1.Text = "Cédula/RUC:";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(234, 143);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(214, 22);
-            this.textBox3.TabIndex = 100;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(234, 180);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(214, 22);
-            this.textBox2.TabIndex = 99;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(638, 101);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(264, 22);
-            this.textBox1.TabIndex = 98;
-            // 
-            // textBoxNombre
-            // 
-            this.textBoxNombre.Location = new System.Drawing.Point(638, 184);
-            this.textBoxNombre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBoxNombre.Name = "textBoxNombre";
-            this.textBoxNombre.Size = new System.Drawing.Size(264, 22);
-            this.textBoxNombre.TabIndex = 97;
             // 
             // dataGridView5
             // 
@@ -261,16 +197,98 @@
             this.label6.TabIndex = 116;
             this.label6.Text = "Descripción";
             // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(161, 142);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(309, 22);
+            this.textBox4.TabIndex = 117;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(161, 173);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(309, 22);
+            this.textBox1.TabIndex = 118;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(638, 100);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(309, 22);
+            this.textBox2.TabIndex = 119;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(638, 141);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(309, 22);
+            this.textBox3.TabIndex = 120;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(638, 180);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(309, 22);
+            this.textBox5.TabIndex = 121;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(679, 487);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(239, 42);
+            this.button3.TabIndex = 123;
+            this.button3.Text = "CANCELAR";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(66, 487);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(239, 42);
+            this.button5.TabIndex = 122;
+            this.button5.Text = "GENERAR";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(374, 487);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(239, 42);
+            this.button1.TabIndex = 124;
+            this.button1.Text = "LIMPIAR";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // GenerarNotaCreditoMantenimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(919, 530);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(970, 556);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.labelDierccion);
             this.Controls.Add(this.dataGridView1);
@@ -280,15 +298,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelNombre);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBoxNombre);
             this.Controls.Add(this.dataGridView5);
             this.Controls.Add(this.labelFactura);
             this.Controls.Add(this.labelGenerarFactura);
             this.Name = "GenerarNotaCreditoMantenimiento";
-            this.Text = "Form2";
+            this.Text = "Nota de crédito de mantenimiento";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
@@ -298,11 +312,7 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label labelDierccion;
         private System.Windows.Forms.DataGridView dataGridView1;
@@ -312,13 +322,17 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelNombre;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBoxNombre;
         private System.Windows.Forms.DataGridView dataGridView5;
         private System.Windows.Forms.Label labelFactura;
         private System.Windows.Forms.Label labelGenerarFactura;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button1;
     }
 }

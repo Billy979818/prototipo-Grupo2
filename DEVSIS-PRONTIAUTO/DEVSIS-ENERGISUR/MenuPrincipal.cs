@@ -97,6 +97,7 @@ namespace DEVSIS_ENERGISUR
         private void generarFacturaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new GenerarFactura().Show();
+            this.Close();
         }
 
         private void generarOrdenDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
@@ -170,6 +171,7 @@ namespace DEVSIS_ENERGISUR
         private void emitirFacturaElectrónicaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new EmitirFacturaElectrónica().Show();
+            this.Close();
         }
 
         private void facturaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -190,6 +192,7 @@ namespace DEVSIS_ENERGISUR
         private void consultarFacturaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new ConsultarFactura().Show();
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -205,21 +208,25 @@ namespace DEVSIS_ENERGISUR
         private void buscarNotaDeCréditoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new ConsultarNotaCredito().Show();
+            this.Close();
         }
 
         private void generarNotaDeCréditoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new GenerarNotaCredito().Show();
+            this.Close();
         }
 
         private void productoDeMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new EliminarMantenimiento().Show();
+            this.Close();
         }
 
         private void códigoProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new ConsultarCodigoProducto().Show();
+            this.Close();
         }
 
         private void nombreProductoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -316,6 +323,36 @@ namespace DEVSIS_ENERGISUR
         private void eliminarProductoToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             new EliminarMantenimiento().Show();
+            this.Close();
+        }
+
+        private void registrarMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new IngresarMantenimiento().Show();
+            this.Close();
+        }
+
+        private void emitirMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new EmitirMantenimiento().Show();
+            this.Close();
+        }
+
+        private void consultarMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarMantenimiento().Show();
+            this.Close();
+        }
+
+        private void generarNotaDeCréditoDeMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new GenerarNotaCreditoMantenimiento().Show();
+            this.Close();
+        }
+
+        private void generarReportesDeMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new GenerarReportesMantenimiento().Show();
             this.Close();
         }
     }

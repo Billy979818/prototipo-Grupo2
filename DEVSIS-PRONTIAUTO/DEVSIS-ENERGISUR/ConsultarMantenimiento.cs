@@ -23,5 +23,16 @@ namespace DEVSIS_ENERGISUR
             mp.Show();
             this.Close();
         }
+
+        private void ConsultarMantenimiento_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new MenuPrincipal().Show();
+            this.Close();
+        }
     }
 }

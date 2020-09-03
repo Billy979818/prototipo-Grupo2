@@ -22,5 +22,59 @@ namespace DEVSIS_ENERGISUR
             new MenuPrincipal().Show();
             this.Visible = false;
         }
+<<<<<<< Updated upstream
+=======
+
+        private void labelGenerarFactura_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelNumeroCuenta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GenerarFactura_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView4_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void buttonCancelar(object sender, EventArgs e)
+        {
+           // new MenuPrincipal().Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new MenuPrincipal().Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> Stashed changes
     }
 }

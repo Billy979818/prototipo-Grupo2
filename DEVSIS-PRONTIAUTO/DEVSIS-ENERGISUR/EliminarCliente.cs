@@ -17,12 +17,11 @@ namespace DEVSIS_ENERGISUR
             InitializeComponent();
         }
 
-        private void botonRegresar_Click(object sender, EventArgs e)
+        private void botonCancelar_Click(object sender, EventArgs e)
         {
             new MenuPrincipal().Show();
             this.Visible = false;
         }
-
         private void labelCodigo_Click(object sender, EventArgs e)
         {
 

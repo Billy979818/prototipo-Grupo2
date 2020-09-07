@@ -30,7 +30,7 @@
         {
             this.labelIngresarProducto = new System.Windows.Forms.Label();
             this.botonIngresar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.botonCancelar = new System.Windows.Forms.Button();
             this.labelCodigo = new System.Windows.Forms.Label();
             this.textCodigo = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -62,15 +62,16 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(477, 407);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 39);
-            this.button1.TabIndex = 77;
-            this.button1.Text = "CANCELAR";
-            this.button1.UseVisualStyleBackColor = false;
+            this.botonCancelar.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.botonCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonCancelar.Location = new System.Drawing.Point(477, 407);
+            this.botonCancelar.Margin = new System.Windows.Forms.Padding(2);
+            this.botonCancelar.Name = "botonCancelar";
+            this.botonCancelar.Size = new System.Drawing.Size(170, 39);
+            this.botonCancelar.TabIndex = 77;
+            this.botonCancelar.Text = "CANCELAR";
+            this.botonCancelar.UseVisualStyleBackColor = false;
+            this.botonCancelar.Click += new System.EventHandler(this.botonCancelar_Click);
             // 
             // labelCodigo
             // 
@@ -111,7 +112,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textCodigo);
             this.Controls.Add(this.labelCodigo);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.botonCancelar);
             this.Controls.Add(this.botonIngresar);
             this.Controls.Add(this.labelIngresarProducto);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -127,7 +128,7 @@
         #endregion
         private System.Windows.Forms.Label labelIngresarProducto;
         private System.Windows.Forms.Button botonIngresar;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button botonCancelar;
         private System.Windows.Forms.Label labelCodigo;
         private System.Windows.Forms.TextBox textCodigo;
         private System.Windows.Forms.DataGridView dataGridView1;

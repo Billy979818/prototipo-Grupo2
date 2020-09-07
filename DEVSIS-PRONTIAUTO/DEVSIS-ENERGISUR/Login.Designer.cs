@@ -148,9 +148,10 @@
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
+            "Administración",
+            "Ventas",
             "Gerencia",
-            "Compras",
-            "Ventas"});
+            "Mantenimiento"});
             this.comboBox1.Location = new System.Drawing.Point(265, 152);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";

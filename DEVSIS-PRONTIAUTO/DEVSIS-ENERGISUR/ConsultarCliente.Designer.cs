@@ -32,7 +32,7 @@
             this.textCodigo = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.botonConsultar = new System.Windows.Forms.Button();
-            this.botonRegresar = new System.Windows.Forms.Button();
+            this.botonCancelar = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -82,15 +82,16 @@
             // 
             // botonRegresar
             // 
-            this.botonRegresar.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.botonRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonRegresar.Location = new System.Drawing.Point(463, 422);
-            this.botonRegresar.Margin = new System.Windows.Forms.Padding(2);
-            this.botonRegresar.Name = "botonRegresar";
-            this.botonRegresar.Size = new System.Drawing.Size(232, 39);
-            this.botonRegresar.TabIndex = 50;
-            this.botonRegresar.Text = "CANCELAR";
-            this.botonRegresar.UseVisualStyleBackColor = false;
+            this.botonCancelar.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.botonCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonCancelar.Location = new System.Drawing.Point(463, 422);
+            this.botonCancelar.Margin = new System.Windows.Forms.Padding(2);
+            this.botonCancelar.Name = "botonCancelar";
+            this.botonCancelar.Size = new System.Drawing.Size(232, 39);
+            this.botonCancelar.TabIndex = 50;
+            this.botonCancelar.Text = "CANCELAR";
+            this.botonCancelar.UseVisualStyleBackColor = false;
+            this.botonCancelar.Click += new System.EventHandler(this.botonCancelar_Click);
             // 
             // comboBox1
             // 
@@ -111,7 +112,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(834, 472);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.botonRegresar);
+            this.Controls.Add(this.botonCancelar);
             this.Controls.Add(this.botonConsultar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textCodigo);
@@ -131,7 +132,7 @@
         private System.Windows.Forms.TextBox textCodigo;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button botonConsultar;
-        private System.Windows.Forms.Button botonRegresar;
+        private System.Windows.Forms.Button botonCancelar;
         private System.Windows.Forms.ComboBox comboBox1;
     }
 }

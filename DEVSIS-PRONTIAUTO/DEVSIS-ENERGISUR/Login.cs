@@ -66,7 +66,7 @@ namespace DEVSIS_ENERGISUR
                 }
                 else
                 {
-                    if(comboBox1.Text != "Compras")
+                    if(comboBox1.Text != "Administración")
                     {
                         MessageBox.Show("Usuario no registrado");
                     }

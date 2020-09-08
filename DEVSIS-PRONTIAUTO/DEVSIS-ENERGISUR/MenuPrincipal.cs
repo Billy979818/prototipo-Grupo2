@@ -54,11 +54,15 @@ namespace DEVSIS_ENERGISUR
             new ActualizarCliente().Show();
         }
 
-        private void eliminarClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        private void darDeBajaClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new EliminarCliente().Show();
+            new DardeBajaCliente().Show();
         }
+        private void darDeAltaClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new DardeAltaCliente().Show();
 
+        }
         private void ingresarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new IngresarProveedor().Show();

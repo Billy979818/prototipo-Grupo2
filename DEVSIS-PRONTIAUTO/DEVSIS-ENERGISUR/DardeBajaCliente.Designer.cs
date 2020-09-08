@@ -1,6 +1,6 @@
 ﻿namespace DEVSIS_ENERGISUR
 {
-    partial class EliminarCliente
+    partial class DardeBajaCliente
     {
         /// <summary>
         /// Required designer variable.
@@ -44,9 +44,9 @@
             this.labelIngresarProducto.Location = new System.Drawing.Point(354, 9);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(123, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(150, 18);
             this.labelIngresarProducto.TabIndex = 55;
-            this.labelIngresarProducto.Text = "Eliminar cliente";
+            this.labelIngresarProducto.Text = "Dar de Baja cliente";
             // 
             // botonIngresar
             // 
@@ -57,10 +57,11 @@
             this.botonIngresar.Name = "botonIngresar";
             this.botonIngresar.Size = new System.Drawing.Size(170, 39);
             this.botonIngresar.TabIndex = 76;
-            this.botonIngresar.Text = "ELIMINAR";
+            this.botonIngresar.Text = "DAR DE BAJA";
             this.botonIngresar.UseVisualStyleBackColor = false;
+            this.botonIngresar.Click += new System.EventHandler(this.botonIngresar_Click);
             // 
-            // button1
+            // botonCancelar
             // 
             this.botonCancelar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -104,7 +105,7 @@
             this.dataGridView1.Size = new System.Drawing.Size(750, 325);
             this.dataGridView1.TabIndex = 80;
             // 
-            // EliminarCliente
+            // DardeBajaCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -115,10 +116,11 @@
             this.Controls.Add(this.botonCancelar);
             this.Controls.Add(this.botonIngresar);
             this.Controls.Add(this.labelIngresarProducto);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "EliminarCliente";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "DardeBajaCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Eliminar cliente";
+            this.Text = "Dar de Baja cliente";
+            this.Load += new System.EventHandler(this.DardeBajaCliente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

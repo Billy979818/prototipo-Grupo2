@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DEVSIS_ENERGISUR
 {
-    public partial class EliminarCliente : Form
+    public partial class DardeAltaCliente : Form
     {
-        public EliminarCliente()
+        public DardeAltaCliente()
         {
             InitializeComponent();
         }
@@ -22,12 +22,8 @@ namespace DEVSIS_ENERGISUR
             new MenuPrincipal().Show();
             this.Visible = false;
         }
-        private void labelCodigo_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label4_Click(object sender, EventArgs e)
+        private void labelIngresarProducto_Click(object sender, EventArgs e)
         {
 
         }

@@ -50,10 +50,24 @@ namespace DEVSIS_ENERGISUR
             this.Close();
         }
 
-        private void actualizarClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        private void actualizartelefonoClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ActualizarCliente().Show();
+            new ActualizarTeléfono().Show();
             this.Close();
+
+        }
+        private void actualizardireccionClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ActualizarDireccionCliente().Show();
+            this.Close();
+
+        }
+
+        private void actualizarcorreoClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ActualizarDireccionCorreoElectronico().Show();
+            this.Close();
+
         }
 
         private void darDeBajaClienteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -67,6 +81,9 @@ namespace DEVSIS_ENERGISUR
             this.Close();
 
         }
+
+        
+
         private void ingresarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new IngresarProveedor().Show();
@@ -74,6 +91,7 @@ namespace DEVSIS_ENERGISUR
             this.Visible = false;
         }
 
+        
         private void eliminarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new EliminarProveedor().Show();
@@ -363,6 +381,11 @@ namespace DEVSIS_ENERGISUR
         {
             new GenerarReportesMantenimiento().Show();
             this.Close();
+        }
+
+        private void actualizarClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

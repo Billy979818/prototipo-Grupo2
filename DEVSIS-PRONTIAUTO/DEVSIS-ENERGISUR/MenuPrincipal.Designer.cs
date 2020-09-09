@@ -33,6 +33,9 @@
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ingresarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.actualizarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.direccionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.telefonoCelularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.direccionDeCorreoElectronicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dardebajaClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dardealtaClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -65,6 +68,9 @@
             this.administraciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.crearUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eliminarUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.actualizarDireccionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.actualizarTelefonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.actualizarCorreoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -120,10 +126,35 @@
             // 
             // actualizarClienteToolStripMenuItem
             // 
+            this.actualizarClienteToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.direccionToolStripMenuItem,
+            this.telefonoCelularToolStripMenuItem,
+            this.direccionDeCorreoElectronicoToolStripMenuItem});
             this.actualizarClienteToolStripMenuItem.Name = "actualizarClienteToolStripMenuItem";
             this.actualizarClienteToolStripMenuItem.Size = new System.Drawing.Size(262, 24);
-            this.actualizarClienteToolStripMenuItem.Text = "Actualizar cliente";
+            this.actualizarClienteToolStripMenuItem.Text = "Actualizar Cliente";
             this.actualizarClienteToolStripMenuItem.Click += new System.EventHandler(this.actualizarClienteToolStripMenuItem_Click);
+            // 
+            // direcciónToolStripMenuItem
+            // 
+            this.direccionToolStripMenuItem.Name = "direcciónToolStripMenuItem";
+            this.direccionToolStripMenuItem.Size = new System.Drawing.Size(289, 24);
+            this.direccionToolStripMenuItem.Text = "Dirección";
+            this.direccionToolStripMenuItem.Click += new System.EventHandler(this.actualizardireccionClienteToolStripMenuItem_Click);
+            // 
+            // teléfonoCelularToolStripMenuItem
+            // 
+            this.telefonoCelularToolStripMenuItem.Name = "teléfonoCelularToolStripMenuItem";
+            this.telefonoCelularToolStripMenuItem.Size = new System.Drawing.Size(289, 24);
+            this.telefonoCelularToolStripMenuItem.Text = "Teléfono Celular";
+            this.telefonoCelularToolStripMenuItem.Click += new System.EventHandler(this.actualizartelefonoClienteToolStripMenuItem_Click);
+            // 
+            // direcciónDeCorreoElectrónicoToolStripMenuItem
+            // 
+            this.direccionDeCorreoElectronicoToolStripMenuItem.Name = "direcciónDeCorreoElectrónicoToolStripMenuItem";
+            this.direccionDeCorreoElectronicoToolStripMenuItem.Size = new System.Drawing.Size(289, 24);
+            this.direccionDeCorreoElectronicoToolStripMenuItem.Text = "Dirección de Correo Electrónico";
+            this.direccionDeCorreoElectronicoToolStripMenuItem.Click += new System.EventHandler(this.actualizarcorreoClienteToolStripMenuItem_Click);
             // 
             // consultarClienteToolStripMenuItem
             // 
@@ -178,7 +209,7 @@
             this.actualizarVehículoToolStripMenuItem1,
             this.eliminarVehículoToolStripMenuItem});
             this.ingresarProductoToolStripMenuItem.Name = "ingresarProductoToolStripMenuItem";
-            this.ingresarProductoToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.ingresarProductoToolStripMenuItem.Size = new System.Drawing.Size(179, 24);
             this.ingresarProductoToolStripMenuItem.Text = "Vehículo";
             this.ingresarProductoToolStripMenuItem.Click += new System.EventHandler(this.ingresarProductoToolStripMenuItem_Click);
             // 
@@ -266,7 +297,7 @@
             this.actualizarProductoToolStripMenuItem1,
             this.eliminarProductoToolStripMenuItem});
             this.actualizarProductoToolStripMenuItem.Name = "actualizarProductoToolStripMenuItem";
-            this.actualizarProductoToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.actualizarProductoToolStripMenuItem.Size = new System.Drawing.Size(179, 24);
             this.actualizarProductoToolStripMenuItem.Text = "Producto";
             this.actualizarProductoToolStripMenuItem.Click += new System.EventHandler(this.actualizarProductoToolStripMenuItem_Click);
             // 
@@ -381,6 +412,27 @@
             this.eliminarUsuariosToolStripMenuItem.Text = "Eliminar usuarios";
             this.eliminarUsuariosToolStripMenuItem.Click += new System.EventHandler(this.eliminarUsuariosToolStripMenuItem_Click);
             // 
+            // actualizarDireccionToolStripMenuItem
+            // 
+            this.actualizarDireccionToolStripMenuItem.Name = "actualizarDireccionToolStripMenuItem";
+            this.actualizarDireccionToolStripMenuItem.Size = new System.Drawing.Size(262, 24);
+            this.actualizarDireccionToolStripMenuItem.Text = "Actualizar Direccion cliente";
+            this.actualizarDireccionToolStripMenuItem.Click += new System.EventHandler(this.actualizardireccionClienteToolStripMenuItem_Click);
+            // 
+            // actualizarTelefonoToolStripMenuItem
+            // 
+            this.actualizarTelefonoToolStripMenuItem.Name = "actualizarTelefonoToolStripMenuItem";
+            this.actualizarTelefonoToolStripMenuItem.Size = new System.Drawing.Size(262, 24);
+            this.actualizarTelefonoToolStripMenuItem.Text = "Actualizar Telefono cliente";
+            this.actualizarTelefonoToolStripMenuItem.Click += new System.EventHandler(this.actualizartelefonoClienteToolStripMenuItem_Click);
+            // 
+            // actualizarCorreoToolStripMenuItem
+            // 
+            this.actualizarCorreoToolStripMenuItem.Name = "actualizarCorreoToolStripMenuItem";
+            this.actualizarCorreoToolStripMenuItem.Size = new System.Drawing.Size(262, 24);
+            this.actualizarCorreoToolStripMenuItem.Text = "Actualizar Correo cliente";
+            this.actualizarCorreoToolStripMenuItem.Click += new System.EventHandler(this.actualizarcorreoClienteToolStripMenuItem_Click);
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -455,5 +507,11 @@
         private System.Windows.Forms.ToolStripMenuItem generarReportesDeMantenimientoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem generarCopiaDeSeguridadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem generarReportesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem direccionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem telefonoCelularToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem direccionDeCorreoElectronicoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem actualizarDireccionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem actualizarTelefonoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem actualizarCorreoToolStripMenuItem;
     }
 }

@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActualizarCliente.cs">
+    <Compile Include="ActualizarDireccionCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ActualizarCliente.Designer.cs">
-      <DependentUpon>ActualizarCliente.cs</DependentUpon>
+    <Compile Include="ActualizarDireccionCliente.Designer.cs">
+      <DependentUpon>ActualizarDireccionCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizarDireccionCorreoElectronico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarDireccionCorreoElectronico.Designer.cs">
+      <DependentUpon>ActualizarDireccionCorreoElectronico.cs</DependentUpon>
     </Compile>
     <Compile Include="ActualizarProducto.cs">
       <SubType>Form</SubType>
@@ -63,6 +69,12 @@
     </Compile>
     <Compile Include="ActualizarProductoMantenimiento.Designer.cs">
       <DependentUpon>ActualizarProductoMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizarTeléfono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarTeléfono.Designer.cs">
+      <DependentUpon>ActualizarTeléfono.cs</DependentUpon>
     </Compile>
     <Compile Include="AñadirProducto.cs">
       <SubType>Form</SubType>
@@ -299,14 +311,20 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validaciones.cs" />
-    <EmbeddedResource Include="ActualizarCliente.resx">
-      <DependentUpon>ActualizarCliente.cs</DependentUpon>
+    <EmbeddedResource Include="ActualizarDireccionCliente.resx">
+      <DependentUpon>ActualizarDireccionCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActualizarDireccionCorreoElectronico.resx">
+      <DependentUpon>ActualizarDireccionCorreoElectronico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ActualizarProducto.resx">
       <DependentUpon>ActualizarProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ActualizarProductoMantenimiento.resx">
       <DependentUpon>ActualizarProductoMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActualizarTeléfono.resx">
+      <DependentUpon>ActualizarTeléfono.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AñadirProducto.resx">
       <DependentUpon>AñadirProducto.cs</DependentUpon>

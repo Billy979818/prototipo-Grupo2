@@ -100,9 +100,9 @@
             this.labelPrecio.Location = new System.Drawing.Point(18, 265);
             this.labelPrecio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPrecio.Name = "labelPrecio";
-            this.labelPrecio.Size = new System.Drawing.Size(124, 18);
+            this.labelPrecio.Size = new System.Drawing.Size(148, 18);
             this.labelPrecio.TabIndex = 48;
-            this.labelPrecio.Text = "precio de compra";
+            this.labelPrecio.Text = "Precio de compra ($)";
             // 
             // labelVoltaje
             // 
@@ -111,9 +111,9 @@
             this.labelVoltaje.Location = new System.Drawing.Point(17, 222);
             this.labelVoltaje.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelVoltaje.Name = "labelVoltaje";
-            this.labelVoltaje.Size = new System.Drawing.Size(80, 18);
+            this.labelVoltaje.Size = new System.Drawing.Size(117, 18);
             this.labelVoltaje.TabIndex = 47;
-            this.labelVoltaje.Text = "kilometraje";
+            this.labelVoltaje.Text = "Kilometraje (km)";
             // 
             // labelMarca
             // 
@@ -122,9 +122,9 @@
             this.labelMarca.Location = new System.Drawing.Point(18, 182);
             this.labelMarca.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelMarca.Name = "labelMarca";
-            this.labelMarca.Size = new System.Drawing.Size(116, 18);
+            this.labelMarca.Size = new System.Drawing.Size(62, 18);
             this.labelMarca.TabIndex = 46;
-            this.labelMarca.Text = "modelo vehículo";
+            this.labelMarca.Text = "Modelo ";
             // 
             // label1
             // 
@@ -133,9 +133,9 @@
             this.label1.Location = new System.Drawing.Point(17, 95);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 18);
+            this.label1.Size = new System.Drawing.Size(49, 18);
             this.label1.TabIndex = 45;
-            this.label1.Text = "placa vehículo";
+            this.label1.Text = "Placa ";
             // 
             // botonIngresar
             // 
@@ -146,7 +146,7 @@
             this.botonIngresar.Name = "botonIngresar";
             this.botonIngresar.Size = new System.Drawing.Size(232, 39);
             this.botonIngresar.TabIndex = 44;
-            this.botonIngresar.Text = "INGRESAR";
+            this.botonIngresar.Text = "REGISTRAR";
             this.botonIngresar.UseVisualStyleBackColor = false;
             // 
             // textCodigo
@@ -164,9 +164,9 @@
             this.labelCodigo.Location = new System.Drawing.Point(18, 60);
             this.labelCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCodigo.Name = "labelCodigo";
-            this.labelCodigo.Size = new System.Drawing.Size(108, 18);
+            this.labelCodigo.Size = new System.Drawing.Size(54, 18);
             this.labelCodigo.TabIndex = 42;
-            this.labelCodigo.Text = "marca vehículo";
+            this.labelCodigo.Text = "Marca ";
             // 
             // labelIngresarProducto
             // 
@@ -175,9 +175,9 @@
             this.labelIngresarProducto.Location = new System.Drawing.Point(154, 9);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(136, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(144, 18);
             this.labelIngresarProducto.TabIndex = 41;
-            this.labelIngresarProducto.Text = "Ingresar vehículo";
+            this.labelIngresarProducto.Text = "Registrar vehículo";
             // 
             // txtprecioVen
             // 
@@ -194,9 +194,9 @@
             this.label2.Location = new System.Drawing.Point(17, 312);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 18);
+            this.label2.Size = new System.Drawing.Size(132, 18);
             this.label2.TabIndex = 69;
-            this.label2.Text = "precio de venta";
+            this.label2.Text = "Precio de venta ($)";
             // 
             // label3
             // 
@@ -205,9 +205,9 @@
             this.label3.Location = new System.Drawing.Point(17, 139);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 18);
+            this.label3.Size = new System.Drawing.Size(41, 18);
             this.label3.TabIndex = 71;
-            this.label3.Text = "tipo vehículo";
+            this.label3.Text = "Tipo ";
             // 
             // comboBox1
             // 
@@ -258,7 +258,7 @@
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
             this.Name = "IngresarProductoVehículo";
-            this.Text = "Ingresar  Vehículo";
+            this.Text = "Registrar  Vehículo";
             this.ResumeLayout(false);
             this.PerformLayout();
 

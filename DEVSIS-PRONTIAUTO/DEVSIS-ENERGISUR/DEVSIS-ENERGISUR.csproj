@@ -106,11 +106,11 @@
     <Compile Include="ConsultarMantenimiento.designer.cs">
       <DependentUpon>ConsultarMantenimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConsultarMarcaVehículo.cs">
+    <Compile Include="ConsultarVehículo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConsultarMarcaVehículo.Designer.cs">
-      <DependentUpon>ConsultarMarcaVehículo.cs</DependentUpon>
+    <Compile Include="ConsultarVehículo.Designer.cs">
+      <DependentUpon>ConsultarVehículo.cs</DependentUpon>
     </Compile>
     <Compile Include="ConsultarNumeroOrdenCompra.cs">
       <SubType>Form</SubType>
@@ -332,8 +332,8 @@
     <EmbeddedResource Include="ConsultarMantenimiento.resx">
       <DependentUpon>ConsultarMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarMarcaVehículo.resx">
-      <DependentUpon>ConsultarMarcaVehículo.cs</DependentUpon>
+    <EmbeddedResource Include="ConsultarVehículo.resx">
+      <DependentUpon>ConsultarVehículo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarNumeroOrdenCompra.resx">
       <DependentUpon>ConsultarNumeroOrdenCompra.cs</DependentUpon>

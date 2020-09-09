@@ -53,32 +53,33 @@ namespace DEVSIS_ENERGISUR
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if(textCedula.Text != usuario)
-            {
+            if (comboBox1.Text != "Administración")
+
                 MessageBox.Show("Usuario no registrado");
-            }
             else
             {
-                if(textContrasena.Text != contrasena)
+
+                if (textCedula.Text != usuario)
                 {
-                    MessageBox.Show("Contraseña incorrecta");
-                    textContrasena.Text = "";
+                    MessageBox.Show("Usuario no registrado");
                 }
                 else
                 {
-                    if(comboBox1.Text != "Administración")
+                    if (textContrasena.Text != contrasena)
                     {
-                        MessageBox.Show("Usuario no registrado");
+                        MessageBox.Show("Contraseña incorrecta");
+                        textContrasena.Text = "";
                     }
                     else
                     {
+
                         MenuPrincipal menu = new MenuPrincipal();
                         menu.Show();
                         this.Visible = false;
+
                     }
                 }
-            }
-                
+            }   
         }
 
         private void textCedula_KeyPress(object sender, KeyPressEventArgs e)
@@ -94,23 +95,24 @@ namespace DEVSIS_ENERGISUR
 
         private void textCedula_Leave(object sender, EventArgs e)
         {
-            if (VerificaCedula(textCedula.Text))
-            {
-                
-            }
-            else if (textCedula.Text == String.Empty)
-            {
-                MessageBox.Show("Entrada de número cédula vacía");
-            }
-            else if (textCedula.TextLength < 10)
-            {
-                MessageBox.Show("Número de cédula incompleto");
-            }
-            else
-            {
-                MessageBox.Show("Número de cédula no válido");
 
-            }
+            //if (VerificaCedula(textCedula.Text))
+            //{
+                
+            //}
+            //else if (textCedula.Text == String.Empty)
+            //{
+            //    MessageBox.Show("Entrada de número cédula vacía");
+            //}
+            //else if (textCedula.TextLength < 10)
+            //{
+            //    MessageBox.Show("Número de cédula incompleto");
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Número de cédula no válido");
+
+            //}
             
             
         }

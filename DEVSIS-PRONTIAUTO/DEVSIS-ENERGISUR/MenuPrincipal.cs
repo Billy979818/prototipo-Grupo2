@@ -47,20 +47,24 @@ namespace DEVSIS_ENERGISUR
         private void ingresarClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new IngresarCliente().Show();
+            this.Close();
         }
 
         private void actualizarClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new ActualizarCliente().Show();
+            this.Close();
         }
 
         private void darDeBajaClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new DardeBajaCliente().Show();
+            this.Close();
         }
         private void darDeAltaClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new DardeAltaCliente().Show();
+            this.Close();
 
         }
         private void ingresarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
@@ -94,6 +98,7 @@ namespace DEVSIS_ENERGISUR
         private void consultarClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new ConsultarCliente().Show();
+            this.Close();
         }
 
         
@@ -168,7 +173,7 @@ namespace DEVSIS_ENERGISUR
 
         private void manteniientoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ConsultarMarcaVehículo().Show();
+            new ConsultarVehículo().Show();
             this.Close();
         }
 
@@ -255,7 +260,7 @@ namespace DEVSIS_ENERGISUR
 
         private void marcaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ConsultarMarcaVehículo().Show();
+            new ConsultarVehículo().Show();
         }
 
         private void modeloToolStripMenuItem_Click(object sender, EventArgs e)

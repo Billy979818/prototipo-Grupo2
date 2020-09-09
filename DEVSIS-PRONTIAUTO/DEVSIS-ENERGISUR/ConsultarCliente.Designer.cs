@@ -50,29 +50,29 @@
             // 
             // textCodigo
             // 
-            this.textCodigo.Location = new System.Drawing.Point(446, 52);
+            this.textCodigo.Location = new System.Drawing.Point(354, 47);
             this.textCodigo.Margin = new System.Windows.Forms.Padding(2);
             this.textCodigo.Name = "textCodigo";
-            this.textCodigo.Size = new System.Drawing.Size(316, 20);
+            this.textCodigo.Size = new System.Drawing.Size(266, 20);
             this.textCodigo.TabIndex = 46;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.Control;
-            this.dataGridView1.Location = new System.Drawing.Point(32, 89);
+            this.dataGridView1.Location = new System.Drawing.Point(32, 95);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(750, 325);
+            this.dataGridView1.Size = new System.Drawing.Size(626, 285);
             this.dataGridView1.TabIndex = 48;
             // 
             // botonConsultar
             // 
             this.botonConsultar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonConsultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonConsultar.Location = new System.Drawing.Point(110, 422);
+            this.botonConsultar.Location = new System.Drawing.Point(70, 400);
             this.botonConsultar.Margin = new System.Windows.Forms.Padding(2);
             this.botonConsultar.Name = "botonConsultar";
             this.botonConsultar.Size = new System.Drawing.Size(232, 39);
@@ -80,11 +80,11 @@
             this.botonConsultar.Text = "CONSULTAR";
             this.botonConsultar.UseVisualStyleBackColor = false;
             // 
-            // botonRegresar
+            // botonCancelar
             // 
             this.botonCancelar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonCancelar.Location = new System.Drawing.Point(463, 422);
+            this.botonCancelar.Location = new System.Drawing.Point(330, 400);
             this.botonCancelar.Margin = new System.Windows.Forms.Padding(2);
             this.botonCancelar.Name = "botonCancelar";
             this.botonCancelar.Size = new System.Drawing.Size(232, 39);
@@ -95,22 +95,22 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Cédula de ciudadanía",
             "Nombres completos"});
             this.comboBox1.Location = new System.Drawing.Point(32, 47);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(295, 28);
+            this.comboBox1.Size = new System.Drawing.Size(295, 26);
             this.comboBox1.TabIndex = 51;
-            this.comboBox1.Text = "Consultar ";
+            this.comboBox1.Text = "Seleccionar parámetro de búsqueda";
             // 
             // ConsultarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(834, 472);
+            this.ClientSize = new System.Drawing.Size(690, 475);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.botonCancelar);
             this.Controls.Add(this.botonConsultar);

@@ -53,9 +53,9 @@
             this.labelIngresarProducto.Location = new System.Drawing.Point(210, 9);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(123, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(131, 18);
             this.labelIngresarProducto.TabIndex = 50;
-            this.labelIngresarProducto.Text = "Ingresar cliente";
+            this.labelIngresarProducto.Text = "Registrar cliente";
             // 
             // labelCodigo
             // 
@@ -180,10 +180,10 @@
             this.botonIngresar.Name = "botonIngresar";
             this.botonIngresar.Size = new System.Drawing.Size(129, 39);
             this.botonIngresar.TabIndex = 66;
-            this.botonIngresar.Text = "INGRESAR";
+            this.botonIngresar.Text = "REGISTRAR";
             this.botonIngresar.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // buttonCancelar
             // 
             this.buttonCancelar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -196,7 +196,7 @@
             this.buttonCancelar.UseVisualStyleBackColor = false;
             this.buttonCancelar.Click += new System.EventHandler(this.botonCancelar_Click);
             // 
-            // button2
+            // buttonLimpiar
             // 
             this.buttonLimpiar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -204,8 +204,6 @@
             this.buttonLimpiar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLimpiar.Name = "buttonLimpiar";
             this.buttonLimpiar.Size = new System.Drawing.Size(116, 39);
-            this.buttonLimpiar.TabIndex = 76;
-            this.buttonLimpiar.TabIndex = 76;
             this.buttonLimpiar.TabIndex = 76;
             this.buttonLimpiar.Text = "LIMPIAR";
             this.buttonLimpiar.UseVisualStyleBackColor = false;
@@ -235,7 +233,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "IngresarCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "IngresarCliente";
+            this.Text = "Registrar Cliente";
             this.ResumeLayout(false);
             this.PerformLayout();
 

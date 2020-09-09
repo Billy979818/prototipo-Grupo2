@@ -1,6 +1,6 @@
 ﻿namespace DEVSIS_ENERGISUR
 {
-    partial class ConsultarMarcaVehículo
+    partial class ConsultarVehículo
     {
         /// <summary>
         /// Required designer variable.
@@ -93,11 +93,11 @@
             "placa ",
             "marca",
             "modelo"});
-            this.comboBox1.Location = new System.Drawing.Point(100, 41);
+            this.comboBox1.Location = new System.Drawing.Point(33, 41);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(174, 26);
+            this.comboBox1.Size = new System.Drawing.Size(266, 26);
             this.comboBox1.TabIndex = 55;
-            this.comboBox1.Text = "Consultar";
+            this.comboBox1.Text = "Seleccionar parámetro de búsqueda";
             // 
             // textBox1
             // 

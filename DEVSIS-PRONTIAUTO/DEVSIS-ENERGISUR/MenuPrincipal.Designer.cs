@@ -182,12 +182,14 @@
             this.generarCopiaDeSeguridadToolStripMenuItem.Name = "generarCopiaDeSeguridadToolStripMenuItem";
             this.generarCopiaDeSeguridadToolStripMenuItem.Size = new System.Drawing.Size(262, 24);
             this.generarCopiaDeSeguridadToolStripMenuItem.Text = "Generar copia de seguridad";
+            this.generarCopiaDeSeguridadToolStripMenuItem.Click += new System.EventHandler(this.generarbackupClienteToolStripMenuItem_Click);
             // 
             // generarReportesToolStripMenuItem
             // 
             this.generarReportesToolStripMenuItem.Name = "generarReportesToolStripMenuItem";
             this.generarReportesToolStripMenuItem.Size = new System.Drawing.Size(262, 24);
             this.generarReportesToolStripMenuItem.Text = "Emitir reportes";
+            this.generarReportesToolStripMenuItem.Click += new System.EventHandler(this.emitirreporteClienteToolStripMenuItem_Click);
             // 
             // productosToolStripMenuItem
             // 
@@ -513,5 +515,6 @@
         private System.Windows.Forms.ToolStripMenuItem actualizarDireccionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem actualizarTelefonoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem actualizarCorreoToolStripMenuItem;
+     
     }
 }

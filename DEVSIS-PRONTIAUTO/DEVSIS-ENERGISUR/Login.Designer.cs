@@ -103,10 +103,11 @@
             // 
             // textCedula
             // 
+            this.textCedula.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textCedula.Location = new System.Drawing.Point(390, 229);
             this.textCedula.Margin = new System.Windows.Forms.Padding(2);
             this.textCedula.Name = "textCedula";
-            this.textCedula.Size = new System.Drawing.Size(142, 20);
+            this.textCedula.Size = new System.Drawing.Size(142, 24);
             this.textCedula.TabIndex = 5;
             this.textCedula.TextChanged += new System.EventHandler(this.textCedula_TextChanged);
             this.textCedula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textCedula_KeyPress);
@@ -114,11 +115,12 @@
             // 
             // textContrasena
             // 
+            this.textContrasena.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textContrasena.Location = new System.Drawing.Point(390, 285);
             this.textContrasena.Margin = new System.Windows.Forms.Padding(2);
             this.textContrasena.Name = "textContrasena";
             this.textContrasena.PasswordChar = '*';
-            this.textContrasena.Size = new System.Drawing.Size(142, 20);
+            this.textContrasena.Size = new System.Drawing.Size(142, 24);
             this.textContrasena.TabIndex = 6;
             this.textContrasena.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textContrasena_KeyPress);
             this.textContrasena.Leave += new System.EventHandler(this.textContrasena_Leave);

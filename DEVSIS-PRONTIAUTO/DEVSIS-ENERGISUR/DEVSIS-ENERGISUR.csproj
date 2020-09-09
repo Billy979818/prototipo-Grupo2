@@ -224,6 +224,18 @@
     <Compile Include="EmitirMantenimiento.designer.cs">
       <DependentUpon>EmitirMantenimiento.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmitirReporteClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmitirReporteClientes.Designer.cs">
+      <DependentUpon>EmitirReporteClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerarCopiaSeguridadClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerarCopiaSeguridadClientes.Designer.cs">
+      <DependentUpon>GenerarCopiaSeguridadClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="GenerarNotaCredito.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -397,6 +409,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EmitirMantenimiento.resx">
       <DependentUpon>EmitirMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmitirReporteClientes.resx">
+      <DependentUpon>EmitirReporteClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerarCopiaSeguridadClientes.resx">
+      <DependentUpon>GenerarCopiaSeguridadClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GenerarFactura.resx">
       <DependentUpon>GenerarFactura.cs</DependentUpon>

@@ -82,7 +82,21 @@ namespace DEVSIS_ENERGISUR
 
         }
 
-        
+        private void generarbackupClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new GenerarCopiaSeguridadClientes().Show();
+            this.Close();
+
+        }
+
+        private void emitirreporteClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new EmitirReporteClientes().Show();
+            this.Close();
+
+        }
+
+
 
         private void ingresarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
         {

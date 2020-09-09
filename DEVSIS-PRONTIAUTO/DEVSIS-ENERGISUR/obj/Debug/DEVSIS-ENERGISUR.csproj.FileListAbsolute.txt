@@ -356,3 +356,5 @@ C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIA
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarDireccionCorreoElectronico.resources
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarTeléfono.resources
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarVehículo.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EmitirReporteClientes.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarCopiaSeguridadClientes.resources

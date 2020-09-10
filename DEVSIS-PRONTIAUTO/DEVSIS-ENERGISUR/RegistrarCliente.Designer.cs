@@ -1,6 +1,6 @@
 ﻿namespace DEVSIS_ENERGISUR
 {
-    partial class IngresarCliente
+    partial class RegistrarCliente
     {
         /// <summary>
         /// Required designer variable.
@@ -56,31 +56,32 @@
             this.labelIngresarProducto.Size = new System.Drawing.Size(131, 18);
             this.labelIngresarProducto.TabIndex = 50;
             this.labelIngresarProducto.Text = "Registrar cliente";
+            this.labelIngresarProducto.Click += new System.EventHandler(this.labelIngresarProducto_Click);
             // 
             // labelCodigo
             // 
             this.labelCodigo.AutoSize = true;
             this.labelCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCodigo.Location = new System.Drawing.Point(29, 65);
+            this.labelCodigo.Location = new System.Drawing.Point(11, 104);
             this.labelCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCodigo.Name = "labelCodigo";
-            this.labelCodigo.Size = new System.Drawing.Size(148, 18);
+            this.labelCodigo.Size = new System.Drawing.Size(223, 18);
             this.labelCodigo.TabIndex = 51;
-            this.labelCodigo.Text = "Cédula de ciudadanía";
+            this.labelCodigo.Text = "Número de cédula de ciudadanía";
             // 
             // textTelefono
             // 
             this.textTelefono.Location = new System.Drawing.Point(245, 66);
             this.textTelefono.Margin = new System.Windows.Forms.Padding(2);
             this.textTelefono.Name = "textTelefono";
-            this.textTelefono.Size = new System.Drawing.Size(248, 20);
+            this.textTelefono.Size = new System.Drawing.Size(284, 20);
             this.textTelefono.TabIndex = 52;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(29, 105);
+            this.label3.Location = new System.Drawing.Point(11, 65);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(144, 18);
@@ -113,7 +114,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(32, 145);
+            this.label4.Location = new System.Drawing.Point(10, 144);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(145, 18);
@@ -136,7 +137,7 @@
             this.textBox1.Location = new System.Drawing.Point(245, 105);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(248, 20);
+            this.textBox1.Size = new System.Drawing.Size(284, 20);
             this.textBox1.TabIndex = 59;
             // 
             // textBox3
@@ -144,7 +145,7 @@
             this.textBox3.Location = new System.Drawing.Point(245, 235);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(248, 20);
+            this.textBox3.Size = new System.Drawing.Size(284, 20);
             this.textBox3.TabIndex = 61;
             // 
             // textBox4
@@ -152,7 +153,7 @@
             this.textBox4.Location = new System.Drawing.Point(245, 276);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(248, 20);
+            this.textBox4.Size = new System.Drawing.Size(284, 20);
             this.textBox4.TabIndex = 62;
             // 
             // textBox5
@@ -160,7 +161,7 @@
             this.textBox5.Location = new System.Drawing.Point(245, 319);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(248, 20);
+            this.textBox5.Size = new System.Drawing.Size(284, 20);
             this.textBox5.TabIndex = 63;
             // 
             // botonIngresar
@@ -192,7 +193,7 @@
             // 
             this.buttonLimpiar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLimpiar.Location = new System.Drawing.Point(245, 422);
+            this.buttonLimpiar.Location = new System.Drawing.Point(225, 422);
             this.buttonLimpiar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLimpiar.Name = "buttonLimpiar";
             this.buttonLimpiar.Size = new System.Drawing.Size(116, 39);
@@ -208,7 +209,7 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(234, 20);
             this.dateTimePicker1.TabIndex = 77;
             // 
-            // IngresarCliente
+            // RegistrarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -230,7 +231,7 @@
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "IngresarCliente";
+            this.Name = "RegistrarCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Cliente";
             this.ResumeLayout(false);

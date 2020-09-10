@@ -286,7 +286,6 @@ C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIA
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarNotaCreditoMantenimiento.resources
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarOrdenCompra.resources
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarReportesMantenimiento.resources
-C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarCliente.resources
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarMantenimiento.resources
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoMantenimiento.resources
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoVehículo.resources
@@ -354,7 +353,8 @@ C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROGRAMA GIT-HUB\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarVehículo.resources
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarDireccionCliente.resources
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarDireccionCorreoElectronico.resources
-C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarTeléfono.resources
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarVehículo.resources
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EmitirReporteClientes.resources
 C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarCopiaSeguridadClientes.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarTeléfonoCelular.resources
+C:\Users\ediso\Documents\C# Proyects\Proyecto Software ProntiAuto\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.RegistrarCliente.resources

@@ -50,10 +50,10 @@
             // 
             // textCodigo
             // 
-            this.textCodigo.Location = new System.Drawing.Point(354, 47);
+            this.textCodigo.Location = new System.Drawing.Point(436, 47);
             this.textCodigo.Margin = new System.Windows.Forms.Padding(2);
             this.textCodigo.Name = "textCodigo";
-            this.textCodigo.Size = new System.Drawing.Size(266, 20);
+            this.textCodigo.Size = new System.Drawing.Size(352, 20);
             this.textCodigo.TabIndex = 46;
             // 
             // dataGridView1
@@ -65,14 +65,14 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(626, 285);
+            this.dataGridView1.Size = new System.Drawing.Size(800, 285);
             this.dataGridView1.TabIndex = 48;
             // 
             // botonConsultar
             // 
             this.botonConsultar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonConsultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonConsultar.Location = new System.Drawing.Point(70, 400);
+            this.botonConsultar.Location = new System.Drawing.Point(146, 400);
             this.botonConsultar.Margin = new System.Windows.Forms.Padding(2);
             this.botonConsultar.Name = "botonConsultar";
             this.botonConsultar.Size = new System.Drawing.Size(232, 39);
@@ -84,7 +84,7 @@
             // 
             this.botonCancelar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonCancelar.Location = new System.Drawing.Point(330, 400);
+            this.botonCancelar.Location = new System.Drawing.Point(470, 400);
             this.botonCancelar.Margin = new System.Windows.Forms.Padding(2);
             this.botonCancelar.Name = "botonCancelar";
             this.botonCancelar.Size = new System.Drawing.Size(232, 39);
@@ -98,7 +98,7 @@
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Cédula de ciudadanía",
+            "Número de cédula de ciudadanía",
             "Nombres completos"});
             this.comboBox1.Location = new System.Drawing.Point(32, 47);
             this.comboBox1.Name = "comboBox1";
@@ -110,7 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(690, 475);
+            this.ClientSize = new System.Drawing.Size(843, 475);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.botonCancelar);
             this.Controls.Add(this.botonConsultar);
@@ -120,7 +120,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ConsultarCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Consultar cliente ";
+            this.Text = "Consultarcliente ";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -46,13 +46,13 @@ namespace DEVSIS_ENERGISUR
 
         private void ingresarClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new IngresarCliente().Show();
+            new RegistrarCliente().Show();
             this.Close();
         }
 
         private void actualizartelefonoClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new ActualizarTeléfono().Show();
+            new ActualizarTeléfonoCelular().Show();
             this.Close();
 
         }

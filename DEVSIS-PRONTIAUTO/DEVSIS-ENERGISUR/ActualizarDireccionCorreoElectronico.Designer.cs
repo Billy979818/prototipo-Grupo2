@@ -36,13 +36,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.textCorreo = new System.Windows.Forms.TextBox();
-            this.txtNombreArticulo = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.botonActualizar = new System.Windows.Forms.Button();
             this.buttonCancelar = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // labelIngresarProducto
@@ -52,9 +52,9 @@
             this.labelIngresarProducto.Location = new System.Drawing.Point(76, 9);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(388, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(377, 18);
             this.labelIngresarProducto.TabIndex = 50;
-            this.labelIngresarProducto.Text = "Actualizar Dirección de Correo Electrónico Cliente";
+            this.labelIngresarProducto.Text = "Actualizar dirección de correo electrónico cliente";
             this.labelIngresarProducto.Click += new System.EventHandler(this.labelIngresarProducto_Click);
             // 
             // labelCodigo
@@ -64,9 +64,9 @@
             this.labelCodigo.Location = new System.Drawing.Point(28, 60);
             this.labelCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCodigo.Name = "labelCodigo";
-            this.labelCodigo.Size = new System.Drawing.Size(148, 18);
+            this.labelCodigo.Size = new System.Drawing.Size(223, 18);
             this.labelCodigo.TabIndex = 51;
-            this.labelCodigo.Text = "Cédula de ciudadanía";
+            this.labelCodigo.Text = "Número de cédula de ciudadanía";
             // 
             // label3
             // 
@@ -131,17 +131,6 @@
             this.textCorreo.Size = new System.Drawing.Size(248, 20);
             this.textCorreo.TabIndex = 59;
             // 
-            // txtNombreArticulo
-            // 
-            this.txtNombreArticulo.Enabled = false;
-            this.txtNombreArticulo.Location = new System.Drawing.Point(276, 61);
-            this.txtNombreArticulo.Margin = new System.Windows.Forms.Padding(2);
-            this.txtNombreArticulo.Name = "txtNombreArticulo";
-            this.txtNombreArticulo.Size = new System.Drawing.Size(248, 20);
-            this.txtNombreArticulo.TabIndex = 81;
-            this.txtNombreArticulo.Text = "No permitido";
-            this.txtNombreArticulo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
             // textBox1
             // 
             this.textBox1.Enabled = false;
@@ -186,14 +175,13 @@
             this.textBox4.Text = "No permitido";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // 
             // botonActualizar
             // 
             this.botonActualizar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botonActualizar.Location = new System.Drawing.Point(73, 341);
             this.botonActualizar.Margin = new System.Windows.Forms.Padding(2);
-            this.botonActualizar.Name = "botonIngresar";
+            this.botonActualizar.Name = "botonActualizar";
             this.botonActualizar.Size = new System.Drawing.Size(170, 39);
             this.botonActualizar.TabIndex = 65;
             this.botonActualizar.Text = "ACTUALIZAR";
@@ -212,18 +200,26 @@
             this.buttonCancelar.UseVisualStyleBackColor = false;
             this.buttonCancelar.Click += new System.EventHandler(this.botonCancelar_Click);
             // 
-            // ActualizarDirecciónCorreoElectrónico
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(276, 58);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(248, 20);
+            this.textBox5.TabIndex = 86;
+            // 
+            // ActualizarDireccionCorreoElectronico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(552, 450);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.buttonCancelar);
             this.Controls.Add(this.botonActualizar);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.txtNombreArticulo);
             this.Controls.Add(this.textCorreo);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -232,8 +228,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
-            this.Name = "ActualizarDirecciónCorreoElectrónico";
-            this.Text = "ActualizarDirecciónCorreoElectrónico";
+            this.Name = "ActualizarDireccionCorreoElectronico";
+            this.Text = "ActualizarDirecciónCorreoElectrónicoCliente";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -249,12 +245,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textCorreo;
-        private System.Windows.Forms.TextBox txtNombreArticulo;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button botonActualizar;
         private System.Windows.Forms.Button buttonCancelar;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }

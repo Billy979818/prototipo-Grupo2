@@ -70,11 +70,11 @@
     <Compile Include="ActualizarProductoMantenimiento.Designer.cs">
       <DependentUpon>ActualizarProductoMantenimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="ActualizarTeléfono.cs">
+    <Compile Include="ActualizarTeléfonoCelular.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ActualizarTeléfono.Designer.cs">
-      <DependentUpon>ActualizarTeléfono.cs</DependentUpon>
+    <Compile Include="ActualizarTeléfonoCelular.Designer.cs">
+      <DependentUpon>ActualizarTeléfonoCelular.cs</DependentUpon>
     </Compile>
     <Compile Include="AñadirProducto.cs">
       <SubType>Form</SubType>
@@ -266,11 +266,11 @@
     <Compile Include="GenerarReportesMantenimiento.designer.cs">
       <DependentUpon>GenerarReportesMantenimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="IngresarCliente.cs">
+    <Compile Include="RegistrarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IngresarCliente.Designer.cs">
-      <DependentUpon>IngresarCliente.cs</DependentUpon>
+    <Compile Include="RegistrarCliente.Designer.cs">
+      <DependentUpon>RegistrarCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="IngresarMantenimiento.cs">
       <SubType>Form</SubType>
@@ -335,8 +335,8 @@
     <EmbeddedResource Include="ActualizarProductoMantenimiento.resx">
       <DependentUpon>ActualizarProductoMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ActualizarTeléfono.resx">
-      <DependentUpon>ActualizarTeléfono.cs</DependentUpon>
+    <EmbeddedResource Include="ActualizarTeléfonoCelular.resx">
+      <DependentUpon>ActualizarTeléfonoCelular.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AñadirProducto.resx">
       <DependentUpon>AñadirProducto.cs</DependentUpon>
@@ -431,8 +431,8 @@
     <EmbeddedResource Include="GenerarReportesMantenimiento.resx">
       <DependentUpon>GenerarReportesMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IngresarCliente.resx">
-      <DependentUpon>IngresarCliente.cs</DependentUpon>
+    <EmbeddedResource Include="RegistrarCliente.resx">
+      <DependentUpon>RegistrarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IngresarMantenimiento.resx">
       <DependentUpon>IngresarMantenimiento.cs</DependentUpon>

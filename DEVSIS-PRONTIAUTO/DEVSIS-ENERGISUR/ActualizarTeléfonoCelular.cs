@@ -10,20 +10,24 @@ using System.Windows.Forms;
 
 namespace DEVSIS_ENERGISUR
 {
-    public partial class IngresarCliente : Form
+    public partial class ActualizarTeléfonoCelular : Form
     {
-        public IngresarCliente()
+        public ActualizarTeléfonoCelular()
         {
             InitializeComponent();
         }
-
         private void botonCancelar_Click(object sender, EventArgs e)
         {
             new MenuPrincipal().Show();
             this.Visible = false;
         }
 
-        private void botonLimpiar_Click(object sender, EventArgs e)
+        private void labelIngresarProducto_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelCodigo_Click(object sender, EventArgs e)
         {
 
         }

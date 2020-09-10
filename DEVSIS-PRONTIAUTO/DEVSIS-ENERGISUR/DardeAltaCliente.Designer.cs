@@ -53,12 +53,12 @@
             // 
             this.labelCodigo.AutoSize = true;
             this.labelCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCodigo.Location = new System.Drawing.Point(98, 42);
+            this.labelCodigo.Location = new System.Drawing.Point(44, 45);
             this.labelCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCodigo.Name = "labelCodigo";
-            this.labelCodigo.Size = new System.Drawing.Size(148, 18);
+            this.labelCodigo.Size = new System.Drawing.Size(223, 18);
             this.labelCodigo.TabIndex = 79;
-            this.labelCodigo.Text = "Cédula de ciudadanía";
+            this.labelCodigo.Text = "Número de cédula de ciudadanía";
             // 
             // textCodigo
             // 

@@ -46,8 +46,6 @@
             this.textCodigoMant = new System.Windows.Forms.TextBox();
             this.labelCodigo = new System.Windows.Forms.Label();
             this.labelIngresarProducto = new System.Windows.Forms.Label();
-            this.txtprecioVen = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -69,13 +67,13 @@
             this.label4.Location = new System.Drawing.Point(32, 72);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 18);
+            this.label4.Size = new System.Drawing.Size(66, 18);
             this.label4.TabIndex = 78;
-            this.label4.Text = "Nombre Artículo";
+            this.label4.Text = "Nombre ";
             // 
             // txtDescrpcion
             // 
-            this.txtDescrpcion.Location = new System.Drawing.Point(217, 358);
+            this.txtDescrpcion.Location = new System.Drawing.Point(217, 329);
             this.txtDescrpcion.Multiline = true;
             this.txtDescrpcion.Name = "txtDescrpcion";
             this.txtDescrpcion.Size = new System.Drawing.Size(244, 88);
@@ -85,7 +83,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(39, 396);
+            this.label3.Location = new System.Drawing.Point(31, 329);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(87, 18);
@@ -96,17 +94,17 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(36, 333);
+            this.label2.Location = new System.Drawing.Point(31, 282);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 18);
+            this.label2.Size = new System.Drawing.Size(41, 18);
             this.label2.TabIndex = 75;
-            this.label2.Text = "Tipo Artículo";
+            this.label2.Text = "Tipo ";
             // 
             // txtTipoMan
             // 
             this.txtTipoMan.Enabled = false;
-            this.txtTipoMan.Location = new System.Drawing.Point(217, 322);
+            this.txtTipoMan.Location = new System.Drawing.Point(217, 283);
             this.txtTipoMan.Margin = new System.Windows.Forms.Padding(2);
             this.txtTipoMan.Name = "txtTipoMan";
             this.txtTipoMan.Size = new System.Drawing.Size(248, 20);
@@ -133,7 +131,6 @@
             this.textMarcaMant.Name = "textMarcaMant";
             this.textMarcaMant.Size = new System.Drawing.Size(248, 20);
             this.textMarcaMant.TabIndex = 71;
-            this.textMarcaMant.Text = "No permitido";
             this.textMarcaMant.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // textCodMan
@@ -162,9 +159,9 @@
             this.labelPrecio.Location = new System.Drawing.Point(32, 242);
             this.labelPrecio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPrecio.Name = "labelPrecio";
-            this.labelPrecio.Size = new System.Drawing.Size(126, 18);
+            this.labelPrecio.Size = new System.Drawing.Size(55, 18);
             this.labelPrecio.TabIndex = 68;
-            this.labelPrecio.Text = "Precio de compra";
+            this.labelPrecio.Text = "Precio ";
             // 
             // labelVoltaje
             // 
@@ -173,9 +170,9 @@
             this.labelVoltaje.Location = new System.Drawing.Point(32, 204);
             this.labelVoltaje.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelVoltaje.Name = "labelVoltaje";
-            this.labelVoltaje.Size = new System.Drawing.Size(100, 18);
+            this.labelVoltaje.Size = new System.Drawing.Size(51, 18);
             this.labelVoltaje.TabIndex = 67;
-            this.labelVoltaje.Text = "Stock Artículo";
+            this.labelVoltaje.Text = "Stock ";
             // 
             // labelMarca
             // 
@@ -184,9 +181,9 @@
             this.labelMarca.Location = new System.Drawing.Point(32, 171);
             this.labelMarca.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelMarca.Name = "labelMarca";
-            this.labelMarca.Size = new System.Drawing.Size(109, 18);
+            this.labelMarca.Size = new System.Drawing.Size(60, 18);
             this.labelMarca.TabIndex = 66;
-            this.labelMarca.Text = "Código Artículo";
+            this.labelMarca.Text = "Código ";
             // 
             // label1
             // 
@@ -195,9 +192,9 @@
             this.label1.Location = new System.Drawing.Point(31, 138);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 18);
+            this.label1.Size = new System.Drawing.Size(62, 18);
             this.label1.TabIndex = 65;
-            this.label1.Text = "Modelo Artículo";
+            this.label1.Text = "Modelo ";
             // 
             // botonIngresar
             // 
@@ -229,9 +226,9 @@
             this.labelCodigo.Location = new System.Drawing.Point(32, 104);
             this.labelCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCodigo.Name = "labelCodigo";
-            this.labelCodigo.Size = new System.Drawing.Size(103, 18);
+            this.labelCodigo.Size = new System.Drawing.Size(54, 18);
             this.labelCodigo.TabIndex = 62;
-            this.labelCodigo.Text = "Marca Artículo";
+            this.labelCodigo.Text = "Marca ";
             // 
             // labelIngresarProducto
             // 
@@ -240,28 +237,9 @@
             this.labelIngresarProducto.Location = new System.Drawing.Point(163, 23);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(144, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(154, 18);
             this.labelIngresarProducto.TabIndex = 61;
-            this.labelIngresarProducto.Text = "Actualizar Artículo";
-            // 
-            // txtprecioVen
-            // 
-            this.txtprecioVen.Location = new System.Drawing.Point(217, 280);
-            this.txtprecioVen.Margin = new System.Windows.Forms.Padding(2);
-            this.txtprecioVen.Name = "txtprecioVen";
-            this.txtprecioVen.Size = new System.Drawing.Size(248, 20);
-            this.txtprecioVen.TabIndex = 81;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(32, 282);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(112, 18);
-            this.label5.TabIndex = 80;
-            this.label5.Text = "Precioc Artículo";
+            this.labelIngresarProducto.Text = "Actualizar producto";
             // 
             // button1
             // 
@@ -282,8 +260,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(513, 537);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtprecioVen);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.txtNombreArticulo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtDescrpcion);
@@ -330,8 +306,6 @@
         private System.Windows.Forms.TextBox textCodigoMant;
         private System.Windows.Forms.Label labelCodigo;
         private System.Windows.Forms.Label labelIngresarProducto;
-        private System.Windows.Forms.TextBox txtprecioVen;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
     }
 }

@@ -171,9 +171,9 @@
             this.labelIngresarProducto.Location = new System.Drawing.Point(162, 9);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(141, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(149, 18);
             this.labelIngresarProducto.TabIndex = 41;
-            this.labelIngresarProducto.Text = "Ingresar producto";
+            this.labelIngresarProducto.Text = "Registrar producto";
             this.labelIngresarProducto.Click += new System.EventHandler(this.labelIngresarProducto_Click);
             // 
             // label2
@@ -282,7 +282,7 @@
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
             this.Name = "IngresarProductoMantenimiento";
-            this.Text = "Ingresar Producto Mantenimiento";
+            this.Text = "Registrar Producto Mantenimiento";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -54,9 +54,9 @@
             this.labelPrecio.Location = new System.Drawing.Point(53, 292);
             this.labelPrecio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPrecio.Name = "labelPrecio";
-            this.labelPrecio.Size = new System.Drawing.Size(126, 18);
+            this.labelPrecio.Size = new System.Drawing.Size(148, 18);
             this.labelPrecio.TabIndex = 66;
-            this.labelPrecio.Text = "Precio de compra";
+            this.labelPrecio.Text = "Precio de compra ($)";
             // 
             // labelVoltaje
             // 
@@ -65,9 +65,9 @@
             this.labelVoltaje.Location = new System.Drawing.Point(53, 244);
             this.labelVoltaje.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelVoltaje.Name = "labelVoltaje";
-            this.labelVoltaje.Size = new System.Drawing.Size(82, 18);
+            this.labelVoltaje.Size = new System.Drawing.Size(117, 18);
             this.labelVoltaje.TabIndex = 65;
-            this.labelVoltaje.Text = "Kilometraje";
+            this.labelVoltaje.Text = "Kilometraje (km)";
             // 
             // botonRegresar
             // 
@@ -121,9 +121,9 @@
             this.labelMarca.Location = new System.Drawing.Point(53, 196);
             this.labelMarca.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelMarca.Name = "labelMarca";
-            this.labelMarca.Size = new System.Drawing.Size(118, 18);
+            this.labelMarca.Size = new System.Drawing.Size(62, 18);
             this.labelMarca.TabIndex = 59;
-            this.labelMarca.Text = "Modelo Vehículo";
+            this.labelMarca.Text = "Modelo ";
             // 
             // label1
             // 
@@ -132,9 +132,9 @@
             this.label1.Location = new System.Drawing.Point(53, 97);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 18);
+            this.label1.Size = new System.Drawing.Size(49, 18);
             this.label1.TabIndex = 58;
-            this.label1.Text = "Placa Vehículo";
+            this.label1.Text = "Placa ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // botonIngresar
@@ -164,9 +164,9 @@
             this.labelCodigo.Location = new System.Drawing.Point(53, 57);
             this.labelCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCodigo.Name = "labelCodigo";
-            this.labelCodigo.Size = new System.Drawing.Size(110, 18);
+            this.labelCodigo.Size = new System.Drawing.Size(54, 18);
             this.labelCodigo.TabIndex = 55;
-            this.labelCodigo.Text = "Marca Vehículo";
+            this.labelCodigo.Text = "Marca ";
             // 
             // labelIngresarProducto
             // 
@@ -194,9 +194,9 @@
             this.label2.Location = new System.Drawing.Point(53, 349);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 18);
+            this.label2.Size = new System.Drawing.Size(132, 18);
             this.label2.TabIndex = 71;
-            this.label2.Text = "Precio de venta";
+            this.label2.Text = "Precio de venta ($)";
             // 
             // comboBox1
             // 
@@ -218,9 +218,10 @@
             this.label3.Location = new System.Drawing.Point(53, 137);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 18);
+            this.label3.Size = new System.Drawing.Size(36, 18);
             this.label3.TabIndex = 73;
-            this.label3.Text = "tipo vehículo";
+            this.label3.Text = "tipo ";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // EliminarVehiculo
             // 

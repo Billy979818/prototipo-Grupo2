@@ -34,14 +34,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textCedula = new System.Windows.Forms.TextBox();
-            this.textContrasena = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textCedula = new System.Windows.Forms.TextBox();
+            this.textContrasena = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -101,30 +101,6 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Contraseña:";
             // 
-            // textCedula
-            // 
-            this.textCedula.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textCedula.Location = new System.Drawing.Point(390, 229);
-            this.textCedula.Margin = new System.Windows.Forms.Padding(2);
-            this.textCedula.Name = "textCedula";
-            this.textCedula.Size = new System.Drawing.Size(142, 24);
-            this.textCedula.TabIndex = 5;
-            this.textCedula.TextChanged += new System.EventHandler(this.textCedula_TextChanged);
-            this.textCedula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textCedula_KeyPress);
-            this.textCedula.Leave += new System.EventHandler(this.textCedula_Leave);
-            // 
-            // textContrasena
-            // 
-            this.textContrasena.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textContrasena.Location = new System.Drawing.Point(390, 285);
-            this.textContrasena.Margin = new System.Windows.Forms.Padding(2);
-            this.textContrasena.Name = "textContrasena";
-            this.textContrasena.PasswordChar = '*';
-            this.textContrasena.Size = new System.Drawing.Size(142, 24);
-            this.textContrasena.TabIndex = 6;
-            this.textContrasena.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textContrasena_KeyPress);
-            this.textContrasena.Leave += new System.EventHandler(this.textContrasena_Leave);
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -148,24 +124,6 @@
             this.label6.Size = new System.Drawing.Size(121, 20);
             this.label6.TabIndex = 9;
             this.label6.Text = "Tipo de usuario:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Administración",
-            "Ventas",
-            "Gerencia",
-            "Mantenimiento"});
-            this.comboBox1.Location = new System.Drawing.Point(390, 157);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(142, 28);
-            this.comboBox1.TabIndex = 10;
-            this.comboBox1.Text = "Seleccionar";
-            this.comboBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.comboBox1_KeyPress);
             // 
             // button1
             // 
@@ -199,19 +157,56 @@
             this.pictureBox2.TabIndex = 15;
             this.pictureBox2.TabStop = false;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Administración",
+            "Gerencia",
+            "Mantenimiento",
+            "Ventas"});
+            this.comboBox1.Location = new System.Drawing.Point(388, 157);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(165, 26);
+            this.comboBox1.TabIndex = 16;
+            this.comboBox1.Text = "Seleccionar";
+            // 
+            // textCedula
+            // 
+            this.textCedula.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textCedula.Location = new System.Drawing.Point(388, 227);
+            this.textCedula.Name = "textCedula";
+            this.textCedula.Size = new System.Drawing.Size(165, 24);
+            this.textCedula.TabIndex = 5;
+            this.textCedula.TextChanged += new System.EventHandler(this.textCedula_TextChanged);
+            this.textCedula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textCedula_KeyPress);
+            //this.textCedula.Leave += new System.EventHandler(this.textCedula_Leave);
+            // 
+            // textContrasena
+            // 
+            this.textContrasena.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textContrasena.Location = new System.Drawing.Point(388, 282);
+            this.textContrasena.Name = "textContrasena";
+            this.textContrasena.PasswordChar = '*';
+            this.textContrasena.Size = new System.Drawing.Size(165, 24);
+            this.textContrasena.TabIndex = 6;
+            this.textContrasena.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textContrasena_KeyPress);
+            this.textContrasena.Leave += new System.EventHandler(this.textContrasena_Leave);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(607, 478);
+            this.Controls.Add(this.textContrasena);
+            this.Controls.Add(this.textCedula);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textContrasena);
-            this.Controls.Add(this.textCedula);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -236,14 +231,14 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textCedula;
-        private System.Windows.Forms.TextBox textContrasena;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textCedula;
+        private System.Windows.Forms.TextBox textContrasena;
     }
 }
 

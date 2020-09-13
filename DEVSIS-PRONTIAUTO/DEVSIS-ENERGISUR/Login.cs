@@ -14,7 +14,8 @@ namespace DEVSIS_ENERGISUR
     {
 
         String contrasena = "Grupo-2";
-        String usuario = "1725996365";
+        //String usuario = "1725996365";
+        String usuario = "1725866170";
 
         Validaciones v = new Validaciones();
         public Login()
@@ -93,29 +94,57 @@ namespace DEVSIS_ENERGISUR
 
 
 
-        private void textCedula_Leave(object sender, EventArgs e)
+        /*private void textCedula_Leave(object sender, EventArgs e)
         {
+            if (VerificaCedula(textCedula.Text))
+            {
 
-            //if (VerificaCedula(textCedula.Text))
-            //{
+            }
+            else if (textCedula.Text == String.Empty)
+            {
+                if (MessageBox.Show("Desea repetir el ingreso?", "Entrada de número de cédula de ciudadanía vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textCedula.Text = "";
+                   
+                }
+                else
+                {
 
-            //}
-            //else if (textCedula.Text == String.Empty)
-            //{
-            //    MessageBox.Show("Entrada de número cédula vacía");
-            //}
-            //else if (textCedula.TextLength < 10)
-            //{
-            //    MessageBox.Show("Número de cédula incompleto");
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Número de cédula no válido");
+                    Application.Exit();
 
-            //}
+                }
+
+            }
+            else if (textCedula.TextLength < 10)
+            {
+                if (MessageBox.Show("Desea repetir el ingreso?", "Número de cédula de ciudadanía inválido", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textCedula.Text = "";
+                }
+                else
+                {
+
+                    Application.Exit();
+
+                }
+            }
+            else
+            {
+                if (MessageBox.Show("Desea repetir el ingreso?", "Número de cédula de ciudadanía inválido", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textCedula.Text = "";
+                }
+                else
+                {
+
+                    Application.Exit();
+
+                }
+
+            }
 
 
-        }
+        }*/
 
 
 
@@ -123,7 +152,7 @@ namespace DEVSIS_ENERGISUR
         {
             if (textContrasena.Text == String.Empty || textContrasena.Text != contrasena)
             {
-                MessageBox.Show("Entrada de contraseña vacía");
+                MessageBox.Show("Entrada de contraseña inválida");
             }
         }
 

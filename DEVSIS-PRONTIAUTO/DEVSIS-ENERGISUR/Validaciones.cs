@@ -77,35 +77,38 @@ namespace DEVSIS_ENERGISUR
         }
 
         public bool VerificaCedula(string ced)
-        {
-            int isNumeric;
-            var total = 0;
-            const int tamanoLongitudCedula = 10;
-            int[] coeficientes = { 2, 1, 2, 1, 2, 1, 2, 1, 2 };
-            const int numeroProvincia = 24;
-            const int tercerDigito = 6;
+         {
+             int isNumeric;
+             var total = 0;
+             const int tamanoLongitudCedula = 10;
+             int[] coeficientes = { 2, 1, 2, 1, 2, 1, 2, 1, 2 };
+             const int numeroProvincia = 24;
+             const int tercerDigito = 6;
 
-            if (int.TryParse(ced, out isNumeric) && ced.Length == tamanoLongitudCedula)
-            {
-                var provincia = Convert.ToInt32(string.Concat(ced[0], ced[1], string.Empty));
-                var digitoTres = Convert.ToInt32(ced[2] + string.Empty);
-                if ((provincia > 0 && provincia <= numeroProvincia) && digitoTres < tercerDigito)
-                {
-                    var digitoVerificadorRecibido = Convert.ToInt32(ced[9] + string.Empty);
-                    for (var k = 0; k < coeficientes.Length; k++)
-                    {
-                        var valor = Convert.ToInt32(coeficientes[k] + string.Empty) * Convert.ToInt32(ced[k] + string.Empty);
-                        total = valor >= 10 ? total + (valor - 9) : total + valor;
-                    }
-                    var digitoVerificadorObtenido = total >= 10 ? (total % 10) != 0 ? 10 - (total % 10) : (total % 10) : total;
-                    return digitoVerificadorObtenido == digitoVerificadorRecibido;
-                }
-                return false;
-            }
-            return false;
-        }
+             if (int.TryParse(ced, out isNumeric) && ced.Length == tamanoLongitudCedula)
+             {
+                 var provincia = Convert.ToInt32(string.Concat(ced[0], ced[1], string.Empty));
+                 var digitoTres = Convert.ToInt32(ced[2] + string.Empty);
+                 if ((provincia > 0 && provincia <= numeroProvincia) && digitoTres < tercerDigito)
+                 {
+                     var digitoVerificadorRecibido = Convert.ToInt32(ced[9] + string.Empty);
+                     for (var k = 0; k < coeficientes.Length; k++)
+                     {
+                         var valor = Convert.ToInt32(coeficientes[k] + string.Empty) * Convert.ToInt32(ced[k] + string.Empty);
+                         total = valor >= 10 ? total + (valor - 9) : total + valor;
+                     }
+                     var digitoVerificadorObtenido = total >= 10 ? (total % 10) != 0 ? 10 - (total % 10) : (total % 10) : total;
+                     return digitoVerificadorObtenido == digitoVerificadorRecibido;
+                 }
+                 return false;
+             }
+             return false;
+         }
 
-        public  bool validarNumeros(String cadena)
+
+
+      
+        public bool validarNumeros(String cadena)
         {
             String rx = "^[0-9]+$";
             if (Regex.IsMatch(cadena, rx))

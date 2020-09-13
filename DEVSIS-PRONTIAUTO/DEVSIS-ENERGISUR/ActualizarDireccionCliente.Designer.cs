@@ -202,6 +202,7 @@
             this.textDir.Name = "textDir";
             this.textDir.Size = new System.Drawing.Size(248, 20);
             this.textDir.TabIndex = 85;
+            //this.textCI.Leave += new System.EventHandler(this.textDir_Leave);
             // 
             // textCI
             // 
@@ -210,6 +211,7 @@
             this.textCI.Name = "textCI";
             this.textCI.Size = new System.Drawing.Size(248, 20);
             this.textCI.TabIndex = 44;
+            this.textCI.Leave += new System.EventHandler(this.textCedula_Leave);
             // 
             // buttonMostrar
             // 

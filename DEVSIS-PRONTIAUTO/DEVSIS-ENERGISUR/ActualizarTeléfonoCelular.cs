@@ -16,30 +16,14 @@ namespace DEVSIS_ENERGISUR
     {
         string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto; Integrated Security=True";
         public SqlConnection cn = new SqlConnection();
+        Validaciones v = new Validaciones();
         public ActualizarTeléfonoCelular()
         {
             InitializeComponent();
             cn.ConnectionString = cadena;
         }
 
-        public void Abrir()
-        {
-            try
-            {
-                cn.Open();
-                Console.WriteLine("Conexion Exitosa");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error al abrir la Base de Datos" + ex.Message);
-            }
-
-        }
-
-        public void Cerrar()
-        {
-            cn.Close();
-        }
+       
         private void mostrar_Click(object sender, EventArgs e)
         {
             cn.Open();
@@ -59,7 +43,7 @@ namespace DEVSIS_ENERGISUR
                 buttonMostrar.Enabled = true;
             }
             else
-                MessageBox.Show("No existe un artículo con el código ingresado");
+                MessageBox.Show("Cliente no registrado");
             cn.Close();
         }
 
@@ -75,13 +59,13 @@ namespace DEVSIS_ENERGISUR
             cant = comando.ExecuteNonQuery();
             if (cant == 1)
             {
-                MessageBox.Show("Se modificó el teléfono celular del cliente correctamente");
+                MessageBox.Show("Se actualizó el teléfono celular del cliente correctamente");
                 textTC.Text = "";
                 new MenuPrincipal().Show();
                 this.Visible = false;
             }
             else
-                MessageBox.Show("No existe un artículo con el código ingresado");
+                MessageBox.Show("Cliente no registrado");
             cn.Close();
             botonActualizar.Enabled = false;
         }
@@ -92,14 +76,88 @@ namespace DEVSIS_ENERGISUR
             this.Visible = false;
         }
 
-        private void labelIngresarProducto_Click(object sender, EventArgs e)
+       
+
+        private void textCedula_Leave(object sender, EventArgs e)
         {
+            if (v.VerificaCedula(textCI.Text))
+            {
+
+            }
+            else if (textCI.Text == String.Empty)
+            {
+                if (MessageBox.Show("Desea repetir el ingreso?", "Entrada de número de cédula de ciudadanía vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textCI.Text = "";
+                    textCI.Enabled = true;
+                }
+                else
+                {
+
+                    new MenuPrincipal().Show();
+                    this.Visible = false;
+
+                }
+
+            }
+            else if (textCI.TextLength < 10)
+            {
+                if (MessageBox.Show("Desea repetir el ingreso?", "Número de cédula de ciudadanía inválido", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textCI.Text = "";
+                }
+                else
+                {
+
+                    new MenuPrincipal().Show();
+                    this.Visible = false;
+
+                }
+            }
+            else
+            {
+                if (MessageBox.Show("Desea repetir el ingreso?", "Número de cédula de ciudadanía inválido", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textCI.Text = "";
+                }
+                else
+                {
+
+                    new MenuPrincipal().Show();
+                    this.Visible = false;
+
+                }
+
+            }
+
 
         }
 
-        private void labelCodigo_Click(object sender, EventArgs e)
-        {
 
-        }
+
+        /*private void textDir_Leave(object sender, EventArgs e)
+        {
+            if (v.validarDireccion(textDir.Text))
+            {
+
+            }
+            else
+            {
+                if (MessageBox.Show("Desea repetir el ingreso?", "Dirección inválida", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textDir.Text = "";
+                }
+                else
+                {
+
+                    new MenuPrincipal().Show();
+                    this.Visible = false;
+
+                }
+
+            }
+
+
+        }*/
     }
 }

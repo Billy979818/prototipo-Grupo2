@@ -131,6 +131,7 @@
             this.textCI.Name = "textCI";
             this.textCI.Size = new System.Drawing.Size(248, 20);
             this.textCI.TabIndex = 59;
+            this.textCI.Leave += new System.EventHandler(this.textCedula_Leave);
             // 
             // textName
             // 

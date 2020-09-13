@@ -56,7 +56,7 @@
             this.labelIngresarProducto.Size = new System.Drawing.Size(257, 18);
             this.labelIngresarProducto.TabIndex = 50;
             this.labelIngresarProducto.Text = "Actualizar teléfono celular cliente";
-            this.labelIngresarProducto.Click += new System.EventHandler(this.labelIngresarProducto_Click);
+            //this.labelIngresarProducto.Click += new System.EventHandler(this.labelIngresarProducto_Click);
             // 
             // labelCodigo
             // 
@@ -68,7 +68,7 @@
             this.labelCodigo.Size = new System.Drawing.Size(223, 18);
             this.labelCodigo.TabIndex = 51;
             this.labelCodigo.Text = "Número de cédula de ciudadanía";
-            this.labelCodigo.Click += new System.EventHandler(this.labelCodigo_Click);
+            //this.labelCodigo.Click += new System.EventHandler(this.labelCodigo_Click);
             // 
             // label3
             // 
@@ -110,6 +110,7 @@
             this.textCI.Name = "textCI";
             this.textCI.Size = new System.Drawing.Size(248, 20);
             this.textCI.TabIndex = 85;
+            this.textCI.Leave += new System.EventHandler(this.textCedula_Leave);
             // 
             // label2
             // 

@@ -16,7 +16,7 @@ namespace DEVSIS_ENERGISUR
     {
         string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto; Integrated Security=True";
         public SqlConnection cn = new SqlConnection();
-     
+        Validaciones v = new Validaciones();
         public ActualizarDireccionCliente()
         {
             InitializeComponent();
@@ -62,6 +62,7 @@ namespace DEVSIS_ENERGISUR
             cn.Open();
             Console.WriteLine("Conexion Exitosa");
             string cod = textCI.Text;
+            v.VerificaCedula(cod);
             string consult = "select * from CLIENTES where CEDULA=" + cod;
             SqlCommand comando = new SqlCommand(consult, cn);
             SqlDataReader registro = comando.ExecuteReader();
@@ -86,6 +87,7 @@ namespace DEVSIS_ENERGISUR
             cn.Open();
             string cod = textCI.Text;
             string descri = textDir.Text;
+            v.validarDireccion(descri);
             string cadena = "update CLIENTES set DIRECCION='" + descri + "' where CEDULA=" + cod;
             SqlCommand comando = new SqlCommand(cadena, cn);
             int cant;

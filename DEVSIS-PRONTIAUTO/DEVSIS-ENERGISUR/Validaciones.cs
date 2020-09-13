@@ -58,7 +58,6 @@ namespace DEVSIS_ENERGISUR
 
             }
         }
-
         public bool RucPersonaNatural(string ruc)
         {
             long isNumeric;
@@ -129,7 +128,7 @@ namespace DEVSIS_ENERGISUR
 
         public  bool validarEmail(String cadena)
         {
-            String rx = "^\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$";
+            String rx = "^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,4})$";
             if (Regex.IsMatch(cadena, rx))
             {
                 if (Regex.Replace(cadena, rx, String.Empty).Length == 0)

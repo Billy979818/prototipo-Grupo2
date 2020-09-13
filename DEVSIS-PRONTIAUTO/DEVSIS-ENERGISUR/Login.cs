@@ -79,7 +79,7 @@ namespace DEVSIS_ENERGISUR
 
                     }
                 }
-            }   
+            }
         }
 
         private void textCedula_KeyPress(object sender, KeyPressEventArgs e)
@@ -91,14 +91,14 @@ namespace DEVSIS_ENERGISUR
             }
         }
 
-        
+
 
         private void textCedula_Leave(object sender, EventArgs e)
         {
 
             //if (VerificaCedula(textCedula.Text))
             //{
-                
+
             //}
             //else if (textCedula.Text == String.Empty)
             //{
@@ -113,12 +113,12 @@ namespace DEVSIS_ENERGISUR
             //    MessageBox.Show("Número de cédula no válido");
 
             //}
-            
-            
+
+
         }
 
 
-        
+
         private void textContrasena_Leave(object sender, EventArgs e)
         {
             if (textContrasena.Text == String.Empty || textContrasena.Text != contrasena)

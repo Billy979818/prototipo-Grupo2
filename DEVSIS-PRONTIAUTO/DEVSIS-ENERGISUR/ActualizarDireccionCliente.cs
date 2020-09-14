@@ -14,7 +14,7 @@ namespace DEVSIS_ENERGISUR
 {
     public partial class ActualizarDireccionCliente : Form
     {
-        string cadena = "Data Source=.;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+        string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto; Integrated Security=True";
         public SqlConnection cn = new SqlConnection();
         Validaciones v = new Validaciones();
         public ActualizarDireccionCliente()

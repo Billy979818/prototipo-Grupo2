@@ -15,7 +15,7 @@ namespace DEVSIS_ENERGISUR
     {
 
 
-        string cadena = "Data Source=.;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+        string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto; Integrated Security=True";
         public SqlConnection cn = new SqlConnection();
         private DataSet ds;
 
@@ -96,7 +96,7 @@ namespace DEVSIS_ENERGISUR
                 }
                 else
                 {
-                    string cmd = "BACKUP DATABASE [" + database + "] TO DISK='" + txt_ruta.Text + "\\" + "Database" + "-" + tiempo_respaldo.Value.ToString("yyyy--MM--dd--HH--mm--ss") + ".bak'";
+                    string cmd = "BACKUP DATABASE [" + database + "] TO DISK='" + txt_ruta.Text + "\\" + "Clientes" + "-" + tiempo_respaldo.Value.ToString("yyyy--MM--dd--HH--mm--ss") + ".bak'";
                     Abrir();
                     SqlCommand command = new SqlCommand(cmd, cn);
                     command.ExecuteNonQuery();

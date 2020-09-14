@@ -59,6 +59,8 @@
             // 
             // tabla1
             // 
+            this.tabla1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.tabla1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.tabla1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tabla1.GridColor = System.Drawing.SystemColors.Control;
             this.tabla1.Location = new System.Drawing.Point(16, 148);

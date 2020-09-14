@@ -13,7 +13,7 @@ namespace DEVSIS_ENERGISUR
 {
     public partial class ConsultarCliente : Form
     {
-        string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto; Integrated Security=True";
+        string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
         public SqlConnection cn = new SqlConnection();
         SqlCommand cmd;
         SqlDataReader dr;

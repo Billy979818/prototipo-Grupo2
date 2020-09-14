@@ -14,7 +14,7 @@ namespace DEVSIS_ENERGISUR
 {
     public partial class RegistrarCliente : Form
     {
-        string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto; Integrated Security=True";
+        string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
         public SqlConnection cn = new SqlConnection();
         Validaciones v = new Validaciones();
         public RegistrarCliente()
@@ -33,7 +33,7 @@ namespace DEVSIS_ENERGISUR
         {
             textCI.Text = "";
             textName.Text = "";
-            dateTimefn.Text = "";
+            fechaNa.Text = "";
             textDir.Text = "";
             textTC.Text = "";
             textEMAIL.Text = "";
@@ -41,19 +41,28 @@ namespace DEVSIS_ENERGISUR
 
         private void RegistrarCliente_Click(object sender, EventArgs e)
         {
-            cn.Open();
-            string cod = textCI.Text;
-            string name = textName.Text;
-            string fn = dateTimefn.Text;
-            string dir = textDir.Text;
-            string tc = textTC.Text;
-            string mail = textEMAIL.Text;
-            string cadena = "insert into CLIENTES(NOMBRES,CEDULA,FECHA_NAC,CELULAR,DIRECCION,EMAIL)values ('" + name + "'," + cod + ",'" + fn + "','" + tc + "','" + dir + "','" + mail + "')";
-            SqlCommand comando = new SqlCommand(cadena, cn);
-            comando.ExecuteNonQuery();
-            MessageBox.Show("Se registro el cliente correctamente");
-            buttonLimpiar.Enabled = true;
-            cn.Close();
+            try
+            {
+                cn.Open();
+                string cod = textCI.Text;
+                string name = textName.Text;
+                string fn = this.fechaNa.Text;
+                string dir = textDir.Text;
+                string tc = textTC.Text;
+                string mail = textEMAIL.Text;
+                string cadena = "insert into CLIENTES(NOMBRES,CEDULA,FECHA_NAC,CELULAR,DIRECCION,EMAIL)values ('" + name + "'," + cod + ",'" + fechaNa.Value.ToString("yyyy-MM-dd") + "','" + tc + "','" + dir + "','" + mail + "')";
+                SqlCommand comando = new SqlCommand(cadena, cn);
+                comando.ExecuteNonQuery();
+                MessageBox.Show("Se registro el cliente correctamente");
+                buttonLimpiar.Enabled = true;
+                cn.Close();
+
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
            
         }
         private void textCedula_Leave(object sender, EventArgs e)

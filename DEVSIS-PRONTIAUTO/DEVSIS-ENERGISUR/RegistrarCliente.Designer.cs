@@ -38,7 +38,7 @@
             this.buttonRegistrar = new System.Windows.Forms.Button();
             this.buttonCancelar = new System.Windows.Forms.Button();
             this.buttonLimpiar = new System.Windows.Forms.Button();
-            this.dateTimefn = new System.Windows.Forms.DateTimePicker();
+            this.fechaNa = new System.Windows.Forms.DateTimePicker();
             this.textName = new System.Windows.Forms.TextBox();
             this.textCI = new System.Windows.Forms.TextBox();
             this.textTC = new System.Windows.Forms.TextBox();
@@ -123,19 +123,18 @@
             this.label5.TabIndex = 58;
             this.label5.Text = "Correo electrónico";
             // 
-            // botonIngresar
+            // buttonRegistrar
             // 
             this.buttonRegistrar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRegistrar.Location = new System.Drawing.Point(35, 422);
             this.buttonRegistrar.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonRegistrar.Name = "botonIngresar";
+            this.buttonRegistrar.Name = "buttonRegistrar";
             this.buttonRegistrar.Size = new System.Drawing.Size(129, 39);
             this.buttonRegistrar.TabIndex = 66;
             this.buttonRegistrar.Text = "REGISTRAR";
             this.buttonRegistrar.UseVisualStyleBackColor = false;
             this.buttonRegistrar.Click += new System.EventHandler(this.RegistrarCliente_Click);
-
             // 
             // buttonCancelar
             // 
@@ -163,12 +162,12 @@
             this.buttonLimpiar.UseVisualStyleBackColor = false;
             this.buttonLimpiar.Click += new System.EventHandler(this.botonLimpiar_Click);
             // 
-            // dateTimefn
+            // fechaNa
             // 
-            this.dateTimefn.Location = new System.Drawing.Point(245, 142);
-            this.dateTimefn.Name = "dateTimefn";
-            this.dateTimefn.Size = new System.Drawing.Size(234, 20);
-            this.dateTimefn.TabIndex = 77;
+            this.fechaNa.Location = new System.Drawing.Point(245, 142);
+            this.fechaNa.Name = "fechaNa";
+            this.fechaNa.Size = new System.Drawing.Size(234, 20);
+            this.fechaNa.TabIndex = 77;
             // 
             // textName
             // 
@@ -216,7 +215,7 @@
             this.Controls.Add(this.textTC);
             this.Controls.Add(this.textCI);
             this.Controls.Add(this.textName);
-            this.Controls.Add(this.dateTimefn);
+            this.Controls.Add(this.fechaNa);
             this.Controls.Add(this.buttonLimpiar);
             this.Controls.Add(this.buttonCancelar);
             this.Controls.Add(this.buttonRegistrar);
@@ -231,7 +230,6 @@
             this.Name = "RegistrarCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Cliente";
-            //this.Load += new System.EventHandler(this.RegistrarCliente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,7 +246,7 @@
         private System.Windows.Forms.Button buttonRegistrar;
         private System.Windows.Forms.Button buttonCancelar;
         private System.Windows.Forms.Button buttonLimpiar;
-        private System.Windows.Forms.DateTimePicker dateTimefn;
+        private System.Windows.Forms.DateTimePicker fechaNa;
         private System.Windows.Forms.TextBox textName;
         private System.Windows.Forms.TextBox textCI;
         private System.Windows.Forms.TextBox textTC;

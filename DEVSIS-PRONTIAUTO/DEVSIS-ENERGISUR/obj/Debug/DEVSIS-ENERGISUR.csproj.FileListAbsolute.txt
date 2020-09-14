@@ -209,7 +209,6 @@ C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRO
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.exe
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\bin\Debug\DEVSIS-ENERGISUR.pdb
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csprojAssemblyReference.cache
-C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarCliente.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarProducto.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarProductoMantenimiento.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.AñadirProducto.resources
@@ -220,14 +219,12 @@ C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRO
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFechaFinOrdenCompra.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFechaInicioOrdenCompra.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarMantenimiento.resources
-C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarMarcaVehículo.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarNumeroOrdenCompra.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarRazonSocialProveedor.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarRucProveedor.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarTelefonoCelularProveedor.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarTelefonoConvProveedor.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.CrearUsuario.resources
-C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarCliente.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarMantenimiento.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarProveedor.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EliminarUsuario.resources
@@ -240,7 +237,6 @@ C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRO
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarNotaCreditoMantenimiento.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarOrdenCompra.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarReportesMantenimiento.resources
-C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarCliente.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarMantenimiento.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoMantenimiento.resources
 C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoVehículo.resources
@@ -574,3 +570,12 @@ C:\Users\cinth\OneDrive\Documentos\CINTHIA_BURBANO\PASA TIEMPOS\prototipo-Grupo2
 C:\Users\cinth\OneDrive\Documentos\CINTHIA_BURBANO\PASA TIEMPOS\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csproj.CoreCompileInputs.cache
 C:\Users\cinth\OneDrive\Documentos\CINTHIA_BURBANO\PASA TIEMPOS\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.exe
 C:\Users\cinth\OneDrive\Documentos\CINTHIA_BURBANO\PASA TIEMPOS\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.pdb
+C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarDireccionCliente.resources
+C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarDireccionCorreoElectronico.resources
+C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarTeléfonoCelular.resources
+C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarVehículo.resources
+C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.DardeAltaCliente.resources
+C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.DardeBajaCliente.resources
+C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.EmitirReporteClientes.resources
+C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.GenerarCopiaSeguridadClientes.resources
+C:\Users\eljjm\OneDrive\Documentos\Proyecto software\prototipo-Grupo2\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.RegistrarCliente.resources

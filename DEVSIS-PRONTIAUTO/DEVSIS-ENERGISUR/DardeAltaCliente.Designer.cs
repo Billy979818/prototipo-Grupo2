@@ -41,10 +41,9 @@
             // 
             this.labelIngresarProducto.AutoSize = true;
             this.labelIngresarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIngresarProducto.Location = new System.Drawing.Point(278, 9);
-            this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelIngresarProducto.Location = new System.Drawing.Point(371, 11);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(145, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(181, 24);
             this.labelIngresarProducto.TabIndex = 56;
             this.labelIngresarProducto.Text = "Dar de Alta cliente";
             this.labelIngresarProducto.Click += new System.EventHandler(this.labelIngresarProducto_Click);
@@ -53,53 +52,57 @@
             // 
             this.labelCodigo.AutoSize = true;
             this.labelCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCodigo.Location = new System.Drawing.Point(44, 45);
-            this.labelCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelCodigo.Location = new System.Drawing.Point(59, 55);
             this.labelCodigo.Name = "labelCodigo";
-            this.labelCodigo.Size = new System.Drawing.Size(223, 18);
+            this.labelCodigo.Size = new System.Drawing.Size(292, 24);
             this.labelCodigo.TabIndex = 79;
             this.labelCodigo.Text = "Número de cédula de ciudadanía";
             // 
             // textCodigo
             // 
-            this.textCodigo.Location = new System.Drawing.Point(310, 43);
-            this.textCodigo.Margin = new System.Windows.Forms.Padding(2);
+            this.textCodigo.Location = new System.Drawing.Point(396, 58);
+            this.textCodigo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textCodigo.MaxLength = 10;
             this.textCodigo.Name = "textCodigo";
-            this.textCodigo.Size = new System.Drawing.Size(316, 20);
+            this.textCodigo.Size = new System.Drawing.Size(420, 22);
             this.textCodigo.TabIndex = 80;
+            this.textCodigo.TextChanged += new System.EventHandler(this.textCodigo_TextChanged);
+            this.textCodigo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textCodigo_KeyDown);
+            this.textCodigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textCodigo_KeyPress);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.Control;
-            this.dataGridView1.Location = new System.Drawing.Point(25, 89);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView1.Location = new System.Drawing.Point(33, 110);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(750, 325);
+            this.dataGridView1.Size = new System.Drawing.Size(1000, 400);
             this.dataGridView1.TabIndex = 81;
             // 
             // botonIngresar
             // 
             this.botonIngresar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonIngresar.Location = new System.Drawing.Point(139, 430);
-            this.botonIngresar.Margin = new System.Windows.Forms.Padding(2);
+            this.botonIngresar.Location = new System.Drawing.Point(244, 529);
+            this.botonIngresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.botonIngresar.Name = "botonIngresar";
-            this.botonIngresar.Size = new System.Drawing.Size(170, 39);
+            this.botonIngresar.Size = new System.Drawing.Size(227, 48);
             this.botonIngresar.TabIndex = 82;
             this.botonIngresar.Text = "DAR DE ALTA";
             this.botonIngresar.UseVisualStyleBackColor = false;
+            this.botonIngresar.Click += new System.EventHandler(this.botonIngresar_Click);
             // 
             // botonCancelar
             // 
             this.botonCancelar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonCancelar.Location = new System.Drawing.Point(404, 430);
-            this.botonCancelar.Margin = new System.Windows.Forms.Padding(2);
+            this.botonCancelar.Location = new System.Drawing.Point(658, 529);
+            this.botonCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.botonCancelar.Name = "botonCancelar";
-            this.botonCancelar.Size = new System.Drawing.Size(170, 39);
+            this.botonCancelar.Size = new System.Drawing.Size(227, 48);
             this.botonCancelar.TabIndex = 83;
             this.botonCancelar.Text = "CANCELAR";
             this.botonCancelar.UseVisualStyleBackColor = false;
@@ -107,15 +110,16 @@
             // 
             // DardeAltaCliente
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 491);
+            this.ClientSize = new System.Drawing.Size(1067, 604);
             this.Controls.Add(this.botonCancelar);
             this.Controls.Add(this.botonIngresar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textCodigo);
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "DardeAltaCliente";
             this.Text = "DardeAltaCliente";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

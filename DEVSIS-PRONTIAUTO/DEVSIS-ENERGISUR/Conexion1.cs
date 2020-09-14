@@ -22,7 +22,7 @@ namespace DEVSIS_ENERGISUR
         {
             try
             {
-                cn = new SqlConnection("Data Source=.;Initial Catalog=prontiauto;Integrated Security=True");
+                cn = new SqlConnection("Data Source=CHRISTOPHER;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=leonardo2c");
                 cn.Open();
               
             }

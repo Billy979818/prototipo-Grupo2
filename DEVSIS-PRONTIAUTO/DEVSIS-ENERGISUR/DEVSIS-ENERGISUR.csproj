@@ -82,9 +82,10 @@
     <Compile Include="AñadirProducto.designer.cs">
       <DependentUpon>AñadirProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Conexion1.cs" />
-    <Compile Include="ConsultarCliente.cs" />
-    <Compile Include="ConsultarCliente.designer.cs">
+    <Compile Include="ConsultarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarCliente.Designer.cs">
       <DependentUpon>ConsultarCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="ConsultarCodigoProducto.cs">
@@ -312,8 +313,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="prontiautoDataSet.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistrarCliente.cs" />
-    <Compile Include="RegistrarCliente.designer.cs">
+    <Compile Include="RegistrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarCliente.Designer.cs">
       <DependentUpon>RegistrarCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Validaciones.cs" />
@@ -334,9 +337,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AñadirProducto.resx">
       <DependentUpon>AñadirProducto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarCliente.resx">
-      <DependentUpon>ConsultarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarCodigoProducto.resx">
       <DependentUpon>ConsultarCodigoProducto.cs</DependentUpon>

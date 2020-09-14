@@ -13,12 +13,18 @@ namespace DEVSIS_ENERGISUR
 {
     public partial class ConsultarCliente : Form
     {
-        Conexion1 c1 = new Conexion1();
+        string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto; Integrated Security=True";
+        public SqlConnection cn = new SqlConnection();
+        SqlCommand cmd;
+        SqlDataReader dr;
+        SqlDataAdapter da;
+        DataTable dt;
         Validaciones v = new Validaciones();
 
         public ConsultarCliente()
         {
             InitializeComponent();
+            cn.ConnectionString = cadena;
         }
 
         private void botonCancelar_Click(object sender, EventArgs e)
@@ -65,14 +71,14 @@ namespace DEVSIS_ENERGISUR
         {
             // TODO: esta línea de código carga datos en la tabla 'prontiautoDataSet.CLIENTES' Puede moverla o quitarla según sea necesario.
             //this.cLIENTESTableAdapter.Fill(this.prontiautoDataSet.CLIENTES);comentale
-           
+
         }
 
         private void textCodigo_TextChanged(object sender, EventArgs e)
         {
-            
-            
-            
+
+
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -82,7 +88,7 @@ namespace DEVSIS_ENERGISUR
 
         private void comboBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-           
+
         }
 
         private void textCodigo_KeyPress(object sender, KeyPressEventArgs e)
@@ -90,7 +96,8 @@ namespace DEVSIS_ENERGISUR
             if (comboBox1.SelectedIndex.Equals(0))
             {
                 v.Nombres(e);
-            }else
+            }
+            else
             {
                 v.Numeros(e);
             }
@@ -104,7 +111,7 @@ namespace DEVSIS_ENERGISUR
             {
                 if (v.VerificaCedula(textCodigo.Text))
                 {
-                    c1.mostrarC(Convert.ToInt32(textCodigo.Text), dataGridView1);
+                    mostrarC(Convert.ToInt32(textCodigo.Text), dataGridView1);
                 }
                 else if (textCodigo.Text == String.Empty)
                 {
@@ -129,11 +136,63 @@ namespace DEVSIS_ENERGISUR
 
             }
             else
-                c1.mostrarN(textCodigo.Text, dataGridView1);
-            
-            
+                mostrarN(textCodigo.Text, dataGridView1);
+
+
         }
 
-        
+
+        public int personaRegistrada(int cedula)
+        {
+            int contador = 0;
+            try
+            {
+                cmd = new SqlCommand("select *from CLIENTES WHERE CEDULA =" + cedula + "", cn);
+                dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+
+                    contador++;
+                }
+                dr.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("El cliente ya se encuentra registrado" + ex.ToString());
+            }
+            return contador;
+        }
+
+        public void mostrarN(string nombres, DataGridView datos)
+        {
+            try
+            {
+                da = new SqlDataAdapter("SELECT * FROM CLIENTES WHERE NOMBRES = '" + nombres + "'", cn);
+                dt = new DataTable();
+                da.Fill(dt);
+                datos.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("El cliente no se encuentra registrado en el sistema");
+            }
+        }
+        public void mostrarC(int cedula, DataGridView datos)
+        {
+            try
+            {
+                da = new SqlDataAdapter("SELECT * FROM CLIENTES WHERE CEDULA = " + cedula + "", cn);
+                dt = new DataTable();
+                da.Fill(dt);
+                datos.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("El cliente no se encuentra registrado en el sistema");
+                cn.Close();
+            }
+        }
+
+
     }
 }

@@ -18,6 +18,7 @@ namespace DEVSIS_ENERGISUR.Properties
     {
 
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
+        internal string prontiautoConnectionString;
 
         public static Settings Default
         {

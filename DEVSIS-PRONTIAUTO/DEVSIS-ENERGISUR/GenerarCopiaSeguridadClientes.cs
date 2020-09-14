@@ -15,7 +15,7 @@ namespace DEVSIS_ENERGISUR
     {
 
 
-        string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto; Integrated Security=True";
+        string cadena = "Data Source=.;Initial Catalog=prontiauto;Integrated Security=True";
         public SqlConnection cn = new SqlConnection();
         private DataSet ds;
 

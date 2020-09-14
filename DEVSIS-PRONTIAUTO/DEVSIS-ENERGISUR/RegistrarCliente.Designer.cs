@@ -75,7 +75,10 @@
             this.textTelefono.Margin = new System.Windows.Forms.Padding(2);
             this.textTelefono.Name = "textTelefono";
             this.textTelefono.Size = new System.Drawing.Size(284, 20);
-            this.textTelefono.TabIndex = 52;
+            this.textTelefono.TabIndex = 81;
+            this.textTelefono.TextChanged += new System.EventHandler(this.textTelefono_TextChanged);
+            this.textTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textTelefono_KeyPress);
+            this.textTelefono.Leave += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
@@ -138,7 +141,9 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(284, 20);
-            this.textBox1.TabIndex = 59;
+            this.textBox1.TabIndex = 44;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            this.textBox1.Leave += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox3
             // 
@@ -147,6 +152,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(284, 20);
             this.textBox3.TabIndex = 61;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged_1);
             // 
             // textBox4
             // 
@@ -154,7 +160,8 @@
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(284, 20);
-            this.textBox4.TabIndex = 62;
+            this.textBox4.TabIndex = 85;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox5
             // 
@@ -162,7 +169,8 @@
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(284, 20);
-            this.textBox5.TabIndex = 63;
+            this.textBox5.TabIndex = 84;
+            this.textBox5.Leave += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // botonIngresar
             // 
@@ -175,6 +183,7 @@
             this.botonIngresar.TabIndex = 66;
             this.botonIngresar.Text = "REGISTRAR";
             this.botonIngresar.UseVisualStyleBackColor = false;
+            this.botonIngresar.Click += new System.EventHandler(this.botonIngresar_Click);
             // 
             // buttonCancelar
             // 
@@ -208,6 +217,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(234, 20);
             this.dateTimePicker1.TabIndex = 77;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // RegistrarCliente
             // 
@@ -234,6 +244,7 @@
             this.Name = "RegistrarCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Cliente";
+            this.Load += new System.EventHandler(this.RegistrarCliente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -135,23 +135,23 @@
             this.actualizarClienteToolStripMenuItem.Text = "Actualizar Cliente";
             this.actualizarClienteToolStripMenuItem.Click += new System.EventHandler(this.actualizarClienteToolStripMenuItem_Click);
             // 
-            // direcciónToolStripMenuItem
+            // direccionToolStripMenuItem
             // 
-            this.direccionToolStripMenuItem.Name = "direcciónToolStripMenuItem";
+            this.direccionToolStripMenuItem.Name = "direccionToolStripMenuItem";
             this.direccionToolStripMenuItem.Size = new System.Drawing.Size(289, 24);
             this.direccionToolStripMenuItem.Text = "Dirección";
             this.direccionToolStripMenuItem.Click += new System.EventHandler(this.actualizardireccionClienteToolStripMenuItem_Click);
             // 
-            // teléfonoCelularToolStripMenuItem
+            // telefonoCelularToolStripMenuItem
             // 
-            this.telefonoCelularToolStripMenuItem.Name = "teléfonoCelularToolStripMenuItem";
+            this.telefonoCelularToolStripMenuItem.Name = "telefonoCelularToolStripMenuItem";
             this.telefonoCelularToolStripMenuItem.Size = new System.Drawing.Size(289, 24);
             this.telefonoCelularToolStripMenuItem.Text = "Teléfono Celular";
             this.telefonoCelularToolStripMenuItem.Click += new System.EventHandler(this.actualizartelefonoClienteToolStripMenuItem_Click);
             // 
-            // direcciónDeCorreoElectrónicoToolStripMenuItem
+            // direccionDeCorreoElectronicoToolStripMenuItem
             // 
-            this.direccionDeCorreoElectronicoToolStripMenuItem.Name = "direcciónDeCorreoElectrónicoToolStripMenuItem";
+            this.direccionDeCorreoElectronicoToolStripMenuItem.Name = "direccionDeCorreoElectronicoToolStripMenuItem";
             this.direccionDeCorreoElectronicoToolStripMenuItem.Size = new System.Drawing.Size(289, 24);
             this.direccionDeCorreoElectronicoToolStripMenuItem.Text = "Dirección de Correo Electrónico";
             this.direccionDeCorreoElectronicoToolStripMenuItem.Click += new System.EventHandler(this.actualizarcorreoClienteToolStripMenuItem_Click);
@@ -211,7 +211,7 @@
             this.actualizarVehículoToolStripMenuItem1,
             this.eliminarVehículoToolStripMenuItem});
             this.ingresarProductoToolStripMenuItem.Name = "ingresarProductoToolStripMenuItem";
-            this.ingresarProductoToolStripMenuItem.Size = new System.Drawing.Size(179, 24);
+            this.ingresarProductoToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.ingresarProductoToolStripMenuItem.Text = "Vehículo";
             this.ingresarProductoToolStripMenuItem.Click += new System.EventHandler(this.ingresarProductoToolStripMenuItem_Click);
             // 
@@ -226,7 +226,7 @@
             // 
             this.manteniientoToolStripMenuItem.Name = "manteniientoToolStripMenuItem";
             this.manteniientoToolStripMenuItem.Size = new System.Drawing.Size(203, 24);
-            this.manteniientoToolStripMenuItem.Text = "Consular vehículo";
+            this.manteniientoToolStripMenuItem.Text = "Consultar vehículo";
             this.manteniientoToolStripMenuItem.Click += new System.EventHandler(this.manteniientoToolStripMenuItem_Click);
             // 
             // actualizarVehículoToolStripMenuItem1
@@ -252,7 +252,7 @@
             this.generarNotaDeCréditoDeMantenimientoToolStripMenuItem,
             this.generarReportesDeMantenimientoToolStripMenuItem});
             this.consultarProductoToolStripMenuItem.Name = "consultarProductoToolStripMenuItem";
-            this.consultarProductoToolStripMenuItem.Size = new System.Drawing.Size(179, 24);
+            this.consultarProductoToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.consultarProductoToolStripMenuItem.Text = "Mantenimiento";
             this.consultarProductoToolStripMenuItem.Click += new System.EventHandler(this.consultarProductoToolStripMenuItem_Click);
             // 
@@ -299,7 +299,7 @@
             this.actualizarProductoToolStripMenuItem1,
             this.eliminarProductoToolStripMenuItem});
             this.actualizarProductoToolStripMenuItem.Name = "actualizarProductoToolStripMenuItem";
-            this.actualizarProductoToolStripMenuItem.Size = new System.Drawing.Size(179, 24);
+            this.actualizarProductoToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.actualizarProductoToolStripMenuItem.Text = "Producto";
             this.actualizarProductoToolStripMenuItem.Click += new System.EventHandler(this.actualizarProductoToolStripMenuItem_Click);
             // 
@@ -307,7 +307,7 @@
             // 
             this.actualizarVehículoToolStripMenuItem.Name = "actualizarVehículoToolStripMenuItem";
             this.actualizarVehículoToolStripMenuItem.Size = new System.Drawing.Size(209, 24);
-            this.actualizarVehículoToolStripMenuItem.Text = "Registrae producto";
+            this.actualizarVehículoToolStripMenuItem.Text = "Registrar producto";
             this.actualizarVehículoToolStripMenuItem.Click += new System.EventHandler(this.actualizarVehículoToolStripMenuItem_Click);
             // 
             // actualizarProductoMantenimientoToolStripMenuItem

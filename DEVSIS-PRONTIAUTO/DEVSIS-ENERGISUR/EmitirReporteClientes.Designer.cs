@@ -55,11 +55,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(275, 0);
+            this.label1.Location = new System.Drawing.Point(291, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(360, 18);
+            this.label1.Size = new System.Drawing.Size(246, 18);
             this.label1.TabIndex = 51;
-            this.label1.Text = "Emisión de reportes de clientes mensualmente";
+            this.label1.Text = "Emisión de reportes de clientes";
             // 
             // button1
             // 
@@ -117,7 +117,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabla2);
             this.Name = "EmitirReporteClientes";
-            this.Text = "EmitirReporteClientesMensualmente";
+            this.Text = "EmitirReporteClientes";
             ((System.ComponentModel.ISupportInitialize)(this.tabla2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

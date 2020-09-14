@@ -14,8 +14,8 @@ namespace DEVSIS_ENERGISUR
     {
 
         String contrasena = "Grupo-2";
-        String usuario = "1725996365";
-        //String usuario = "1725866170";
+        //String usuario = "1725996365";
+        String usuario = "1725866170";
 
         Validaciones v = new Validaciones();
         public Login()

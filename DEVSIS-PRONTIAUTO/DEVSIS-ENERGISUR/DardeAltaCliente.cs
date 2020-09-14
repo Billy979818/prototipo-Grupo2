@@ -41,7 +41,7 @@ namespace DEVSIS_ENERGISUR
         {
             try
             {
-                string cadena = "Data Source=CHRISTOPHER;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=leonardo2c";
+                string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
                 SqlConnection cn;
                 cn = new SqlConnection(cadena);
                 cn.Open();
@@ -97,7 +97,7 @@ namespace DEVSIS_ENERGISUR
         {
             try
             {
-                string cadena = "Data Source=CHRISTOPHER;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=leonardo2c";
+                string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
                 SqlConnection cn = new SqlConnection(cadena);
                 cn.Open();
 

@@ -22,17 +22,19 @@ namespace DEVSIS_ENERGISUR
         {
             try
             {
-                cn = new SqlConnection("Data Source=CHRISTOPHER;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=leonardo2c");
+                cn = new SqlConnection("Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456");
                 cn.Open();
               
             }
             catch (Exception ex)
             {
                 MessageBox.Show("No se conecto a la base:" + ex.ToString());
+                cn.Close();
             }
         }
         public string InsertarCliente(string nombres, int cedula, string fecha_na, string celular, string direccion, string email)
         {
+            //cn.Open();
             string salida = "conexion exitosa";
             MessageBox.Show("Cliente registrado exitosamente");
             try
@@ -44,12 +46,14 @@ namespace DEVSIS_ENERGISUR
             catch (Exception ex)
             {
                 salida = "No se conecto: " + ex.ToString();
+                cn.Close();
             }
             return salida;
         }
 
         public int personaRegistrada(int cedula)
         {
+            //cn.Open();
             int contador = 0;
             try
             {
@@ -95,6 +99,7 @@ namespace DEVSIS_ENERGISUR
             catch (Exception ex)
             {
                 MessageBox.Show("El cliente no se encuentra registrado en el sistema");
+                cn.Close();
             }
         }
     }

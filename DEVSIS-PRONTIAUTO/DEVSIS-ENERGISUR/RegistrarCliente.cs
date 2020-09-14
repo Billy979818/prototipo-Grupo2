@@ -81,7 +81,7 @@ namespace DEVSIS_ENERGISUR
 
 
             {
-                opcion = MessageBox.Show("Nombre invalido", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                opcion = MessageBox.Show("Nombres completos invalidos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 if (opcion == DialogResult.OK)
                 {
                     opcion = MessageBox.Show("Desea repetir el ingreso", " ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);

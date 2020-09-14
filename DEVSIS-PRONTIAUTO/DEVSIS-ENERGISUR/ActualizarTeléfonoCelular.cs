@@ -14,7 +14,7 @@ namespace DEVSIS_ENERGISUR
 {
     public partial class ActualizarTeléfonoCelular : Form
     {
-        string cadena = "Data Source=CHRISTOPHER;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=leonardo2c";
+        string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
         public SqlConnection cn = new SqlConnection();
         Validaciones v = new Validaciones();
         public ActualizarTeléfonoCelular()

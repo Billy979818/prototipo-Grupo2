@@ -33,7 +33,7 @@
             this.botonConsultar = new System.Windows.Forms.Button();
             this.labelConsultarProducto = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textCodigo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,6 +73,7 @@
             this.botonConsultar.TabIndex = 52;
             this.botonConsultar.Text = "CONSULTAR";
             this.botonConsultar.UseVisualStyleBackColor = false;
+            this.botonConsultar.Click += new System.EventHandler(this.botonConsultar_Click);
             // 
             // labelConsultarProducto
             // 
@@ -98,26 +99,28 @@
             this.comboBox1.Size = new System.Drawing.Size(266, 26);
             this.comboBox1.TabIndex = 55;
             this.comboBox1.Text = "Seleccionar parámetro de búsqueda";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // textBox1
+            // textCodigo
             // 
-            this.textBox1.Location = new System.Drawing.Point(336, 46);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(324, 20);
-            this.textBox1.TabIndex = 56;
+            this.textCodigo.Location = new System.Drawing.Point(336, 46);
+            this.textCodigo.Name = "textCodigo";
+            this.textCodigo.Size = new System.Drawing.Size(324, 20);
+            this.textCodigo.TabIndex = 56;
+            this.textCodigo.TextChanged += new System.EventHandler(this.textCodigo_TextChanged);
             // 
-            // ConsultarMarcaVehículo
+            // ConsultarVehículo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(739, 485);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textCodigo);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.botonRegresar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.botonConsultar);
             this.Controls.Add(this.labelConsultarProducto);
-            this.Name = "ConsultarMarcaVehículo";
+            this.Name = "ConsultarVehículo";
             this.Text = "Consultar vehículo ";
             this.Load += new System.EventHandler(this.ConsultarMarcaVehículo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -133,6 +136,6 @@
         private System.Windows.Forms.Button botonConsultar;
         private System.Windows.Forms.Label labelConsultarProducto;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textCodigo;
     }
 }

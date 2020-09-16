@@ -199,7 +199,7 @@ namespace DEVSIS_ENERGISUR
 
         private void vehículoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new IngresarProductoVehículo().Show();
+            new RegistrarVehiculo().Show();
             this.Close();
         }
 
@@ -345,7 +345,7 @@ namespace DEVSIS_ENERGISUR
 
         private void actualizarVehículoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            new ActualizarProducto().Show();
+            new ActualizarVehiculo().Show();
             this.Close();
         }
 

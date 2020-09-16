@@ -58,12 +58,6 @@
     <Compile Include="ActualizarDireccionCorreoElectronico.Designer.cs">
       <DependentUpon>ActualizarDireccionCorreoElectronico.cs</DependentUpon>
     </Compile>
-    <Compile Include="ActualizarProducto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ActualizarProducto.Designer.cs">
-      <DependentUpon>ActualizarProducto.cs</DependentUpon>
-    </Compile>
     <Compile Include="ActualizarProductoMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,11 +70,11 @@
     <Compile Include="ActualizarTeléfonoCelular.Designer.cs">
       <DependentUpon>ActualizarTeléfonoCelular.cs</DependentUpon>
     </Compile>
-    <Compile Include="AñadirProducto.cs">
+    <Compile Include="ActualizarVehiculo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AñadirProducto.designer.cs">
-      <DependentUpon>AñadirProducto.cs</DependentUpon>
+    <Compile Include="ActualizarVehiculo.Designer.cs">
+      <DependentUpon>ActualizarVehiculo.cs</DependentUpon>
     </Compile>
     <Compile Include="ConsultarCliente.cs">
       <SubType>Form</SubType>
@@ -274,11 +268,11 @@
     <Compile Include="IngresarProductoMantenimiento.Designer.cs">
       <DependentUpon>IngresarProductoMantenimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="IngresarProductoVehículo.cs">
+    <Compile Include="RegistrarVehiculo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IngresarProductoVehículo.Designer.cs">
-      <DependentUpon>IngresarProductoVehículo.cs</DependentUpon>
+    <Compile Include="RegistrarVehiculo.Designer.cs">
+      <DependentUpon>RegistrarVehiculo.cs</DependentUpon>
     </Compile>
     <Compile Include="IngresarProveedor.cs">
       <SubType>Form</SubType>
@@ -326,17 +320,14 @@
     <EmbeddedResource Include="ActualizarDireccionCorreoElectronico.resx">
       <DependentUpon>ActualizarDireccionCorreoElectronico.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ActualizarProducto.resx">
-      <DependentUpon>ActualizarProducto.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ActualizarProductoMantenimiento.resx">
       <DependentUpon>ActualizarProductoMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ActualizarTeléfonoCelular.resx">
       <DependentUpon>ActualizarTeléfonoCelular.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AñadirProducto.resx">
-      <DependentUpon>AñadirProducto.cs</DependentUpon>
+    <EmbeddedResource Include="ActualizarVehiculo.resx">
+      <DependentUpon>ActualizarVehiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarCliente.resx">
       <DependentUpon>ConsultarCliente.cs</DependentUpon>
@@ -434,8 +425,8 @@
     <EmbeddedResource Include="IngresarProductoMantenimiento.resx">
       <DependentUpon>IngresarProductoMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IngresarProductoVehículo.resx">
-      <DependentUpon>IngresarProductoVehículo.cs</DependentUpon>
+    <EmbeddedResource Include="RegistrarVehiculo.resx">
+      <DependentUpon>RegistrarVehiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IngresarProveedor.resx">
       <DependentUpon>IngresarProveedor.cs</DependentUpon>

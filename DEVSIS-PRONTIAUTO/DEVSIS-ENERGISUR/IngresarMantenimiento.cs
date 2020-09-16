@@ -94,8 +94,8 @@ namespace DEVSIS_ENERGISUR
 
         private void button4_MouseClick(object sender, MouseEventArgs e)
         {
-            AñadirProducto añadirProducto = new AñadirProducto();
-            añadirProducto.ShowDialog();
+            //AñadirProducto añadirProducto = new AñadirProducto();
+            //añadirProducto.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -113,8 +113,8 @@ namespace DEVSIS_ENERGISUR
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new AñadirProducto().Show();
-            this.Close();
+            //new AñadirProducto().Show();
+            //this.Close();
         }
     }
 }

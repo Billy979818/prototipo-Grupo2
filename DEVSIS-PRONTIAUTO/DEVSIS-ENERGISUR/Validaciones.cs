@@ -189,5 +189,26 @@ namespace DEVSIS_ENERGISUR
             }
         }
 
+
+        public bool validarPlaca(String cadena)
+        {
+            String rx = "^((?:P)(?:((?:A|U|Z)|(?:E)|(?:X)|(?:M))|(?:B|C|D|F|G|H|I|J|K|L|N|O|P|Q|R|S|T|V|W|Z))[A-Z]-(?:[0-9]{4}))|((?:CC|CD|OI|AT|IT))-(?:[0-9]{4})$";
+            if (Regex.IsMatch(cadena, rx))
+            {
+                if (Regex.Replace(cadena, rx, String.Empty).Length == 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
     }
 }

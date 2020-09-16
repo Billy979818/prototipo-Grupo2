@@ -155,6 +155,7 @@ namespace DEVSIS_ENERGISUR
                     contador++;
                 }
                 dr.Close();
+                cn.Close();
             }
             catch (Exception ex)
             {
@@ -171,6 +172,7 @@ namespace DEVSIS_ENERGISUR
                 dt = new DataTable();
                 da.Fill(dt);
                 datos.DataSource = dt;
+                cn.Close();
             }
             catch (Exception ex)
             {
@@ -185,11 +187,12 @@ namespace DEVSIS_ENERGISUR
                 dt = new DataTable();
                 da.Fill(dt);
                 datos.DataSource = dt;
+                cn.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("El cliente no se encuentra registrado en el sistema");
-                cn.Close();
+                
             }
         }
 

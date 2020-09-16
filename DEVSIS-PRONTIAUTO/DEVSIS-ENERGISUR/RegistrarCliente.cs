@@ -17,6 +17,16 @@ namespace DEVSIS_ENERGISUR
         string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
         public SqlConnection cn = new SqlConnection();
         Validaciones v = new Validaciones();
+
+        public void limpiarCampos()
+        {
+            textCI.Text = "";
+            textName.Text = "";
+            fechaNa.Text = "";
+            textDir.Text = "";
+            textTC.Text = "";
+            textEMAIL.Text = "";
+        }
         public RegistrarCliente()
         {
             InitializeComponent();
@@ -31,12 +41,7 @@ namespace DEVSIS_ENERGISUR
 
         private void botonLimpiar_Click(object sender, EventArgs e)
         {
-            textCI.Text = "";
-            textName.Text = "";
-            fechaNa.Text = "";
-            textDir.Text = "";
-            textTC.Text = "";
-            textEMAIL.Text = "";
+            limpiarCampos();
         }
 
         private void RegistrarCliente_Click(object sender, EventArgs e)
@@ -53,9 +58,10 @@ namespace DEVSIS_ENERGISUR
                 string cadena = "insert into CLIENTES(NOMBRES,CEDULA,FECHA_NAC,CELULAR,DIRECCION,EMAIL)values ('" + name + "'," + cod + ",'" + fechaNa.Value.ToString("yyyy-MM-dd") + "','" + tc + "','" + dir + "','" + mail + "')";
                 SqlCommand comando = new SqlCommand(cadena, cn);
                 comando.ExecuteNonQuery();
-                MessageBox.Show("Se registro el cliente correctamente");
-                buttonLimpiar.Enabled = true;
                 cn.Close();
+                MessageBox.Show("Se registro el cliente correctamente");
+                limpiarCampos();
+                
 
             }
             catch(Exception ex)

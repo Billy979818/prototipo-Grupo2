@@ -118,6 +118,7 @@
             this.Controls.Add(this.tabla2);
             this.Name = "EmitirReporteClientes";
             this.Text = "EmitirReporteClientes";
+            this.Load += new System.EventHandler(this.EmitirReporteClientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tabla2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

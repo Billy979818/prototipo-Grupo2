@@ -468,10 +468,8 @@ C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.csprojAssemblyReference.cache
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarDireccionCliente.resources
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarDireccionCorreoElectronico.resources
-C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarProducto.resources
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarProductoMantenimiento.resources
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarTeléfonoCelular.resources
-C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.AñadirProducto.resources
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCodigoProducto.resources
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCorreoProveedor.resources
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarFactura.resources
@@ -504,7 +502,6 @@ C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.RegistrarCliente.resources
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarMantenimiento.resources
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoMantenimiento.resources
-C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProductoVehículo.resources
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.IngresarProveedor.resources
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.Login.resources
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.MenuPrincipal.resources
@@ -632,3 +629,5 @@ C:\Users\ediso\Documents\C# Proyects\ProntiAuto4\DEVSIS-PRONTIAUTO\DEVSIS-ENERGI
 C:\Users\ediso\Documents\C# Proyects\ProntiAuto4\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS-ENERGISUR.pdb
 C:\Users\ediso\Documents\C# Proyects\ProntiAuto4\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.RegistrarCliente.resources
 C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ConsultarCliente.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.RegistrarVehiculo.resources
+C:\Users\flaco\Documents\SEXTO SEMESTRE\Fundamentos de Software\Proyecto 2020 -A\RESPALDOS PROGRAMA\PROYECTO GIT-HUB\DEVSIS-PRONTIAUTO\DEVSIS-ENERGISUR\obj\Debug\DEVSIS_ENERGISUR.ActualizarVehiculo.resources

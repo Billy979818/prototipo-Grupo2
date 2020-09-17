@@ -110,11 +110,11 @@
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Nombres del cliente ",
-            "Cédula del cliente "});
+            "Nombres completos del cliente ",
+            "Número de cédula de ciudadanía del cliente "});
             this.comboBox1.Location = new System.Drawing.Point(32, 47);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(295, 26);
+            this.comboBox1.Size = new System.Drawing.Size(330, 26);
             this.comboBox1.TabIndex = 51;
             this.comboBox1.Text = "Seleccionar parámetro de búsqueda";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);

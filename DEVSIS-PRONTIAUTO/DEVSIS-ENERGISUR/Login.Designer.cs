@@ -164,6 +164,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Administración",
             "Gerencia",
+            "Finanzas",
             "Mantenimiento",
             "Ventas"});
             this.comboBox1.Location = new System.Drawing.Point(388, 157);
@@ -181,7 +182,6 @@
             this.textCedula.TabIndex = 5;
             this.textCedula.TextChanged += new System.EventHandler(this.textCedula_TextChanged);
             this.textCedula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textCedula_KeyPress);
-            //this.textCedula.Leave += new System.EventHandler(this.textCedula_Leave);
             // 
             // textContrasena
             // 
@@ -191,7 +191,7 @@
             this.textContrasena.PasswordChar = '*';
             this.textContrasena.Size = new System.Drawing.Size(165, 24);
             this.textContrasena.TabIndex = 6;
-            this.textContrasena.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textContrasena_KeyPress);
+            this.textContrasena.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textCodigo_KeyPress);
             this.textContrasena.Leave += new System.EventHandler(this.textContrasena_Leave);
             // 
             // Login

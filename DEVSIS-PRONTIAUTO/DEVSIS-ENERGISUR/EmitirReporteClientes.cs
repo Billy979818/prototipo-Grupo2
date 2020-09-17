@@ -14,10 +14,10 @@ namespace DEVSIS_ENERGISUR
     public partial class EmitirReporteClientes : Form
     {
 
-        string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto; Integrated Security=True";
+        string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+        //string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
         public SqlConnection cn = new SqlConnection();
         private DataSet ds;
-       
 
         public void Abrir()
         {
@@ -36,7 +36,6 @@ namespace DEVSIS_ENERGISUR
         public void Cerrar()
         {
             cn.Close();
-            
         }
         public DataTable MostrarDatos()
         {
@@ -52,7 +51,8 @@ namespace DEVSIS_ENERGISUR
         {
             InitializeComponent();
             cn.ConnectionString = cadena;
-            
+
+
         }
 
         private void botonCancelar_Click(object sender, EventArgs e)
@@ -76,33 +76,21 @@ namespace DEVSIS_ENERGISUR
         {
             string database = cn.Database.ToString();
 
-            if(textBox1.Text == string.Empty)
+            try
             {
-                MessageBox.Show("Seleccione la copia de seguridad que desea generar el reporte");
+                string cmd = "USE MASTER RESTORE DATABASE ["+ database +"] FROM DISK = '" + textBox1.Text + "' WITH REPLACE; ";
+                Abrir();
+                SqlCommand command = new SqlCommand(cmd, cn);
+                command.ExecuteNonQuery();
+                Cerrar();
+                tabla2.DataSource = MostrarDatos();
+                //MessageBox.Show("Base de datos restaurada correctamente");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("error " + ex.Message);
             }
 
-            else
-            {
-                try
-                {
-                    Abrir();
-                    string cmd = "USE MASTER RESTORE DATABASE [" + database + "] FROM DISK = '" + textBox1.Text + "' WITH REPLACE; ";
-                    SqlCommand command = new SqlCommand(cmd, cn);
-                    command.ExecuteNonQuery();
-                    Cerrar();
-                    tabla2.DataSource = MostrarDatos();
-                    //MessageBox.Show("Base de datos restaurada correctamente");
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("error " + ex.Message);
-                }
-            }
-            
-        }
-
-        private void EmitirReporteClientes_Load(object sender, EventArgs e)
-        {
             
         }
     }

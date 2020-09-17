@@ -15,18 +15,9 @@ namespace DEVSIS_ENERGISUR
     public partial class RegistrarCliente : Form
     {
         string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+       // string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
         public SqlConnection cn = new SqlConnection();
         Validaciones v = new Validaciones();
-
-        public void limpiarCampos()
-        {
-            textCI.Text = "";
-            textName.Text = "";
-            fechaNa.Text = "";
-            textDir.Text = "";
-            textTC.Text = "";
-            textEMAIL.Text = "";
-        }
         public RegistrarCliente()
         {
             InitializeComponent();
@@ -41,7 +32,12 @@ namespace DEVSIS_ENERGISUR
 
         private void botonLimpiar_Click(object sender, EventArgs e)
         {
-            limpiarCampos();
+            textCI.Text = "";
+            textName.Text = "";
+            fechaNa.Text = "";
+            textDir.Text = "";
+            textTC.Text = "";
+            textEMAIL.Text = "";
         }
 
         private void RegistrarCliente_Click(object sender, EventArgs e)
@@ -58,20 +54,55 @@ namespace DEVSIS_ENERGISUR
                 string cadena = "insert into CLIENTES(NOMBRES,CEDULA,FECHA_NAC,CELULAR,DIRECCION,EMAIL)values ('" + name + "'," + cod + ",'" + fechaNa.Value.ToString("yyyy-MM-dd") + "','" + tc + "','" + dir + "','" + mail + "')";
                 SqlCommand comando = new SqlCommand(cadena, cn);
                 comando.ExecuteNonQuery();
-                cn.Close();
                 MessageBox.Show("Se registro el cliente correctamente");
-                limpiarCampos();
-                
+                buttonLimpiar.Enabled = true;
+                cn.Close();
 
             }
             catch(Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Cliente no registrado");
             }
-            
-           
         }
-        private void textCedula_Leave(object sender, EventArgs e)
+
+//validaciones
+        private void ValidarNombre(object sender, EventArgs e)
+        {
+            if (v.validarNombre(textName.Text))
+            {
+
+            }
+            else if (textName.Text == String.Empty)
+            {
+                if (MessageBox.Show("¿Desea repetir el ingreso?", "Entrada de Nombres Completos vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textName.Text = "";
+
+                }
+                else
+                {
+                    buttonLimpiar.Enabled = true;
+                }
+
+            }
+            else
+            {
+                if (MessageBox.Show("¿Desea repetir el ingreso?", "Nombres Completos inválidos", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textName.Text = "";
+                }
+                else
+                {
+                    buttonLimpiar.Enabled = true;
+
+                }
+
+            }
+
+
+        }
+
+        private void ValidarCedula(object sender, EventArgs e)
         {
             if (v.VerificaCedula(textCI.Text))
             {
@@ -82,14 +113,10 @@ namespace DEVSIS_ENERGISUR
                 if (MessageBox.Show("Desea repetir el ingreso?", "Entrada de número de cédula de ciudadanía vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     textCI.Text = "";
-                    textCI.Enabled = true;
                 }
                 else
-                {
-
-                    new MenuPrincipal().Show();
-                    this.Visible = false;
-
+                { 
+                    buttonLimpiar.Enabled = true;
                 }
 
             }
@@ -101,10 +128,7 @@ namespace DEVSIS_ENERGISUR
                 }
                 else
                 {
-
-                    new MenuPrincipal().Show();
-                    this.Visible = false;
-
+                    buttonLimpiar.Enabled = true;
                 }
             }
             else
@@ -115,15 +139,128 @@ namespace DEVSIS_ENERGISUR
                 }
                 else
                 {
+                    buttonLimpiar.Enabled = true;
 
-                    new MenuPrincipal().Show();
-                    this.Visible = false;
+                }
+            }
+        }
+
+
+        private void ValidarDir(object sender, EventArgs e)
+        {
+            if (v.validarDireccion(textDir.Text))
+            {
+
+            }
+            else if (textDir.Text == String.Empty)
+            {
+                if (MessageBox.Show("¿Desea repetir el ingreso?", "Entrada de dirección vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textDir.Text = "";
+
+                }
+                else
+                {
+                    buttonLimpiar.Enabled = true;
 
                 }
 
             }
+            else
+            {
+                if (MessageBox.Show("Desea repetir el ingreso?", "Dirección inválida", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textDir.Text = "";
+                }
+                else
+                {
+                    buttonLimpiar.Enabled = true;
 
+                }
 
+            }
         }
+
+        private void ValidarEmail(object sender, EventArgs e)
+        {
+            if (v.validarEmail(textEMAIL.Text))
+            {
+
+            }
+            else if (textEMAIL.Text == String.Empty)
+            {
+                if (MessageBox.Show("¿Desea repetir el ingreso?", "Entrada de dirección de correo electrónico vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textEMAIL.Text = "";
+
+                }
+                else
+                {
+                    buttonLimpiar.Enabled = true;
+
+                }
+
+            }
+            else
+            {
+                if (MessageBox.Show("Desea repetir el ingreso?", "Dirección de correo electrónico inválida", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textEMAIL.Text = "";
+                }
+                else
+                {
+                    buttonLimpiar.Enabled = true;
+                }
+
+            }
+        }
+
+        private void ValidarCelular(object sender, EventArgs e)
+        {
+            if (v.validarNumeros(textTC.Text))
+            {
+
+            }
+            else if (textTC.Text == String.Empty)
+            {
+                if (MessageBox.Show("¿Desea repetir el ingreso?", "Entrada de teléfono celular vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textTC.Text = "";
+
+                }
+                else
+                {
+                    buttonLimpiar.Enabled = true;
+                }
+
+            }
+            else if (textTC.TextLength < 10)
+            {
+                if (MessageBox.Show("¿Desea repetir el ingreso?", "Teléfono celular inválido", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textTC.Text = "";
+                }
+                else
+                {
+                    buttonLimpiar.Enabled = true;
+                }
+            }
+            else
+            {
+                if (MessageBox.Show("¿Desea repetir el ingreso?", "Teléfono celular inválido", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textTC.Text = "";
+                }
+                else
+                {
+                    buttonLimpiar.Enabled = true;
+
+                }
+            }
+        }
+
+
+
+
     }
 }

@@ -67,7 +67,7 @@
             this.labelCodigo.Size = new System.Drawing.Size(223, 18);
             this.labelCodigo.TabIndex = 50;
             this.labelCodigo.Text = "Número de cédula de ciudadanía";
-            this.labelCodigo.Click += new System.EventHandler(this.labelCodigo_Click);
+         
             // 
             // label1
             // 
@@ -123,7 +123,7 @@
             this.label5.Size = new System.Drawing.Size(216, 18);
             this.label5.TabIndex = 55;
             this.label5.Text = "Dirección de correo electrónico";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            
             // 
             // botonActualizar
             // 
@@ -202,7 +202,7 @@
             this.textDir.Name = "textDir";
             this.textDir.Size = new System.Drawing.Size(248, 20);
             this.textDir.TabIndex = 85;
-            //this.textCI.Leave += new System.EventHandler(this.textDir_Leave);
+            this.textDir.Leave += new System.EventHandler(this.ValidarDir);
             // 
             // textCI
             // 
@@ -211,7 +211,7 @@
             this.textCI.Name = "textCI";
             this.textCI.Size = new System.Drawing.Size(248, 20);
             this.textCI.TabIndex = 44;
-            this.textCI.Leave += new System.EventHandler(this.textCedula_Leave);
+          
             // 
             // buttonMostrar
             // 
@@ -250,7 +250,6 @@
             this.Name = "ActualizarDireccionCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ActualizarDirecciónCliente";
-            this.Load += new System.EventHandler(this.ActualizarCliente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

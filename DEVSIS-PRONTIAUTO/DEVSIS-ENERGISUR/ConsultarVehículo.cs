@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace DEVSIS_ENERGISUR
 {
     public partial class ConsultarVehículo : Form
     {
-
         string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+        //string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
         public SqlConnection cn = new SqlConnection();
         SqlCommand cmd;
         SqlDataReader dr;
@@ -27,21 +28,11 @@ namespace DEVSIS_ENERGISUR
             cn.ConnectionString = cadena;
         }
 
-        private void ConsultarMarcaVehículo_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void botonRegresar_Click(object sender, EventArgs e)
-        {
-            new MenuPrincipal().Show();
-            this.Close();
-        }
-
+ 
 
         public void mostrarMarca(string marca, DataGridView datos)
         {
-
+            
             try
             {
                 cn.Open();
@@ -61,7 +52,7 @@ namespace DEVSIS_ENERGISUR
 
         public void mostrarPlaca(string placa, DataGridView datos)
         {
-
+            
             try
             {
                 cn.Open();
@@ -81,7 +72,7 @@ namespace DEVSIS_ENERGISUR
 
         public void mostrarModelo(string modelo, DataGridView datos)
         {
-
+           
             try
             {
                 cn.Open();
@@ -99,7 +90,7 @@ namespace DEVSIS_ENERGISUR
         }
 
 
-        private void botonConsultar_Click(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.SelectedIndex.Equals(0))
             {
@@ -115,7 +106,34 @@ namespace DEVSIS_ENERGISUR
             }
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void botonRegresar_Click(object sender, EventArgs e)
+        {
+            new MenuPrincipal().Show();
+            this.Close();
+        }
+
+        /*public int vehiculoRegistrado(string placa)
+        {
+            int contador = 0;
+            try
+            {
+                cmd = new SqlCommand("SELECT * FROM VEHICULOS WHERE PLACA = '" + placa + "'", cn);
+                dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+
+                    contador++;
+                }
+                dr.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("El cliente ya se encuentra registrado" + ex.ToString());
+            }
+            return contador;
+        }*/
+
+        private void textPlaca_Leave(object sender, EventArgs e)
         {
             if (v.validarPlaca(textCodigo.Text))
             {
@@ -162,11 +180,9 @@ namespace DEVSIS_ENERGISUR
                 }
 
             }
-        }
 
-        private void textCodigo_TextChanged(object sender, EventArgs e)
-        {
 
         }
+        
     }
 }

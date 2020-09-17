@@ -15,6 +15,7 @@ namespace DEVSIS_ENERGISUR
     public partial class ActualizarDireccionCliente : Form
     {
         string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+        //string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
         public SqlConnection cn = new SqlConnection();
         Validaciones v = new Validaciones();
         public ActualizarDireccionCliente()
@@ -23,28 +24,14 @@ namespace DEVSIS_ENERGISUR
             cn.ConnectionString = cadena;
         }
 
-       
-        private void labelCodigo_Click(object sender, EventArgs e)
-        {
 
-        }
 
-        private void ActualizarCliente_Load(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        
         private void mostrar_Click(object sender, EventArgs e)
         {
             cn.Open();
-            Console.WriteLine("Conexion Exitosa");
             string cod = textCI.Text;
+            ValidartextCedula(cod);
             string consult = "select * from CLIENTES where CEDULA=" + cod;
             SqlCommand comando = new SqlCommand(consult, cn);
             SqlDataReader registro = comando.ExecuteReader();
@@ -66,24 +53,26 @@ namespace DEVSIS_ENERGISUR
         //1722484753
         private void botonActualizar_Click(object sender, EventArgs e)
         {
-            cn.Open();
-            string cod = textCI.Text;
-            string descri = textDir.Text;
-            string cadena = "update CLIENTES set DIRECCION='" + descri + "' where CEDULA=" + cod;
-            SqlCommand comando = new SqlCommand(cadena, cn);
-            int cant;
-            cant = comando.ExecuteNonQuery();
-            if (cant == 1)
-            {
-                MessageBox.Show("Se actualizó la dirección del cliente correctamente");
-                textDir.Text = "";
-                new MenuPrincipal().Show();
-                this.Visible = false;
-            }
-            else
-                MessageBox.Show("Cliente no registrado");
-            cn.Close();
-            botonActualizar.Enabled = false;
+                cn.Open();
+                string cod = textCI.Text;
+                string descri = textDir.Text;
+                string cadena = "update CLIENTES set DIRECCION='" + descri + "' where CEDULA=" + cod;
+                SqlCommand comando = new SqlCommand(cadena, cn);
+                int cant;
+                cant = comando.ExecuteNonQuery();
+                if (cant == 1)
+                {
+                    MessageBox.Show("Se actualizó la dirección del cliente correctamente");
+                    textDir.Text = "";
+                    new ActualizarDireccionCliente().Show();
+                    this.Visible = false;
+                }
+                else
+                {
+                    MessageBox.Show("La dirección del cliente no ha sido actualizada");
+                    textDir.Text = "";
+                    cn.Close();
+                }
         }
 
         private void botonCancelar_Click(object sender, EventArgs e)
@@ -93,22 +82,21 @@ namespace DEVSIS_ENERGISUR
         }
 
       
-            private void textCedula_Leave(object sender, EventArgs e){
-            if (v.VerificaCedula(textCI.Text))
+            private void ValidartextCedula(string cedula){
+            if (v.VerificaCedula(cedula))
             {
 
             }
-            else if (textCI.Text == String.Empty)
+            else if (cedula == String.Empty)
             {
                 if (MessageBox.Show("Desea repetir el ingreso?", "Entrada de número de cédula de ciudadanía vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     textCI.Text = "";
-                    textCI.Enabled = true;
                 }
                 else
                 {
 
-                    new MenuPrincipal().Show();
+                    new ActualizarDireccionCliente().Show();
                     this.Visible = false;
 
                 }
@@ -122,8 +110,7 @@ namespace DEVSIS_ENERGISUR
                 }
                 else
                 {
-
-                    new MenuPrincipal().Show();
+                    new ActualizarDireccionCliente().Show();
                     this.Visible = false;
 
                 }
@@ -137,7 +124,7 @@ namespace DEVSIS_ENERGISUR
                 else
                 {
 
-                    new MenuPrincipal().Show();
+                    new ActualizarDireccionCliente().Show();
                     this.Visible = false;
 
                 }
@@ -149,10 +136,26 @@ namespace DEVSIS_ENERGISUR
 
 
 
-        /*private void textDir_Leave(object sender, EventArgs e)
+        private void ValidarDir(object sender, EventArgs e)
         {
             if (v.validarDireccion(textDir.Text))
             {
+
+            }
+            else if (textDir.Text == String.Empty)
+            {
+                if (MessageBox.Show("¿Desea repetir el ingreso?", "Entrada de dirección vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textDir.Text = "";
+
+                }
+                else
+                {
+
+                    new ActualizarDireccionCliente().Show();
+                    this.Visible = false;
+
+                }
 
             }
             else
@@ -164,7 +167,7 @@ namespace DEVSIS_ENERGISUR
                 else
                 {
 
-                    new MenuPrincipal().Show();
+                    new ActualizarDireccionCliente().Show();
                     this.Visible = false;
 
                 }
@@ -172,7 +175,7 @@ namespace DEVSIS_ENERGISUR
             }
 
 
-        }*/
+        }
 
       
     }

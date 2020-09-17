@@ -131,7 +131,6 @@
             this.textCI.Name = "textCI";
             this.textCI.Size = new System.Drawing.Size(248, 20);
             this.textCI.TabIndex = 59;
-            this.textCI.Leave += new System.EventHandler(this.textCedula_Leave);
             // 
             // textName
             // 
@@ -210,6 +209,7 @@
             this.textEMAIL.Name = "textEMAIL";
             this.textEMAIL.Size = new System.Drawing.Size(248, 20);
             this.textEMAIL.TabIndex = 86;
+            this.textEMAIL.Leave += new System.EventHandler(this.ValidarEmail);
             // 
             // buttonMostrar
             // 

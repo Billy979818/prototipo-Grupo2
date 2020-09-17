@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace DEVSIS_ENERGISUR
 {
@@ -28,6 +29,7 @@ namespace DEVSIS_ENERGISUR
         {
             cn.Open();
             string cod = textPlaca.Text;
+            ValidartextPlaca(cod);
             string consult = "SELECT * FROM VEHICULOS WHERE PLACA =" + "'" + cod + "'";
             SqlCommand comando = new SqlCommand(consult, cn);
             SqlDataReader registro = comando.ExecuteReader();
@@ -39,38 +41,47 @@ namespace DEVSIS_ENERGISUR
                 textKm.Text = registro["KILOMETRAJE"].ToString();
                 textPC.Text = registro["PRECIO_COMPRA"].ToString();
                 textPC.Text = registro["PRECIO_VENTA"].ToString();
-
+                
             }
             else
                 MessageBox.Show("Vehiculo no registrado");
             cn.Close();
         }
-        private void ActualizarVehiculo_Load(object sender, EventArgs e)
-        {
 
-        }
 
-        private void botonIngresar_Click(object sender, EventArgs e)
+
+        private void botonActualizar_Click(object sender, EventArgs e)
         {
-            cn.Open();
-            string cod = textPlaca.Text;
-            string descri = textPV.Text;
-            string cadena = "update VEHICULOS set PRECIO_VENTA=" + descri + " WHERE PLACA =" + "'" + cod + "'";
-            SqlCommand comando = new SqlCommand(cadena, cn);
-            int cant;
-            cant = comando.ExecuteNonQuery();
-            if (cant == 1)
+            try
             {
-                MessageBox.Show("Se actualizó el vehículo correctamente");
-                textPV.Text = "";
-                new ActualizarVehiculo().Show();
-                this.Visible = false;
+                cn.Open();
+                string cod = textPlaca.Text;
+                string descri = textPV.Text;
+                ValidartextPV(descri);
+                string cadena = "update VEHICULOS set PRECIO_VENTA=" + descri + " WHERE PLACA =" + "'" + cod + "'";
+                SqlCommand comando = new SqlCommand(cadena, cn);
+                int cant;
+                cant = comando.ExecuteNonQuery();
+                if (cant == 1)
+                {
+                    MessageBox.Show("Se actualizó el vehículo correctamente");
+                    textPV.Text = "";
+                    new ActualizarVehiculo().Show();
+                    this.Visible = false;
+                }
+                else
+                {
+                    MessageBox.Show("Vehículo no actualizado");
+                    cn.Close();
+                }
             }
-            else
+            catch (Exception ex)
+            {
                 MessageBox.Show("Vehículo no registrado");
-            cn.Close();
-        }
+            }
 
+
+        }
         private void textCodigo_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((int)e.KeyChar == (int)Keys.Enter)
@@ -78,13 +89,60 @@ namespace DEVSIS_ENERGISUR
                 mostrar_Click();
             }
         }
-        private void textPlaca_Leave(object sender, EventArgs e)
+        private void botonRegresar_Click_1(object sender, EventArgs e)
         {
-            if (v.validarPlaca(textPlaca.Text))
+            new MenuPrincipal().Show();
+            this.Close();
+        }
+
+        private void ValidartextPV(string pv)
+        {
+            if (v.validarNumeros(pv))
             {
 
             }
-            else if (textPlaca.Text == String.Empty)
+            else if (pv == String.Empty)
+            {
+                if (MessageBox.Show("¿Desea repetir el ingreso?", "Entrada de precio de venta vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textPV.Text = "";
+
+                }
+                else
+                {
+
+                    new ActualizarVehiculo().Show();
+                    this.Visible = false;
+
+                }
+
+            }
+            
+            else
+            {
+                if (MessageBox.Show("¿Desea repetir el ingreso?", "Precio de venta inválido", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textPV.Text = "";
+                }
+                else
+                {
+                    new ActualizarVehiculo().Show();
+                    this.Visible = false;
+
+                }
+
+            }
+
+
+        }
+
+        private void ValidartextPlaca(string placa)
+        {
+            if (v.validarPlaca(placa))
+            {
+
+            }
+            else if (placa == String.Empty)
             {
                 if (MessageBox.Show("¿Desea repetir el ingreso?", "Entrada de Placa vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
@@ -101,18 +159,6 @@ namespace DEVSIS_ENERGISUR
 
             }
 
-            /*else if (vehiculoRegistrado(textPlaca.Text) == 0)
-            {
-                if (MessageBox.Show("¿Desea repetir el ingreso?", "El Vehículo no se encuentra registrado", MessageBoxButtons.YesNo) == DialogResult.Yes)
-                {
-                    textPlaca.Text = "";
-                }
-                else
-                {
-                    new ConsultarVehículo().Show();
-                    this.Visible = false;
-                }
-            }*/
             else
             {
                 if (MessageBox.Show("¿Desea repetir el ingreso?", "Placa inválida", MessageBoxButtons.YesNo) == DialogResult.Yes)
@@ -127,13 +173,9 @@ namespace DEVSIS_ENERGISUR
                 }
 
             }
+
+
         }
 
-        private void botonRegresar_Click(object sender, EventArgs e)
-        {
-            new MenuPrincipal().Show();
-            this.Close();
-            
-        }
     }
 }

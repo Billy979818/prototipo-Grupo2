@@ -15,6 +15,7 @@ namespace DEVSIS_ENERGISUR
     public partial class ActualizarDireccionCorreoElectronico : Form
     {
         string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+       // string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
         public SqlConnection cn = new SqlConnection();
         Validaciones v = new Validaciones();
         public ActualizarDireccionCorreoElectronico()
@@ -32,8 +33,8 @@ namespace DEVSIS_ENERGISUR
         private void mostrar_Click(object sender, EventArgs e)
         {
             cn.Open();
-            Console.WriteLine("Conexion Exitosa");
             string cod = textCI.Text;
+            ValidartextCedula(cod);
             string consult = "select * from CLIENTES where CEDULA=" + cod;
             SqlCommand comando = new SqlCommand(consult, cn);
             SqlDataReader registro = comando.ExecuteReader();
@@ -55,24 +56,25 @@ namespace DEVSIS_ENERGISUR
         //1722484753
         private void botonActualizar_Click(object sender, EventArgs e)
         {
-            cn.Open();
-            string cod = textCI.Text;
-            string descri = textEMAIL.Text;
-            string cadena = "update CLIENTES set EMAIL='" + descri + "' where CEDULA=" + cod;
-            SqlCommand comando = new SqlCommand(cadena, cn);
-            int cant;
-            cant = comando.ExecuteNonQuery();
-            if (cant == 1)
-            {
-                MessageBox.Show("Se actualizó la dirección de correo electrónico del cliente correctamente");
-                textTC.Text = "";
-                new MenuPrincipal().Show();
-                this.Visible = false;
-            }
-            else
-                MessageBox.Show("Cliente no registrado");
-            cn.Close();
-            botonActualizar.Enabled = false;
+                cn.Open();
+                string cod = textCI.Text;
+                string descri = textEMAIL.Text;
+                string cadena = "update CLIENTES set EMAIL='" + descri + "' where CEDULA=" + cod;
+                SqlCommand comando = new SqlCommand(cadena, cn);
+                int cant;
+                cant = comando.ExecuteNonQuery();
+                if (cant == 1)
+                {
+                    MessageBox.Show("Se actualizó la dirección de correo electrónico del cliente correctamente");
+                    textEMAIL.Text = "";
+                    new ActualizarDireccionCorreoElectronico().Show();
+                    this.Visible = false;
+                }
+                else {
+                    MessageBox.Show("La dirección de correo electrónico del cliente no ha sido actualizada");
+                    textEMAIL.Text = "";
+                    cn.Close();
+                }
         }
 
 
@@ -82,23 +84,22 @@ namespace DEVSIS_ENERGISUR
             this.Visible = false;
         }
 
-        private void textCedula_Leave(object sender, EventArgs e)
+        private void ValidartextCedula(string cedula)
         {
-            if (v.VerificaCedula(textCI.Text))
+            if (v.VerificaCedula(cedula))
             {
 
             }
-            else if (textCI.Text == String.Empty)
+            else if (cedula == String.Empty)
             {
                 if (MessageBox.Show("Desea repetir el ingreso?", "Entrada de número de cédula de ciudadanía vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     textCI.Text = "";
-                    textCI.Enabled = true;
                 }
                 else
                 {
 
-                    new MenuPrincipal().Show();
+                    new ActualizarDireccionCorreoElectronico().Show();
                     this.Visible = false;
 
                 }
@@ -112,8 +113,7 @@ namespace DEVSIS_ENERGISUR
                 }
                 else
                 {
-
-                    new MenuPrincipal().Show();
+                    new ActualizarDireccionCorreoElectronico().Show();
                     this.Visible = false;
 
                 }
@@ -127,7 +127,7 @@ namespace DEVSIS_ENERGISUR
                 else
                 {
 
-                    new MenuPrincipal().Show();
+                    new ActualizarDireccionCorreoElectronico().Show();
                     this.Visible = false;
 
                 }
@@ -139,22 +139,38 @@ namespace DEVSIS_ENERGISUR
 
 
 
-        /*private void textDir_Leave(object sender, EventArgs e)
+        private void ValidarEmail(object sender, EventArgs e)
         {
-            if (v.validarDireccion(textDir.Text))
+            if (v.validarEmail(textEMAIL.Text))
             {
 
             }
-            else
+            else if (textEMAIL.Text == String.Empty)
             {
-                if (MessageBox.Show("Desea repetir el ingreso?", "Dirección inválida", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show("¿Desea repetir el ingreso?", "Entrada de dirección de correo electrónico vacía", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
-                    textDir.Text = "";
+                    textEMAIL.Text = "";
+
                 }
                 else
                 {
 
-                    new MenuPrincipal().Show();
+                    new ActualizarDireccionCliente().Show();
+                    this.Visible = false;
+
+                }
+
+            }
+            else
+            {
+                if (MessageBox.Show("Desea repetir el ingreso?", "Dirección de correo electrónico inválida", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    textEMAIL.Text = "";
+                }
+                else
+                {
+
+                    new ActualizarDireccionCliente().Show();
                     this.Visible = false;
 
                 }
@@ -162,6 +178,10 @@ namespace DEVSIS_ENERGISUR
             }
 
 
-        }*/
+        }
+
+
+
+
     }
 }

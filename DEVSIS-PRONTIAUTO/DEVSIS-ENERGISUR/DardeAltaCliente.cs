@@ -27,21 +27,13 @@ namespace DEVSIS_ENERGISUR
             this.Visible = false;
         }
 
-        private void labelIngresarProducto_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textCodigo_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         public void actualizarTabla()
         {
             try
             {
                 string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+                //string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
                 SqlConnection cn;
                 cn = new SqlConnection(cadena);
                 cn.Open();
@@ -98,6 +90,7 @@ namespace DEVSIS_ENERGISUR
             try
             {
                 string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+                //string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
                 SqlConnection cn = new SqlConnection(cadena);
                 cn.Open();
 

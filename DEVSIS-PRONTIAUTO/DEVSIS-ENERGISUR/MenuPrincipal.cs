@@ -199,7 +199,7 @@ namespace DEVSIS_ENERGISUR
 
         private void vehículoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new RegistrarVehiculo().Show();
+            new RegistrarVehículo().Show();
             this.Close();
         }
 

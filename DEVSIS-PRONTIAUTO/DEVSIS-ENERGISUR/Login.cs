@@ -54,7 +54,7 @@ namespace DEVSIS_ENERGISUR
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (comboBox1.Text != "Administración")
+            if (comboBox1.Text != "Ventas")
 
                 MessageBox.Show("Usuario no registrado");
             else
@@ -185,6 +185,15 @@ namespace DEVSIS_ENERGISUR
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+        private void textCodigo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((int)e.KeyChar == (int)Keys.Enter)
+            {
+                MenuPrincipal menu = new MenuPrincipal();
+                menu.Show();
+                this.Visible = false;
+            }
         }
     }
 }

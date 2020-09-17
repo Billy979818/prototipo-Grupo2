@@ -73,7 +73,8 @@
             this.botonConsultar.TabIndex = 52;
             this.botonConsultar.Text = "CONSULTAR";
             this.botonConsultar.UseVisualStyleBackColor = false;
-            this.botonConsultar.Click += new System.EventHandler(this.botonConsultar_Click);
+            this.botonConsultar.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+
             // 
             // labelConsultarProducto
             // 
@@ -99,7 +100,6 @@
             this.comboBox1.Size = new System.Drawing.Size(266, 26);
             this.comboBox1.TabIndex = 55;
             this.comboBox1.Text = "Seleccionar parámetro de búsqueda";
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // textCodigo
             // 
@@ -107,7 +107,6 @@
             this.textCodigo.Name = "textCodigo";
             this.textCodigo.Size = new System.Drawing.Size(324, 20);
             this.textCodigo.TabIndex = 56;
-            this.textCodigo.TextChanged += new System.EventHandler(this.textCodigo_TextChanged);
             // 
             // ConsultarVehículo
             // 
@@ -122,7 +121,6 @@
             this.Controls.Add(this.labelConsultarProducto);
             this.Name = "ConsultarVehículo";
             this.Text = "Consultar vehículo ";
-            this.Load += new System.EventHandler(this.ConsultarMarcaVehículo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

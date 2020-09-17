@@ -14,6 +14,7 @@ namespace DEVSIS_ENERGISUR
     public partial class ConsultarCliente : Form
     {
         string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+        //string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
         public SqlConnection cn = new SqlConnection();
         SqlCommand cmd;
         SqlDataReader dr;
@@ -45,7 +46,7 @@ namespace DEVSIS_ENERGISUR
                     opcion = MessageBox.Show("Nombre invalido", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     if (opcion == DialogResult.OK)
                     {
-                        opcion = MessageBox.Show("Desea repetir el ingreso", " ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        opcion = MessageBox.Show("¿Desea repetir el ingreso?", " ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                         if (opcion == DialogResult.Yes)
                         {
                             textCodigo.Text = " ";
@@ -115,13 +116,13 @@ namespace DEVSIS_ENERGISUR
                 }
                 else if (textCodigo.Text == String.Empty)
                 {
-                    acumulaError = "Entrada de número de cédula vacía";
+                    acumulaError = "Entrada de número de cédula de ciudadanía vacía";
                     MessageBox.Show(acumulaError);
                     acumulaError = "";
                 }
                 else if (textCodigo.TextLength < 10)
                 {
-                    acumulaError = "Número de cédula no válido";
+                    acumulaError = "Número de cédula de ciudadanía inválido";
                     MessageBox.Show(acumulaError);
                     acumulaError = "";
                     textCodigo.Text = "";
@@ -129,7 +130,7 @@ namespace DEVSIS_ENERGISUR
                 }
                 else
                 {
-                    acumulaError = "Número de cédula no válido";
+                    acumulaError = "Número de cédula de ciudadanía inválido";
                     MessageBox.Show(acumulaError);
                 }
 
@@ -155,7 +156,6 @@ namespace DEVSIS_ENERGISUR
                     contador++;
                 }
                 dr.Close();
-                cn.Close();
             }
             catch (Exception ex)
             {
@@ -172,7 +172,6 @@ namespace DEVSIS_ENERGISUR
                 dt = new DataTable();
                 da.Fill(dt);
                 datos.DataSource = dt;
-                cn.Close();
             }
             catch (Exception ex)
             {
@@ -187,12 +186,11 @@ namespace DEVSIS_ENERGISUR
                 dt = new DataTable();
                 da.Fill(dt);
                 datos.DataSource = dt;
-                cn.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("El cliente no se encuentra registrado en el sistema");
-                
+                cn.Close();
             }
         }
 

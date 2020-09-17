@@ -46,7 +46,7 @@
             this.labelIngresarProducto.Size = new System.Drawing.Size(181, 24);
             this.labelIngresarProducto.TabIndex = 56;
             this.labelIngresarProducto.Text = "Dar de Alta cliente";
-            this.labelIngresarProducto.Click += new System.EventHandler(this.labelIngresarProducto_Click);
+            
             // 
             // labelCodigo
             // 
@@ -66,7 +66,6 @@
             this.textCodigo.Name = "textCodigo";
             this.textCodigo.Size = new System.Drawing.Size(420, 22);
             this.textCodigo.TabIndex = 80;
-            this.textCodigo.TextChanged += new System.EventHandler(this.textCodigo_TextChanged);
             this.textCodigo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textCodigo_KeyDown);
             this.textCodigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textCodigo_KeyPress);
             // 

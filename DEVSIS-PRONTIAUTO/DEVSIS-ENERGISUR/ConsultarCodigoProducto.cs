@@ -22,5 +22,10 @@ namespace DEVSIS_ENERGISUR
             new MenuPrincipal().Show();
             this.Close();
         }
+
+        private void ConsultarCodigoProducto_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -74,7 +74,6 @@
             this.botonConsultar.Text = "CONSULTAR";
             this.botonConsultar.UseVisualStyleBackColor = false;
             this.botonConsultar.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-
             // 
             // labelConsultarProducto
             // 
@@ -121,6 +120,7 @@
             this.Controls.Add(this.labelConsultarProducto);
             this.Name = "ConsultarVehículo";
             this.Text = "Consultar vehículo ";
+            this.Load += new System.EventHandler(this.ConsultarVehículo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

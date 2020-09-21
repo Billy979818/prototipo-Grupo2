@@ -246,6 +246,7 @@
             this.Controls.Add(this.labelIngresarProducto);
             this.Name = "ActualizarDireccionCorreoElectronico";
             this.Text = "ActualizarDirecciónCorreoElectrónicoCliente";
+            this.Load += new System.EventHandler(this.ActualizarDireccionCorreoElectronico_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

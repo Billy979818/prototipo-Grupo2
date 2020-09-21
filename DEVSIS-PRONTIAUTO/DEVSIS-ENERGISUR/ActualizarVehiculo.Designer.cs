@@ -229,6 +229,7 @@
             this.Name = "ActualizarVehiculo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Actualizar Vehículo";
+            this.Load += new System.EventHandler(this.ActualizarVehiculo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

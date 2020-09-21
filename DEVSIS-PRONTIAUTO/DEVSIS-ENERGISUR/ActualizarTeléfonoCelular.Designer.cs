@@ -245,6 +245,7 @@
             this.Controls.Add(this.labelIngresarProducto);
             this.Name = "ActualizarTeléfonoCelular";
             this.Text = "ActualizarTeléfonoCelularCliente";
+            this.Load += new System.EventHandler(this.ActualizarTeléfonoCelular_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -172,9 +172,11 @@
             // textName
             // 
             this.textName.Location = new System.Drawing.Point(245, 65);
+            this.textName.Margin = new System.Windows.Forms.Padding(2);
             this.textName.Name = "textName";
             this.textName.Size = new System.Drawing.Size(234, 20);
-            this.textName.TabIndex = 78;
+            this.textName.TabIndex = 81;
+            this.textName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textName_KeyPress);
             this.textName.Leave += new System.EventHandler(this.ValidarNombre);
             // 
             // textCI
@@ -182,8 +184,10 @@
             this.textCI.Location = new System.Drawing.Point(245, 101);
             this.textCI.Name = "textCI";
             this.textCI.Size = new System.Drawing.Size(234, 20);
-            this.textCI.TabIndex = 79;
-            this.textCI.Leave += new System.EventHandler(this.ValidarCedula);
+            this.textCI.TabIndex = 81;
+            this.textCI.TextChanged += new System.EventHandler(this.textCI_TextChanged);
+            this.textCI.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textCI_KeyPress);
+            this.textCI.Leave += new System.EventHandler(this.textCI_Leave);
             // 
             // textTC
             // 
@@ -191,7 +195,8 @@
             this.textTC.Name = "textTC";
             this.textTC.Size = new System.Drawing.Size(234, 20);
             this.textTC.TabIndex = 80;
-            this.textCI.Leave += new System.EventHandler(this.ValidarCelular);
+            this.textTC.TextChanged += new System.EventHandler(this.textTC_TextChanged);
+            this.textTC.Leave += new System.EventHandler(this.textTC_Leave);
             // 
             // textDir
             // 
@@ -199,7 +204,7 @@
             this.textDir.Name = "textDir";
             this.textDir.Size = new System.Drawing.Size(234, 20);
             this.textDir.TabIndex = 81;
-            this.textCI.Leave += new System.EventHandler(this.ValidarDir);
+            this.textDir.Leave += new System.EventHandler(this.textDir_Leave);
             // 
             // textEMAIL
             // 
@@ -207,7 +212,7 @@
             this.textEMAIL.Name = "textEMAIL";
             this.textEMAIL.Size = new System.Drawing.Size(234, 20);
             this.textEMAIL.TabIndex = 82;
-            this.textCI.Leave += new System.EventHandler(this.ValidarEmail);
+            this.textEMAIL.Leave += new System.EventHandler(this.textEMAIL_Leave);
             // 
             // RegistrarCliente
             // 
@@ -234,6 +239,10 @@
             this.Name = "RegistrarCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Cliente";
+            this.Load += new System.EventHandler(this.RegistrarCliente_Load);
+            this.TextChanged += new System.EventHandler(this.RegistrarCliente_TextChanged);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RegistrarCliente_KeyPress);
+            this.Leave += new System.EventHandler(this.RegistrarCliente_Leave);
             this.ResumeLayout(false);
             this.PerformLayout();
 

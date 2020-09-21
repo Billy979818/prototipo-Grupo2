@@ -203,7 +203,6 @@
             this.textPlaca.Name = "textPlaca";
             this.textPlaca.Size = new System.Drawing.Size(182, 24);
             this.textPlaca.TabIndex = 75;
-            //this.textPlaca.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textPlaca_KeyPress);
             // 
             // textModel
             // 
@@ -237,7 +236,7 @@
             this.textPV.Size = new System.Drawing.Size(181, 24);
             this.textPV.TabIndex = 79;
             // 
-            // IngresarProductoVehículo
+            // RegistrarVehículo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -260,8 +259,9 @@
             this.Controls.Add(this.botonIngresar);
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
-            this.Name = "IngresarProductoVehículo";
+            this.Name = "RegistrarVehículo";
             this.Text = "Registrar  Vehículo";
+            this.Load += new System.EventHandler(this.RegistrarVehículo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -14,7 +14,8 @@ namespace DEVSIS_ENERGISUR
 {
     public partial class ActualizarVehiculo : Form
     {
-        string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+        string cadena = "Data Source=.;Initial Catalog=Prontiauto;Integrated Security=True";
+        //string cadena = "Data Source=CHRISTOPHER;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=leonardo2c";
         SqlCommand cmd;
         SqlDataReader dr;
         public SqlConnection cn = new SqlConnection();
@@ -177,5 +178,9 @@ namespace DEVSIS_ENERGISUR
 
         }
 
+        private void ActualizarVehiculo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

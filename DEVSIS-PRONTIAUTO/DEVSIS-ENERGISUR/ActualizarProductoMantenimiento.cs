@@ -27,5 +27,10 @@ namespace DEVSIS_ENERGISUR
         {
 
         }
+
+        private void botonIngresar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

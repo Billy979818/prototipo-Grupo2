@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.6.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.6.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -82,6 +88,12 @@
     <Compile Include="AñadirProducto.designer.cs">
       <DependentUpon>AñadirProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConsultarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarCita.designer.cs">
+      <DependentUpon>ConsultarCita.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConsultarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +129,10 @@
     </Compile>
     <Compile Include="ConsultarMantenimiento.designer.cs">
       <DependentUpon>ConsultarMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarNotaCredito.cs" />
+    <Compile Include="ConsultarNotaCredito.designer.cs">
+      <DependentUpon>ConsultarNotaCredito.cs</DependentUpon>
     </Compile>
     <Compile Include="ConsultarVehículo.cs">
       <SubType>Form</SubType>
@@ -208,12 +224,6 @@
     <Compile Include="ConsultarFactura.Designer.cs">
       <DependentUpon>ConsultarFactura.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConsultarNotaCredito.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarNotaCredito.Designer.cs">
-      <DependentUpon>ConsultarNotaCredito.cs</DependentUpon>
-    </Compile>
     <Compile Include="EmitirMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -232,17 +242,15 @@
     <Compile Include="GenerarCopiaSeguridadClientes.Designer.cs">
       <DependentUpon>GenerarCopiaSeguridadClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="GenerarNotaCredito.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GenerarNotaCredito.Designer.cs">
-      <DependentUpon>GenerarNotaCredito.cs</DependentUpon>
-    </Compile>
     <Compile Include="GenerarFactura.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GenerarFactura.Designer.cs">
       <DependentUpon>GenerarFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerarNotaCredito.cs" />
+    <Compile Include="GenerarNotaCredito.designer.cs">
+      <DependentUpon>GenerarNotaCredito.cs</DependentUpon>
     </Compile>
     <Compile Include="GenerarNotaCreditoMantenimiento.cs">
       <SubType>Form</SubType>
@@ -273,6 +281,12 @@
     </Compile>
     <Compile Include="IngresarProductoMantenimiento.Designer.cs">
       <DependentUpon>IngresarProductoMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarCita.designer.cs">
+      <DependentUpon>RegistrarCita.cs</DependentUpon>
     </Compile>
     <Compile Include="RegistrarVehículo.cs">
       <SubType>Form</SubType>
@@ -338,6 +352,9 @@
     <EmbeddedResource Include="AñadirProducto.resx">
       <DependentUpon>AñadirProducto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarCita.resx">
+      <DependentUpon>ConsultarCita.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConsultarCliente.resx">
       <DependentUpon>ConsultarCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -358,6 +375,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarMantenimiento.resx">
       <DependentUpon>ConsultarMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarNotaCredito.resx">
+      <DependentUpon>ConsultarNotaCredito.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarVehículo.resx">
       <DependentUpon>ConsultarVehículo.cs</DependentUpon>
@@ -401,9 +421,6 @@
     <EmbeddedResource Include="EmitirFacturaElectrónica.resx">
       <DependentUpon>EmitirFacturaElectrónica.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarNotaCredito.resx">
-      <DependentUpon>ConsultarNotaCredito.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="EmitirMantenimiento.resx">
       <DependentUpon>EmitirMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
@@ -433,6 +450,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="IngresarProductoMantenimiento.resx">
       <DependentUpon>IngresarProductoMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarCita.resx">
+      <DependentUpon>RegistrarCita.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrarVehículo.resx">
       <DependentUpon>RegistrarVehículo.cs</DependentUpon>
@@ -465,6 +485,7 @@
     <EmbeddedResource Include="RegistrarCliente.resx">
       <DependentUpon>RegistrarCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

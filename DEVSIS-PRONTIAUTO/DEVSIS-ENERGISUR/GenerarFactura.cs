@@ -86,6 +86,24 @@ namespace DEVSIS_ENERGISUR
             cn.Close();
         }
 
+        public void calcularDescuento()
+        {
+            float total;
+            float descuento;
+            //float total_pagar;
+
+            if (txt_descuento.Text != string.Empty)
+            {
+                descuento = float.Parse(txt_descuento.Text);
+
+                total = float.Parse(txt_total.Text);
+
+                float total1 = total - descuento;
+
+                txt_total.Text = total1.ToString();
+            }
+        }
+
         private void botonRegresar_Click(object sender, EventArgs e)
         {
             new MenuPrincipal().Show();
@@ -162,6 +180,8 @@ namespace DEVSIS_ENERGISUR
                 float iva = (14 * precio_venta) / 100;
                 txt_iva.Text = iva.ToString();
 
+                //float descuento = float.Parse(txt_descuento.Text);
+
                 float total = precio_venta + iva;
 
                 txt_total.Text = total.ToString();
@@ -169,7 +189,7 @@ namespace DEVSIS_ENERGISUR
 
                 cn.Close();
 
-
+                //calcularDescuento();
 
                 //if(txt_subtotal.Text != string.Empty)
                 //{
@@ -201,6 +221,7 @@ namespace DEVSIS_ENERGISUR
         {
             limpiarCampos();
             txt_cedula.Enabled = true;
+            cargarNumFactura();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -219,6 +240,8 @@ namespace DEVSIS_ENERGISUR
             string total = txt_total.Text;
             string cadena = "";
 
+
+
             if (txt_descuento.Text != string.Empty)
             {
                 cadena = "insert into FACTURA (NUM_FAC,FECHA_EMISION,NOM_VENDEDOR,CEDULA_CLIE,NOMBRE_CLI,CORREO_CLI,DIRECCION_CLI,TELEFONO_CLI,PRECIO_VEHI,SUBTOTTAL,DESCUENTO,IVA,TOTAL) values (" + num_fac + ", '" + txt_fecha.Value.ToString("yyyy-MM-dd") + "'" + ", '" + nombre_ven + "'" + ", '" + cedula + "'" + ", '" + nombre + "'" + ", '" + mail + "'" + ", '" + direccion + "'" + ", '" + telefono + "'" + "," + precio_ve + "," + subtotal + "," + descuento + "," + iva + "," + total + ")";
@@ -236,7 +259,7 @@ namespace DEVSIS_ENERGISUR
                 SqlCommand comando = new SqlCommand(cadena, cn);
                 comando.ExecuteNonQuery();
                 cn.Close();
-                MessageBox.Show("factur registrada con éxito");
+                MessageBox.Show("Factura registrada con éxito");
 
 
 
@@ -317,36 +340,45 @@ namespace DEVSIS_ENERGISUR
                 MessageBox.Show("Ingrese la cedula del cliente");
                 v.validarNumeros(txt_cedula.Text);
             }
+
             else if (txt_cedula.Text.Length == 10)
             {
-                v.validarNumeros(txt_cedula.Text);
-                try
+                if (v.VerificaCedula(txt_cedula.Text) != true)
                 {
-                    cn.Open();
-                    Console.WriteLine("Conexion Exitosa");
-                    string ced = txt_cedula.Text;
-                    string consult = "select * from CLIENTES where CEDULA=" + ced;
-                    SqlCommand comando = new SqlCommand(consult, cn);
-                    SqlDataReader registro = comando.ExecuteReader();
-                    if (registro.Read())
-                    {
-                        txt_cedula.Text = registro["CEDULA"].ToString();
-                        txt_nombre.Text = registro["NOMBRES"].ToString();
-                        txt_telefono.Text = registro["CELULAR"].ToString();
-                        txt_direccion.Text = registro["DIRECCION"].ToString();
-                        txt_correo.Text = registro["EMAIL"].ToString();
-                        cn.Close();
-                        txt_cedula.Enabled = false;
-                    }
-                    else
-                        MessageBox.Show("Cliente no registrado");
-                    cn.Close();
+                    MessageBox.Show("Número de cédula incorrecto");
+                }
 
-                }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show(ex.Message);
+                    try
+                    {
+                        cn.Open();
+                        Console.WriteLine("Conexion Exitosa");
+                        string ced = txt_cedula.Text;
+                        string consult = "select * from CLIENTES where CEDULA=" + ced;
+                        SqlCommand comando = new SqlCommand(consult, cn);
+                        SqlDataReader registro = comando.ExecuteReader();
+                        if (registro.Read())
+                        {
+                            txt_cedula.Text = registro["CEDULA"].ToString();
+                            txt_nombre.Text = registro["NOMBRES"].ToString();
+                            txt_telefono.Text = registro["CELULAR"].ToString();
+                            txt_direccion.Text = registro["DIRECCION"].ToString();
+                            txt_correo.Text = registro["EMAIL"].ToString();
+                            cn.Close();
+                            txt_cedula.Enabled = false;
+                        }
+                        else
+                            MessageBox.Show("Cliente no registrado");
+                        cn.Close();
+
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
                 }
+
             }
         }
 
@@ -354,6 +386,40 @@ namespace DEVSIS_ENERGISUR
         {
             limpiarCampos();
             txt_cedula.Enabled = true;
+            cargarNumFactura();
+        }
+
+        private void txt_descuento_TextChanged(object sender, EventArgs e)
+        {
+            //v.Numeros(txt_descuento.Text);
+            //calcularDescuento();
+        }
+
+        private void txt_descuento_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            v.Numeros(e);
+            //calcularDescuento();
+        }
+
+        private void txt_descuento_Leave(object sender, EventArgs e)
+        {
+            calcularDescuento();
+        }
+
+        private void txt_cedula_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            v.Numeros(e);
+        }
+
+        private void txt_vendedor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            v.Nombres(e);
+        }
+
+        private void txt_cedula_Leave(object sender, EventArgs e)
+        {
+            v.VerificaCedula(txt_cedula.Text);
+
         }
     }
 }

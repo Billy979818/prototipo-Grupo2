@@ -38,5 +38,10 @@ namespace DEVSIS_ENERGISUR
             this.Close();
 
         }
+
+        private void labelGenerarFactura_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

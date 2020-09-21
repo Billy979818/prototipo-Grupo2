@@ -119,6 +119,7 @@
             this.Controls.Add(this.botonConsultar);
             this.Name = "ConsultarCodigoProducto";
             this.Text = "Consultar Producto";
+            this.Load += new System.EventHandler(this.ConsultarCodigoProducto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

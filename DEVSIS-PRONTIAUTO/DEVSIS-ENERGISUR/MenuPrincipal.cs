@@ -393,13 +393,30 @@ namespace DEVSIS_ENERGISUR
 
         private void generarReportesDeMantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new GenerarReportesMantenimiento().Show();
-            this.Close();
+            
         }
 
         private void actualizarClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void generarCitaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new RegistrarCita().Show();
+            this.Close();
+        }
+
+        private void consultarCitaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ConsultarCita().Show();
+            this.Close();
+        }
+
+        private void generarReportesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            new GenerarReportesMantenimiento().Show();
+            this.Close();
         }
     }
 }

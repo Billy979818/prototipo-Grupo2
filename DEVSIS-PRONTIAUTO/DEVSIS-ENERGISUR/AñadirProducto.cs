@@ -27,5 +27,10 @@ namespace DEVSIS_ENERGISUR
             new IngresarMantenimiento().Show();
             this.Close();
         }
+
+        private void AñadirProducto_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

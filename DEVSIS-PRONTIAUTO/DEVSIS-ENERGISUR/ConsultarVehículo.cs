@@ -14,9 +14,9 @@ namespace DEVSIS_ENERGISUR
 {
     public partial class ConsultarVehículo : Form
     {
-        string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+        //string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
         //string cadena = "Data Source=CHRISTOPHER;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=leonardo2c";
-        //string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
+        string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
         public SqlConnection cn = new SqlConnection();
         SqlCommand cmd;
         SqlDataReader dr;
@@ -95,6 +95,7 @@ namespace DEVSIS_ENERGISUR
         {
             if (comboBox1.SelectedIndex.Equals(0))
             {
+                v.validarPlaca(textCodigo.Text);
                 mostrarPlaca(textCodigo.Text, dataGridView1);
             }
             else if (comboBox1.SelectedIndex.Equals(1))
@@ -113,7 +114,7 @@ namespace DEVSIS_ENERGISUR
             this.Close();
         }
 
-        /*public int vehiculoRegistrado(string placa)
+        public int vehiculoRegistrado(string placa)
         {
             int contador = 0;
             try
@@ -132,7 +133,7 @@ namespace DEVSIS_ENERGISUR
                 MessageBox.Show("El cliente ya se encuentra registrado" + ex.ToString());
             }
             return contador;
-        }*/
+        }
 
         private void textPlaca_Leave(object sender, EventArgs e)
         {

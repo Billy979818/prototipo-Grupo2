@@ -14,10 +14,10 @@ namespace DEVSIS_ENERGISUR
 {
     public partial class ActualizarVehiculo : Form
     {
-        string cadena = "Data Source=.;Initial Catalog=Prontiauto;Integrated Security=True";
+        string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
+        //string cadena = "Data Source=.;Initial Catalog=Prontiauto;Integrated Security=True";
         //string cadena = "Data Source=CHRISTOPHER;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=leonardo2c";
-        SqlCommand cmd;
-        SqlDataReader dr;
+
         public SqlConnection cn = new SqlConnection();
         Validaciones v = new Validaciones();
         public ActualizarVehiculo()
@@ -36,9 +36,10 @@ namespace DEVSIS_ENERGISUR
             SqlDataReader registro = comando.ExecuteReader();
             if (registro.Read())
             {
-                textMarca.Text = registro["MARCA"].ToString();
                 textPlaca.Text = registro["PLACA"].ToString();
+                textMarca.Text = registro["MARCA"].ToString();
                 textModel.Text = registro["MODELO"].ToString();
+                textAN.Text = registro["AÑO"].ToString();
                 textKm.Text = registro["KILOMETRAJE"].ToString();
                 textPC.Text = registro["PRECIO_COMPRA"].ToString();
                 textPC.Text = registro["PRECIO_VENTA"].ToString();

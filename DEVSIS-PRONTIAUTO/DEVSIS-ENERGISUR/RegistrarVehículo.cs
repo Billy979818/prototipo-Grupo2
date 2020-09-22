@@ -14,11 +14,9 @@ namespace DEVSIS_ENERGISUR
 {
     public partial class RegistrarVehículo : Form
     {
-        string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
+        //string cadena = "Data Source=DESKTOP-1E84QEA;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=P@ssw0rd";
         //string cadena = "Data Source=CHRISTOPHER;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=leonardo2c";
-        //string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
-        SqlCommand cmd;
-        SqlDataReader dr;
+        string cadena = "Data Source=EDISON-LAPTOP;Initial Catalog=prontiauto;Persist Security Info=True;User ID=sa;Password=123456";
         public SqlConnection cn = new SqlConnection();
         Validaciones v = new Validaciones();
         public RegistrarVehículo()
@@ -34,12 +32,14 @@ namespace DEVSIS_ENERGISUR
         }
         private void botonLimpiar_Click(object sender, EventArgs e)
         {
-            textMarca.Text = "";
             textPlaca.Text = "";
+            textMarca.Text = "";
             textModel.Text = "";
+            textAN.Text = "";
             textKm.Text = "";
             textPC.Text = "";
             textPV.Text = "";
+            comboBox1.SelectedIndex = -1;
         }
 
         private void RegistrarVehiculo_Click(object sender, EventArgs e)
@@ -47,10 +47,11 @@ namespace DEVSIS_ENERGISUR
             try
             {
                 cn.Open();
-                string m = textMarca.Text;
                 string p = textPlaca.Text;
+                string m = textMarca.Text;
                 string t = this.comboBox1.Text;
                 string mod = textModel.Text;
+                string anio = textAN.Text;
                 string km = textKm.Text;
                 string pc = textPC.Text;
                 string pv = textPV.Text;
@@ -61,7 +62,7 @@ namespace DEVSIS_ENERGISUR
                 ValidartextPC(pc);
                 ValidartextPV(pv);
 
-                string cadena = "insert into VEHICULOS(MARCA,PLACA,TIPO,MODELO,KILOMETRAJE,PRECIO_COMPRA,PRECIO_VENTA)values ('" + m + "','" + p + "','" + t + "','" + mod + "'," + km + "," + pc + "," + pv + ")";
+                string cadena = "insert into VEHICULOS(PLACA,MARCA,TIPO,MODELO,AÑO,KILOMETRAJE,PRECIO_COMPRA,PRECIO_VENTA)values ('" + p + "','" + m + "','" + t + "','" + mod + "'," + anio + "," + km + "," + pc + "," + pv + ")";
                 SqlCommand comando = new SqlCommand(cadena, cn);
                 comando.ExecuteNonQuery();
                 MessageBox.Show("Vehículo registrado correctamente");

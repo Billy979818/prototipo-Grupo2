@@ -45,6 +45,8 @@
             this.textKm = new System.Windows.Forms.TextBox();
             this.textPC = new System.Windows.Forms.TextBox();
             this.textPV = new System.Windows.Forms.TextBox();
+            this.textAN = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelPrecio
@@ -62,7 +64,7 @@
             // 
             this.labelVoltaje.AutoSize = true;
             this.labelVoltaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelVoltaje.Location = new System.Drawing.Point(53, 244);
+            this.labelVoltaje.Location = new System.Drawing.Point(53, 243);
             this.labelVoltaje.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelVoltaje.Name = "labelVoltaje";
             this.labelVoltaje.Size = new System.Drawing.Size(117, 18);
@@ -86,7 +88,7 @@
             // 
             this.labelMarca.AutoSize = true;
             this.labelMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMarca.Location = new System.Drawing.Point(53, 196);
+            this.labelMarca.Location = new System.Drawing.Point(53, 161);
             this.labelMarca.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelMarca.Name = "labelMarca";
             this.labelMarca.Size = new System.Drawing.Size(62, 18);
@@ -97,20 +99,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(53, 60);
+            this.label1.Location = new System.Drawing.Point(53, 42);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 18);
             this.label1.TabIndex = 58;
             this.label1.Text = "Placa ";
             // 
-            // botonIngresar
+            // botonEliminar
             // 
             this.botonEliminar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.botonEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botonEliminar.Location = new System.Drawing.Point(11, 408);
             this.botonEliminar.Margin = new System.Windows.Forms.Padding(2);
-            this.botonEliminar.Name = "botonIngresar";
+            this.botonEliminar.Name = "botonEliminar";
             this.botonEliminar.Size = new System.Drawing.Size(222, 39);
             this.botonEliminar.TabIndex = 57;
             this.botonEliminar.Text = "ELIMINAR";
@@ -121,7 +123,7 @@
             // 
             this.labelCodigo.AutoSize = true;
             this.labelCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCodigo.Location = new System.Drawing.Point(53, 95);
+            this.labelCodigo.Location = new System.Drawing.Point(53, 80);
             this.labelCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCodigo.Name = "labelCodigo";
             this.labelCodigo.Size = new System.Drawing.Size(54, 18);
@@ -132,7 +134,7 @@
             // 
             this.labelIngresarProducto.AutoSize = true;
             this.labelIngresarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIngresarProducto.Location = new System.Drawing.Point(187, 18);
+            this.labelIngresarProducto.Location = new System.Drawing.Point(179, 0);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
             this.labelIngresarProducto.Size = new System.Drawing.Size(136, 18);
@@ -158,7 +160,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "automovil",
             "camioneta"});
-            this.comboBox1.Location = new System.Drawing.Point(228, 137);
+            this.comboBox1.Location = new System.Drawing.Point(228, 118);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(214, 26);
             this.comboBox1.TabIndex = 74;
@@ -168,16 +170,16 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(53, 137);
+            this.label3.Location = new System.Drawing.Point(53, 121);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 18);
+            this.label3.Size = new System.Drawing.Size(41, 18);
             this.label3.TabIndex = 73;
-            this.label3.Text = "tipo ";
+            this.label3.Text = "Tipo ";
             // 
             // textPlaca
             // 
-            this.textPlaca.Location = new System.Drawing.Point(228, 57);
+            this.textPlaca.Location = new System.Drawing.Point(228, 39);
             this.textPlaca.Name = "textPlaca";
             this.textPlaca.Size = new System.Drawing.Size(214, 21);
             this.textPlaca.TabIndex = 75;
@@ -186,7 +188,7 @@
             // textMarca
             // 
             this.textMarca.Enabled = false;
-            this.textMarca.Location = new System.Drawing.Point(228, 94);
+            this.textMarca.Location = new System.Drawing.Point(228, 80);
             this.textMarca.Name = "textMarca";
             this.textMarca.Size = new System.Drawing.Size(214, 21);
             this.textMarca.TabIndex = 76;
@@ -195,7 +197,7 @@
             // textModel
             // 
             this.textModel.Enabled = false;
-            this.textModel.Location = new System.Drawing.Point(228, 195);
+            this.textModel.Location = new System.Drawing.Point(228, 161);
             this.textModel.Name = "textModel";
             this.textModel.Size = new System.Drawing.Size(214, 21);
             this.textModel.TabIndex = 77;
@@ -228,11 +230,32 @@
             this.textPV.TabIndex = 80;
             this.textPV.Text = "No permitido";
             // 
+            // textAN
+            // 
+            this.textAN.Enabled = false;
+            this.textAN.Location = new System.Drawing.Point(228, 202);
+            this.textAN.Name = "textAN";
+            this.textAN.Size = new System.Drawing.Size(214, 21);
+            this.textAN.TabIndex = 81;
+            this.textAN.Text = "No permitido";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(52, 202);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(39, 20);
+            this.label4.TabIndex = 82;
+            this.label4.Text = "Año";
+            // 
             // EliminarVehiculo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(517, 466);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textAN);
             this.Controls.Add(this.textPV);
             this.Controls.Add(this.textPC);
             this.Controls.Add(this.textKm);
@@ -277,5 +300,7 @@
         private System.Windows.Forms.TextBox textKm;
         private System.Windows.Forms.TextBox textPC;
         private System.Windows.Forms.TextBox textPV;
+        private System.Windows.Forms.TextBox textAN;
+        private System.Windows.Forms.Label label4;
     }
 }

@@ -98,19 +98,7 @@ namespace DEVSIS_ENERGISUR
 
 
 
-        private void ingresarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new IngresarProveedor().Show();
-            //this.Close();
-            this.Visible = false;
-        }
-
-        
-        private void eliminarProveedorToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new EliminarProveedor().Show();
-            this.Visible = false;
-        }
+     
 
         private void nombreDelProductoToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -122,11 +110,7 @@ namespace DEVSIS_ENERGISUR
             //new ConsultarCodigoProducto().Show();
         }
 
-        private void rUCDeProveedorToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new ConsultarRucProveedor().Show();
-        }
-
+        
         private void consultarClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new ConsultarCliente().Show();
@@ -149,46 +133,7 @@ namespace DEVSIS_ENERGISUR
             this.Close();
         }
 
-        private void númeroDeTeléfonoConvencionalToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new ConsultarTelefonoConvProveedor().Show();
-            this.Visible = false;
-        }
-
-        private void razónSocialToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new ConsultarRazonSocialProveedor().Show();
-            this.Visible = false;
-        }
-
-        private void correoElectrónicoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new ConsultarCorreoProveedor().Show();
-            this.Visible = false;
-        }
-
-        private void fechaDeIncioToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new ConsultarFechaFinOrdenCompra().Show();
-        }
-
-        private void númeroDeOrdenToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new ConsultarNumeroOrdenCompra().Show();
-        }
-
-        private void fechaDeExpediciónToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new ConsultarFechaInicioOrdenCompra().Show();
-        }
-
-        private void númeroDeTélefonoCelularToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new ConsultarTelefonoCelularProveedor().Show();
-            this.Visible = false;
-        }
-
-       
+        
 
         private void cambiarEstadoToolStripMenuItem_Click(object sender, EventArgs e)
         {

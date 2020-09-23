@@ -106,24 +106,6 @@
     <Compile Include="ConsultarCodigoProducto.Designer.cs">
       <DependentUpon>ConsultarCodigoProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConsultarCorreoProveedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarCorreoProveedor.Designer.cs">
-      <DependentUpon>ConsultarCorreoProveedor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConsultarFechaFinOrdenCompra.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarFechaFinOrdenCompra.Designer.cs">
-      <DependentUpon>ConsultarFechaFinOrdenCompra.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConsultarFechaInicioOrdenCompra.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarFechaInicioOrdenCompra.Designer.cs">
-      <DependentUpon>ConsultarFechaInicioOrdenCompra.cs</DependentUpon>
-    </Compile>
     <Compile Include="ConsultarMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,36 +121,6 @@
     </Compile>
     <Compile Include="ConsultarVehículo.Designer.cs">
       <DependentUpon>ConsultarVehículo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConsultarNumeroOrdenCompra.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarNumeroOrdenCompra.Designer.cs">
-      <DependentUpon>ConsultarNumeroOrdenCompra.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConsultarRazonSocialProveedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarRazonSocialProveedor.Designer.cs">
-      <DependentUpon>ConsultarRazonSocialProveedor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConsultarRucProveedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarRucProveedor.Designer.cs">
-      <DependentUpon>ConsultarRucProveedor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConsultarTelefonoCelularProveedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarTelefonoCelularProveedor.Designer.cs">
-      <DependentUpon>ConsultarTelefonoCelularProveedor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConsultarTelefonoConvProveedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConsultarTelefonoConvProveedor.Designer.cs">
-      <DependentUpon>ConsultarTelefonoConvProveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="control\consultarordencompra.cs" />
     <Compile Include="control\controlOrdenCompra.cs" />
@@ -193,12 +145,6 @@
     </Compile>
     <Compile Include="EliminarMantenimiento.Designer.cs">
       <DependentUpon>EliminarMantenimiento.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EliminarProveedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EliminarProveedor.Designer.cs">
-      <DependentUpon>EliminarProveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="EliminarUsuario.cs">
       <SubType>Form</SubType>
@@ -258,12 +204,6 @@
     <Compile Include="GenerarNotaCreditoMantenimiento.designer.cs">
       <DependentUpon>GenerarNotaCreditoMantenimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="GenerarOrdenCompra.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GenerarOrdenCompra.Designer.cs">
-      <DependentUpon>GenerarOrdenCompra.cs</DependentUpon>
-    </Compile>
     <Compile Include="GenerarReportesMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -294,12 +234,6 @@
     <Compile Include="RegistrarVehículo.Designer.cs">
       <DependentUpon>RegistrarVehículo.cs</DependentUpon>
     </Compile>
-    <Compile Include="IngresarProveedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IngresarProveedor.Designer.cs">
-      <DependentUpon>IngresarProveedor.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -317,12 +251,6 @@
     </Compile>
     <Compile Include="ModificarOrdenCompra.Designer.cs">
       <DependentUpon>ModificarOrdenCompra.cs</DependentUpon>
-    </Compile>
-    <Compile Include="productos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="productos.Designer.cs">
-      <DependentUpon>productos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="prontiautoDataSet.Designer.cs" />
@@ -361,17 +289,8 @@
     <EmbeddedResource Include="ConsultarCodigoProducto.resx">
       <DependentUpon>ConsultarCodigoProducto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarCorreoProveedor.resx">
-      <DependentUpon>ConsultarCorreoProveedor.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ConsultarFactura.resx">
       <DependentUpon>ConsultarFactura.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarFechaFinOrdenCompra.resx">
-      <DependentUpon>ConsultarFechaFinOrdenCompra.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarFechaInicioOrdenCompra.resx">
-      <DependentUpon>ConsultarFechaInicioOrdenCompra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarMantenimiento.resx">
       <DependentUpon>ConsultarMantenimiento.cs</DependentUpon>
@@ -381,21 +300,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarVehículo.resx">
       <DependentUpon>ConsultarVehículo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarNumeroOrdenCompra.resx">
-      <DependentUpon>ConsultarNumeroOrdenCompra.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarRazonSocialProveedor.resx">
-      <DependentUpon>ConsultarRazonSocialProveedor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarRucProveedor.resx">
-      <DependentUpon>ConsultarRucProveedor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarTelefonoCelularProveedor.resx">
-      <DependentUpon>ConsultarTelefonoCelularProveedor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarTelefonoConvProveedor.resx">
-      <DependentUpon>ConsultarTelefonoConvProveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CrearUsuario.resx">
       <DependentUpon>CrearUsuario.cs</DependentUpon>
@@ -408,9 +312,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EliminarMantenimiento.resx">
       <DependentUpon>EliminarMantenimiento.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EliminarProveedor.resx">
-      <DependentUpon>EliminarProveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EliminarUsuario.resx">
       <DependentUpon>EliminarUsuario.cs</DependentUpon>
@@ -439,9 +340,6 @@
     <EmbeddedResource Include="GenerarNotaCreditoMantenimiento.resx">
       <DependentUpon>GenerarNotaCreditoMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GenerarOrdenCompra.resx">
-      <DependentUpon>GenerarOrdenCompra.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GenerarReportesMantenimiento.resx">
       <DependentUpon>GenerarReportesMantenimiento.cs</DependentUpon>
     </EmbeddedResource>
@@ -457,9 +355,6 @@
     <EmbeddedResource Include="RegistrarVehículo.resx">
       <DependentUpon>RegistrarVehículo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IngresarProveedor.resx">
-      <DependentUpon>IngresarProveedor.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -468,9 +363,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ModificarOrdenCompra.resx">
       <DependentUpon>ModificarOrdenCompra.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="productos.resx">
-      <DependentUpon>productos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

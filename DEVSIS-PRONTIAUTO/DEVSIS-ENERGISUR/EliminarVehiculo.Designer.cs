@@ -134,12 +134,12 @@
             // 
             this.labelIngresarProducto.AutoSize = true;
             this.labelIngresarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIngresarProducto.Location = new System.Drawing.Point(179, 0);
+            this.labelIngresarProducto.Location = new System.Drawing.Point(147, -1);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(136, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(194, 18);
             this.labelIngresarProducto.TabIndex = 54;
-            this.labelIngresarProducto.Text = "Eliminar vehículo";
+            this.labelIngresarProducto.Text = "Eliminación de vehículos";
             // 
             // label2
             // 
@@ -275,7 +275,7 @@
             this.Controls.Add(this.labelIngresarProducto);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "EliminarVehiculo";
-            this.Text = "Eliminar Vehiculo";
+            this.Text = "EliminaciónVehiculos";
             this.ResumeLayout(false);
             this.PerformLayout();
 

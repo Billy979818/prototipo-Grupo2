@@ -50,12 +50,12 @@
             // 
             this.labelIngresarProducto.AutoSize = true;
             this.labelIngresarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIngresarProducto.Location = new System.Drawing.Point(163, 9);
+            this.labelIngresarProducto.Location = new System.Drawing.Point(124, 9);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(210, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(273, 18);
             this.labelIngresarProducto.TabIndex = 49;
-            this.labelIngresarProducto.Text = "Actualizar dirección cliente";
+            this.labelIngresarProducto.Text = "Actualización  dirección de clientes";
             // 
             // labelCodigo
             // 
@@ -246,7 +246,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ActualizarDireccionCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ActualizarDirecciónCliente";
+            this.Text = "ActualizaciónDirecciónClientes";
             this.Load += new System.EventHandler(this.ActualizarDireccionCliente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

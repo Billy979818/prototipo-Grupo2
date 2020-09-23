@@ -42,56 +42,63 @@
             // labelUsuario
             // 
             this.labelUsuario.AutoSize = true;
-            this.labelUsuario.Location = new System.Drawing.Point(12, 40);
+            this.labelUsuario.Location = new System.Drawing.Point(9, 32);
+            this.labelUsuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelUsuario.Name = "labelUsuario";
-            this.labelUsuario.Size = new System.Drawing.Size(57, 17);
+            this.labelUsuario.Size = new System.Drawing.Size(43, 13);
             this.labelUsuario.TabIndex = 0;
             this.labelUsuario.Text = "Usuario";
             // 
             // labelContrasena
             // 
             this.labelContrasena.AutoSize = true;
-            this.labelContrasena.Location = new System.Drawing.Point(12, 80);
+            this.labelContrasena.Location = new System.Drawing.Point(9, 65);
+            this.labelContrasena.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelContrasena.Name = "labelContrasena";
-            this.labelContrasena.Size = new System.Drawing.Size(81, 17);
+            this.labelContrasena.Size = new System.Drawing.Size(61, 13);
             this.labelContrasena.TabIndex = 1;
             this.labelContrasena.Text = "Contraseña";
             // 
             // labelContrasenaConfirmacion
             // 
             this.labelContrasenaConfirmacion.AutoSize = true;
-            this.labelContrasenaConfirmacion.Location = new System.Drawing.Point(12, 120);
+            this.labelContrasenaConfirmacion.Location = new System.Drawing.Point(9, 98);
+            this.labelContrasenaConfirmacion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelContrasenaConfirmacion.Name = "labelContrasenaConfirmacion";
-            this.labelContrasenaConfirmacion.Size = new System.Drawing.Size(165, 17);
+            this.labelContrasenaConfirmacion.Size = new System.Drawing.Size(124, 13);
             this.labelContrasenaConfirmacion.TabIndex = 2;
             this.labelContrasenaConfirmacion.Text = "Confirmación contraseña";
             // 
             // textUsuario
             // 
-            this.textUsuario.Location = new System.Drawing.Point(241, 40);
+            this.textUsuario.Location = new System.Drawing.Point(181, 32);
+            this.textUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textUsuario.Name = "textUsuario";
-            this.textUsuario.Size = new System.Drawing.Size(329, 22);
+            this.textUsuario.Size = new System.Drawing.Size(248, 20);
             this.textUsuario.TabIndex = 3;
             // 
             // textContrasenaConfirmacion
             // 
-            this.textContrasenaConfirmacion.Location = new System.Drawing.Point(241, 120);
+            this.textContrasenaConfirmacion.Location = new System.Drawing.Point(181, 98);
+            this.textContrasenaConfirmacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textContrasenaConfirmacion.Name = "textContrasenaConfirmacion";
-            this.textContrasenaConfirmacion.Size = new System.Drawing.Size(329, 22);
+            this.textContrasenaConfirmacion.Size = new System.Drawing.Size(248, 20);
             this.textContrasenaConfirmacion.TabIndex = 4;
             // 
             // textContrasena
             // 
-            this.textContrasena.Location = new System.Drawing.Point(241, 80);
+            this.textContrasena.Location = new System.Drawing.Point(181, 65);
+            this.textContrasena.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textContrasena.Name = "textContrasena";
-            this.textContrasena.Size = new System.Drawing.Size(329, 22);
+            this.textContrasena.Size = new System.Drawing.Size(248, 20);
             this.textContrasena.TabIndex = 5;
             // 
             // botonCrearUsuario
             // 
-            this.botonCrearUsuario.Location = new System.Drawing.Point(282, 218);
+            this.botonCrearUsuario.Location = new System.Drawing.Point(212, 177);
+            this.botonCrearUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.botonCrearUsuario.Name = "botonCrearUsuario";
-            this.botonCrearUsuario.Size = new System.Drawing.Size(288, 27);
+            this.botonCrearUsuario.Size = new System.Drawing.Size(216, 22);
             this.botonCrearUsuario.TabIndex = 6;
             this.botonCrearUsuario.Text = "Crear";
             this.botonCrearUsuario.UseVisualStyleBackColor = true;
@@ -99,17 +106,19 @@
             // labelCrearUsuario
             // 
             this.labelCrearUsuario.AutoSize = true;
-            this.labelCrearUsuario.Location = new System.Drawing.Point(200, 10);
+            this.labelCrearUsuario.Location = new System.Drawing.Point(150, 8);
+            this.labelCrearUsuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCrearUsuario.Name = "labelCrearUsuario";
-            this.labelCrearUsuario.Size = new System.Drawing.Size(94, 17);
+            this.labelCrearUsuario.Size = new System.Drawing.Size(106, 13);
             this.labelCrearUsuario.TabIndex = 7;
-            this.labelCrearUsuario.Text = "Crear usuario";
+            this.labelCrearUsuario.Text = "Creación de usuarios";
             // 
             // botonRegresar
             // 
-            this.botonRegresar.Location = new System.Drawing.Point(15, 218);
+            this.botonRegresar.Location = new System.Drawing.Point(11, 177);
+            this.botonRegresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.botonRegresar.Name = "botonRegresar";
-            this.botonRegresar.Size = new System.Drawing.Size(261, 27);
+            this.botonRegresar.Size = new System.Drawing.Size(196, 22);
             this.botonRegresar.TabIndex = 33;
             this.botonRegresar.Text = "Regresar";
             this.botonRegresar.UseVisualStyleBackColor = true;
@@ -117,9 +126,9 @@
             // 
             // CrearUsuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(582, 253);
+            this.ClientSize = new System.Drawing.Size(436, 206);
             this.Controls.Add(this.botonRegresar);
             this.Controls.Add(this.labelCrearUsuario);
             this.Controls.Add(this.botonCrearUsuario);
@@ -129,9 +138,10 @@
             this.Controls.Add(this.labelContrasenaConfirmacion);
             this.Controls.Add(this.labelContrasena);
             this.Controls.Add(this.labelUsuario);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "CrearUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Crear Usuario";
+            this.Text = "CreaciónUsuarios";
             this.ResumeLayout(false);
             this.PerformLayout();
 

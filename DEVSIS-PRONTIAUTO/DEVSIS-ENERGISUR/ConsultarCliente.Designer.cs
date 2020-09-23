@@ -50,9 +50,9 @@
             this.labelConsultarProducto.Location = new System.Drawing.Point(340, 9);
             this.labelConsultarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelConsultarProducto.Name = "labelConsultarProducto";
-            this.labelConsultarProducto.Size = new System.Drawing.Size(135, 18);
+            this.labelConsultarProducto.Size = new System.Drawing.Size(161, 18);
             this.labelConsultarProducto.TabIndex = 44;
-            this.labelConsultarProducto.Text = "Consultar cliente";
+            this.labelConsultarProducto.Text = "Consulta de clientes";
             // 
             // textCodigo
             // 
@@ -148,7 +148,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ConsultarCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Consultarcliente ";
+            this.Text = "Consultaclientes ";
             this.Load += new System.EventHandler(this.ConsultarCliente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.prontiautoDataSet)).EndInit();

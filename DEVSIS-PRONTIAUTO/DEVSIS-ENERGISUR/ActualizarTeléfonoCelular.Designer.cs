@@ -50,12 +50,12 @@
             // 
             this.labelIngresarProducto.AutoSize = true;
             this.labelIngresarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIngresarProducto.Location = new System.Drawing.Point(149, 9);
+            this.labelIngresarProducto.Location = new System.Drawing.Point(131, 9);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(257, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(292, 18);
             this.labelIngresarProducto.TabIndex = 50;
-            this.labelIngresarProducto.Text = "Actualizar teléfono celular cliente";
+            this.labelIngresarProducto.Text = "Actualización teléfono celular clientes";
             // 
             // labelCodigo
             // 
@@ -244,7 +244,7 @@
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
             this.Name = "ActualizarTeléfonoCelular";
-            this.Text = "ActualizarTeléfonoCelularCliente";
+            this.Text = "ActualizaciónTeléfonoCelularClientes";
             this.Load += new System.EventHandler(this.ActualizarTeléfonoCelular_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

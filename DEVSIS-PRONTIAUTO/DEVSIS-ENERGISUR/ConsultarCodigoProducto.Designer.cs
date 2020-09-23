@@ -44,9 +44,9 @@
             this.label2.Location = new System.Drawing.Point(180, 9);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(268, 18);
+            this.label2.Size = new System.Drawing.Size(294, 18);
             this.label2.TabIndex = 69;
-            this.label2.Text = "Consultar producto mantenimiento";
+            this.label2.Text = "Consulta de productos mantenimiento";
             // 
             // botonRegresar
             // 
@@ -118,7 +118,7 @@
             this.Controls.Add(this.textNombreProducto);
             this.Controls.Add(this.botonConsultar);
             this.Name = "ConsultarCodigoProducto";
-            this.Text = "Consultar Producto";
+            this.Text = "ConsultaProductosMantenimiento";
             this.Load += new System.EventHandler(this.ConsultarCodigoProducto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

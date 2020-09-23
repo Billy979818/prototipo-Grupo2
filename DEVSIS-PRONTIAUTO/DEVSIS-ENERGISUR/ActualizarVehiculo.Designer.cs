@@ -135,9 +135,9 @@
             this.labelIngresarProducto.Location = new System.Drawing.Point(168, 0);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(149, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(207, 18);
             this.labelIngresarProducto.TabIndex = 54;
-            this.labelIngresarProducto.Text = "Actualizar vehículo";
+            this.labelIngresarProducto.Text = "Actualización de vehículos";
             // 
             // label2
             // 
@@ -252,7 +252,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ActualizarVehiculo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Actualizar Vehículo";
+            this.Text = "Actualización vehículos";
             this.Load += new System.EventHandler(this.ActualizarVehiculo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -53,9 +53,9 @@
             this.labelIngresarProducto.Location = new System.Drawing.Point(210, 9);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(131, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(158, 18);
             this.labelIngresarProducto.TabIndex = 50;
-            this.labelIngresarProducto.Text = "Registrar cliente";
+            this.labelIngresarProducto.Text = "Registro de clientes";
             // 
             // labelCodigo
             // 
@@ -183,7 +183,7 @@
             this.textCI.Name = "textCI";
             this.textCI.Size = new System.Drawing.Size(234, 20);
             this.textCI.TabIndex = 79;
-            this.textCI.Leave += new System.EventHandler(this.ValidarCedula);
+            this.textCI.Leave += new System.EventHandler(this.ValidarEmail);
             // 
             // textTC
             // 
@@ -191,7 +191,6 @@
             this.textTC.Name = "textTC";
             this.textTC.Size = new System.Drawing.Size(234, 20);
             this.textTC.TabIndex = 80;
-            this.textCI.Leave += new System.EventHandler(this.ValidarCelular);
             // 
             // textDir
             // 
@@ -199,7 +198,6 @@
             this.textDir.Name = "textDir";
             this.textDir.Size = new System.Drawing.Size(234, 20);
             this.textDir.TabIndex = 81;
-            this.textCI.Leave += new System.EventHandler(this.ValidarDir);
             // 
             // textEMAIL
             // 
@@ -207,7 +205,6 @@
             this.textEMAIL.Name = "textEMAIL";
             this.textEMAIL.Size = new System.Drawing.Size(234, 20);
             this.textEMAIL.TabIndex = 82;
-            this.textCI.Leave += new System.EventHandler(this.ValidarEmail);
             // 
             // RegistrarCliente
             // 
@@ -233,7 +230,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "RegistrarCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Registrar Cliente";
+            this.Text = "Registro de clientes";
             this.ResumeLayout(false);
             this.PerformLayout();
 

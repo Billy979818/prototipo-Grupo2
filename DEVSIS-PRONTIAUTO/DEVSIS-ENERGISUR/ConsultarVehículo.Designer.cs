@@ -79,12 +79,12 @@
             // 
             this.labelConsultarProducto.AutoSize = true;
             this.labelConsultarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelConsultarProducto.Location = new System.Drawing.Point(310, 9);
+            this.labelConsultarProducto.Location = new System.Drawing.Point(278, -4);
             this.labelConsultarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelConsultarProducto.Name = "labelConsultarProducto";
-            this.labelConsultarProducto.Size = new System.Drawing.Size(148, 18);
+            this.labelConsultarProducto.Size = new System.Drawing.Size(174, 18);
             this.labelConsultarProducto.TabIndex = 49;
-            this.labelConsultarProducto.Text = "Consultar vehículo";
+            this.labelConsultarProducto.Text = "Consulta de vehículos";
             // 
             // comboBox1
             // 
@@ -119,7 +119,7 @@
             this.Controls.Add(this.botonConsultar);
             this.Controls.Add(this.labelConsultarProducto);
             this.Name = "ConsultarVehículo";
-            this.Text = "Consultar vehículo ";
+            this.Text = "Consulta de vehículos ";
             this.Load += new System.EventHandler(this.ConsultarVehículo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

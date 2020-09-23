@@ -70,12 +70,12 @@
             // 
             this.labelGenerarFactura.AutoSize = true;
             this.labelGenerarFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelGenerarFactura.Location = new System.Drawing.Point(315, 9);
+            this.labelGenerarFactura.Location = new System.Drawing.Point(266, -4);
             this.labelGenerarFactura.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelGenerarFactura.Name = "labelGenerarFactura";
-            this.labelGenerarFactura.Size = new System.Drawing.Size(270, 29);
+            this.labelGenerarFactura.Size = new System.Drawing.Size(368, 29);
             this.labelGenerarFactura.TabIndex = 0;
-            this.labelGenerarFactura.Text = "GENERAR FACTURA ";
+            this.labelGenerarFactura.Text = "GENERACIÓN DE FACTURAS";
             this.labelGenerarFactura.Click += new System.EventHandler(this.labelGenerarFactura_Click);
             // 
             // txt_cedula
@@ -458,7 +458,7 @@
             this.MinimizeBox = false;
             this.Name = "GenerarFactura";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Generar Factura";
+            this.Text = "GeneraciónFacturas";
             this.Load += new System.EventHandler(this.GenerarFactura_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tb_vehiculos)).EndInit();
             this.ResumeLayout(false);

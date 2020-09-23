@@ -46,9 +46,9 @@
             this.labelGenerarFactura.Location = new System.Drawing.Point(220, 9);
             this.labelGenerarFactura.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelGenerarFactura.Name = "labelGenerarFactura";
-            this.labelGenerarFactura.Size = new System.Drawing.Size(296, 29);
+            this.labelGenerarFactura.Size = new System.Drawing.Size(337, 29);
             this.labelGenerarFactura.TabIndex = 2;
-            this.labelGenerarFactura.Text = "CONSULTAR FACTURA";
+            this.labelGenerarFactura.Text = "CONSULTA DE FACTURAS";
             this.labelGenerarFactura.Click += new System.EventHandler(this.labelGenerarFactura_Click);
             // 
             // label1
@@ -91,7 +91,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(50, 110);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(179, 34);
             this.button1.TabIndex = 17;
@@ -104,7 +104,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(271, 110);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(179, 34);
             this.button2.TabIndex = 18;
@@ -124,7 +124,7 @@
             this.buttonAnular.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.buttonAnular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAnular.Location = new System.Drawing.Point(479, 110);
-            this.buttonAnular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonAnular.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAnular.Name = "buttonAnular";
             this.buttonAnular.Size = new System.Drawing.Size(179, 34);
             this.buttonAnular.TabIndex = 20;
@@ -146,7 +146,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.labelGenerarFactura);
             this.Name = "ConsultarFactura";
-            this.Text = "Consultar Factura";
+            this.Text = "Consulta de Facturas";
             this.Load += new System.EventHandler(this.ConsultarFactura_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

@@ -50,12 +50,12 @@
             // 
             this.labelIngresarProducto.AutoSize = true;
             this.labelIngresarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIngresarProducto.Location = new System.Drawing.Point(76, 9);
+            this.labelIngresarProducto.Location = new System.Drawing.Point(61, 9);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(377, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(417, 18);
             this.labelIngresarProducto.TabIndex = 50;
-            this.labelIngresarProducto.Text = "Actualizar dirección de correo electrónico cliente";
+            this.labelIngresarProducto.Text = "Actualización  dirección de correo electrónico clientes";
             this.labelIngresarProducto.Click += new System.EventHandler(this.labelIngresarProducto_Click);
             // 
             // labelCodigo
@@ -245,7 +245,7 @@
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
             this.Name = "ActualizarDireccionCorreoElectronico";
-            this.Text = "ActualizarDirecciónCorreoElectrónicoCliente";
+            this.Text = "ActualizaciónDirecciónCorreoElectrónicoClientes";
             this.Load += new System.EventHandler(this.ActualizarDireccionCorreoElectronico_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

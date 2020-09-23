@@ -135,12 +135,12 @@
             // 
             this.labelIngresarProducto.AutoSize = true;
             this.labelIngresarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIngresarProducto.Location = new System.Drawing.Point(156, 0);
+            this.labelIngresarProducto.Location = new System.Drawing.Point(161, 0);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(144, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(171, 18);
             this.labelIngresarProducto.TabIndex = 41;
-            this.labelIngresarProducto.Text = "Registrar vehículo";
+            this.labelIngresarProducto.Text = "Registro de vehículos";
             // 
             // label2
             // 
@@ -274,7 +274,7 @@
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
             this.Name = "RegistrarVehículo";
-            this.Text = "Registrar  Vehículo";
+            this.Text = "RegistroVehículos";
             this.Load += new System.EventHandler(this.RegistrarVehículo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

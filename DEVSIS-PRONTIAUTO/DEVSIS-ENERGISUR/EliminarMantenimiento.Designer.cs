@@ -219,12 +219,12 @@
             // 
             this.labelIngresarProducto.AutoSize = true;
             this.labelIngresarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIngresarProducto.Location = new System.Drawing.Point(168, 9);
+            this.labelIngresarProducto.Location = new System.Drawing.Point(107, 9);
             this.labelIngresarProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIngresarProducto.Name = "labelIngresarProducto";
-            this.labelIngresarProducto.Size = new System.Drawing.Size(141, 18);
+            this.labelIngresarProducto.Size = new System.Drawing.Size(337, 18);
             this.labelIngresarProducto.TabIndex = 99;
-            this.labelIngresarProducto.Text = "Eliminar producto";
+            this.labelIngresarProducto.Text = "Eliminación de productos de mantenimiento";
             // 
             // label5
             // 
@@ -262,7 +262,7 @@
             this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.labelIngresarProducto);
             this.Name = "EliminarMantenimiento";
-            this.Text = "Eliminar producto Mantenimiento";
+            this.Text = "Eliminación productos mantenimiento";
             this.ResumeLayout(false);
             this.PerformLayout();
 

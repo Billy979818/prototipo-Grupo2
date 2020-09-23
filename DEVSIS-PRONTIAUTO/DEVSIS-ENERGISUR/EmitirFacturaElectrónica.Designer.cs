@@ -67,12 +67,12 @@
             // 
             this.labelGenerarFactura.AutoSize = true;
             this.labelGenerarFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelGenerarFactura.Location = new System.Drawing.Point(218, 9);
+            this.labelGenerarFactura.Location = new System.Drawing.Point(193, 9);
             this.labelGenerarFactura.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelGenerarFactura.Name = "labelGenerarFactura";
-            this.labelGenerarFactura.Size = new System.Drawing.Size(398, 29);
+            this.labelGenerarFactura.Size = new System.Drawing.Size(518, 29);
             this.labelGenerarFactura.TabIndex = 1;
-            this.labelGenerarFactura.Text = " FACTURACIÓN  ELECTRÓNICA";
+            this.labelGenerarFactura.Text = "EMISIÓN  DE FACTURAS ELECTRÓNICAS";
             this.labelGenerarFactura.Click += new System.EventHandler(this.labelGenerarFactura_Click);
             // 
             // labelFactura
@@ -400,7 +400,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaximizeBox = false;
             this.Name = "EmitirFacturaElectrónica";
-            this.Text = "Factura Electrónica";
+            this.Text = "EmisiónFacturasElectrónicas";
             this.Load += new System.EventHandler(this.EmitirFacturaElectrónica_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
